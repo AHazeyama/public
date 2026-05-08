@@ -361,7 +361,7 @@ namespace exrm_wpf
         {
             ClearLog();
 
-            AppendLog("Exclusive removal tool\n\n", Brushes.DeepSkyBlue);
+            AppendLog("exclusive removal tool\n\n", Brushes.DeepSkyBlue);
             AppendLog("!! 注意 !!\n\n", Brushes.Red);
             AppendLog("このツールは \"not removed words\" に指定された文字列を ", Brushes.DeepSkyBlue);
             AppendLog("含まない", Brushes.Red);
