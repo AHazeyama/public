@@ -3,7 +3,7 @@
   <img src="./image/Title_light.png#gh-light-mode-only" alt="banner light">
 </p>
 
-# exclusive removal tool [exrm_pwf]
+# exclusive removal tool [exrm_wpf]
 ![](./image/exrm_wpf.png)
 
 <br>
