@@ -78,21 +78,51 @@
       }
 
       /* TkのCanvasグラデボタン風 */
+
+
+
+
+
+
       .gbtn{
-        appearance: none;
-      border: 1px solid rgba(0,0,0,.25);
-        border-radius: 7px;
-      padding: 8px 14px;
-        cursor: pointer;
-      font-weight: 600;
-        background: linear-gradient(to bottom, #f4f4f4, #cfcfcf);
-      box-shadow: inset 0 1px 0 rgba(255,255,255,.7);
-        user-select: none;
-    }
-    .gbtn:active{
-      transform: translateY(1px);
-        box-shadow: inset 0 2px 4px rgba(0,0,0,.15);
-    }
+          appearance: none;
+          border: 1px solid rgba(0,0,0,.25);
+          border-radius: 7px;
+          padding: 8px 14px;
+          cursor: pointer;
+          font-weight: 600;
+          user-select: none;
+      }
+      
+      .gbtn:active{
+          transform: translateY(1px);
+          box-shadow: inset 0 2px 4px rgba(0,0,0,.15);
+      }
+      
+      .gbtn:hover{
+          filter: brightness(1.08);
+      }
+      
+      /* Check : Cyan */
+      .gbtn.check{
+          color: white;
+          background: linear-gradient(to bottom, #CCFFFF, #00ABD6);
+      }
+      
+      /* Exit : Black */
+      .gbtn.exit{
+          color: white;
+          background: linear-gradient(to bottom, #CCCCCC, #111111);
+      }
+      
+      /* Other : Gray */
+      .gbtn.sub{
+          color: black;
+          background: linear-gradient(to bottom, #CCCCCC, #5F5F5F);
+      }
+
+
+
 
     .gbtn.secondary{
       background: linear-gradient(to bottom, #ffffff, #d7e9ff);
@@ -152,7 +182,7 @@
         <div class="row">
           <div class="label">Select file:</div>
             <input id="file" type="file" name="file" required>
-          <button class="gbtn secondary" type="button" id="btnSelect">Select</button>
+		    <button class="gbtn sub" type="button" id="btnSelect">Select</button>
           </div>
           <div class="small">ここにファイルをドラッグ＆ドロップしてもOKです。</div>
           <div class="row small">
@@ -174,13 +204,20 @@
       <div class="row" style="margin-top: 14px;">
           <div class="label">Hash Expectation:</div>
           <input id="expected" type="text" name="expected" placeholder="（任意）期待値のハッシュを貼り付け">
-          <button class="gbtn secondary" type="button" id="btnPaste">Paste</button>
-          <button class="gbtn secondary" type="button" id="btnClear">Clear</button>
+          <button class="gbtn sub" type="button" id="btnPaste">Paste</button>
+		  <button class="gbtn sub" type="button" id="btnClear">Clear</button>
         </div>
 
       <div class="row" style="margin-top: 14px;">
-          <button class="gbtn" type="submit" id="btnCheck">Check</button>
-        </div>
+          <button class="gbtn check" type="submit" id="btnCheck">Check</button>
+      
+          <div style="flex:1;"></div>
+      
+          <button class="gbtn exit" type="button" onclick="window.close()">
+              Exit
+          </button>
+      </div>
+
     </form>
 
     <div class="frame">
