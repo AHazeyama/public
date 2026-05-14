@@ -115,7 +115,11 @@ docker build -t ptnc_flask .
 <br>
 
 ## Run
-![](./image/bash_logo.png)
+<p align="left">
+  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
+  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
+</p>
+
 ```bash
 docker run -p 5000:5000 ptnc_flask
 ```
@@ -141,7 +145,11 @@ docker run -p 5000:5000 ptnc_flask
 ## Documentation
 Doxygen により生成できます。
 ソースコードの可読性向上と構造理解を目的としています。  
-![](./image/bash_logo.png)
+<p align="left">
+  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
+  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
+</p>
+
 ```bash
 doxygen Doxyfile
 ```

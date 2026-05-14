@@ -67,19 +67,19 @@
 ### Input items
 >| Item | Eescription |
 >| :--| :--|
->| Exec directory         | 処理対象ディレクトリ     |
->| Before word            | 変換対象文字列（正規表現対応） |
->| After word             | 変換後文字列         |
->| ☑ Recursive processing | サブディレクトリを再帰処理  |
->| Processing message     | 処理ログ表示         |
+>| Exec directory         | 処理対象ディレクトリ         |
+>| Before word            | 変換対象文字列 (正規表現対応) |
+>| After word             | 変換後文字列                |
+>| ☑ Recursive processing | サブディレクトリを再帰処理   |
+>| Processing message     | 処理ログ表示                |
 ### Buttons
 >| Item | Eescription |
 >| :--| :--|
->| Move                   | 変換実行           |
->| Clear                  | 入力クリア          |
->| Undo                   | 変更の取り消し        |
->| Help                   | ヘルプ表示          |
->| Exit                   | 終了             |
+>| Move  | 変換実行       |
+>| Clear | 入力クリア     |
+>| Undo  | 変更の取り消し |
+>| Help  | ヘルプ表示     |
+>| Exit  | 終了          |
 
 <br>
 
@@ -127,7 +127,11 @@ pyinstaller ^
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-![](./image/bash_logo.png)  
+<p align="left">
+  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
+  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
+</p>
+
 ```bash  
 doxygen Doxyfile
 ```
