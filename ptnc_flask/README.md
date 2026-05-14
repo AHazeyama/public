@@ -107,7 +107,11 @@ Docker を使用して実行することもできます。
 <br>
 
 ## Build
-![](./image/bash_logo.png)
+<p align="left">
+  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
+  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
+</p>
+
 ```bash
 docker build -t ptnc_flask .
 ```
