@@ -15,7 +15,7 @@
 
 # Tool Description
 | Item | Description | Platform |
-|:--|:--|:--|
+|:--|:--|:--:|
 | [exrm_wpf](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | **C#** / **WPF** によるファイル操作ツール | ![](image/OS/OS_W.png) |
 | [renm_ps6](https://github.com/AHazeyama/public/tree/main/renm_ps6) | **Python** / **PySide6** によるファイル一括リネームツール | ![](image/OS/OS_WL.png) |
 | [renm_tk](https://github.com/AHazeyama/public/tree/main/renm_tk) | **Python** / **Tkinter** によるファイル一括リネームツール | ![](image/OS/OS_WL.png) | 
