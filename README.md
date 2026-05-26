@@ -30,3 +30,5 @@
 
 # Download the Release 
 🔗 https://github.com/AHazeyama/public/releases/latest  
+> [!NOTE]
+> 各ツールの軽量版として Tkinter 実装も公開しています。
