@@ -16,9 +16,9 @@
 # Tool Description
 | Item | Description | Platform |
 |:--|:--|:--:|
-| [exrm_wpf](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | **C#** / **WPF** によるファイル操作ツール | ![](image/OS/OS_W.png) |
-| [renm_ps6](https://github.com/AHazeyama/public/tree/main/renm_ps6) | **Python** / **PySide6** によるファイル一括リネームツール | ![](image/OS/OS_WL.png) |
-| [renm_tk](https://github.com/AHazeyama/public/tree/main/renm_tk) | **Python** / **Tkinter** によるファイル一括リネームツール | ![](image/OS/OS_WL.png) | 
+| [exrm_wpf](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | **C#** / **WPF** によるファイル操作ツール | ![](image/env/OS_W.png) |
+| [renm_ps6](https://github.com/AHazeyama/public/tree/main/renm_ps6) | **Python** / **PySide6** によるファイル一括リネームツール | ![](image/env/OS_WL.png) |
+| [renm_tk](https://github.com/AHazeyama/public/tree/main/renm_tk) | **Python** / **Tkinter** によるファイル一括リネームツール | ![](image/env/OS_WL.png) | 
 | [hvgc_fa](https://github.com/AHazeyama/public/tree/main/hvcg_fa) | **Python** / **FastAPI** による**Checksum** (Hash値) ツール | 🌐 |
 | [ptnc_flask](https://github.com/AHazeyama/public/tree/main/ptnc_flask) | **Python** / **FLASK** による位取り記数法 (2,8,10,16進数) 変換ツール | 🌐 |
 | Gradient | ツール群のGUI統一用グラディエント確認ツール **Excel**  (.xlsm)| ![](image/OS/OS_W.png) |
@@ -31,4 +31,4 @@
 # Download the Release 
 🔗 https://github.com/AHazeyama/public/releases/latest  
 > [!NOTE]
-> 各ツールの軽量版として Tkinter 実装も公開しています。
+&emsp; 各ツールの軽量版として Tkinter 実装も公開しています。

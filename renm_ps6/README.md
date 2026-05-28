@@ -7,19 +7,16 @@
 <p align="left">
   <img src="./image/renm_ps6.png" width="720">
 </p>
-
 <br>
 
 ## Overview
 大量ファイルのリネーム作業を安全かつ効率的に行うためのデスクトップGUIツールです。
-
 <br>
 
 ## Purpose
 * 手作業によるリネーム作業の効率化
 * 操作ミスの削減
 * 大量ファイル処理の自動化
-
 <br>
 
 ## Features
@@ -31,7 +28,6 @@
 * 標準ライブラリによる軽量アプリケーション(**PySide6**)
   * 単体exeで実行可能（Windows）
 * Windows / Linux でのCLI実行
-
 <br>
 
 ## Usage
@@ -41,26 +37,22 @@
 3. ｢**Scan**｣ をクリックし、**Processing message** に表示される内容を確認
 4. ｢**Rename**｣ をクリックして実行
 5. 必要に応じて ｢**Undo**｣ で元に戻す
-
 <br>
 
 ## Use Case
 - 自動で生成されたファイル名(日付+追番等)の一括リネーム
 - Prefix、Suffix等の文字列の付加
 - ファイル名中の不要文字列の削除
-
 <br>
 
 ## Caution
-本ツールはファイル / ディレクトリ構成を変更します。
-誤操作により意図しない結果になる可能性があります。
+&emsp; 本ツールはファイル / ディレクトリ構成を変更します。
+&emsp; 誤操作により意図しない結果になる可能性があります。
 
-そのため、以下の対策を実装しています：
-
+&emsp; そのため、以下の対策を実装しています：
 * 処理内容の可視化（ログ表示）
 * バックアップ生成（.bk）
 * Undoによる復元機能
-
 <br>
 
 ## UI Components
@@ -80,13 +72,11 @@
 >| Undo                   | 変更の取り消し        |
 >| Help                   | ヘルプ表示          |
 >| Exit                   | 終了             |
-
 <br>
 
 ## Tech Stack
 * Python 3.x
 * PySide6
-
 <br>
 
 ## Design / Implementation Points
@@ -94,7 +84,6 @@
 - GUI から扱えるようにして、CLI に不慣れな利用者でも操作可能
 - Undo を実装し、操作リスクの軽減を意識
 - 処理メッセージ表示により、何が起きているかを分かりやすく可視化
-
 <br>
 
 ## Why PySide6
@@ -102,16 +91,11 @@
 - グラフィックの自由度と実装容易化
 - 状態表示やメッセージ表示を組み込みやすい
 - デスクトップユーティリティに適した構成
-
 <br>
 
 ## Build (for developers) 
-<p align="left">
-  <img src="./image/shell_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/shell_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
-
-```bash  
+&emsp; ![](image/env/shell_BP.png)  
+```
 pyinstaller ^  
   --noconsole ^  
   --onefile ^  
@@ -121,27 +105,22 @@ pyinstaller ^
   --collect-all PySide6 ^  
   renm_ps6.py  
 ```  
-
 <br>
 
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-<p align="left">
-  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
-
-```bash  
+&emsp; ![](image/env/shell_B.png)  
+　```
 doxygen Doxyfile
-```
-
+　```
 <br>
 
 ## Download
-🔗 https://github.com/AHazeyama/public/releases/latest  
-
+&emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
+> [!NOTE]
+&emsp; 各ツールの軽量版として Tkinter 実装も公開しています。
 <br>
 
 ## License
-TBD
+&emsp; TBD

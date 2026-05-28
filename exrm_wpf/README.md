@@ -5,7 +5,6 @@
 
 # exclusive removal tool [exrm_wpf]
 ![](./image/exrm_wpf.png)
-
 <br>
 
 ## Overview
@@ -15,7 +14,6 @@
 本ツールはそのような作業を効率化するために開発しました。
 
 **C#** / **WPF** により実装し、Windows 環境で直感的に利用できる GUI ツールとして構成しています。
-
 <br>
 
 ## Purpose
@@ -23,7 +21,6 @@
 - 手作業による選別漏れや削除ミスの低減
 - 大量ファイルを対象とした反復作業を効率化
 - GUIによる条件付き削除の容易化
-
 <br>
 
 ## Features
@@ -34,7 +31,6 @@
 - Undo 機能を搭載
 - **WPF** によるデスクトップ UI
 - 単体実行しやすい Windows 向けツール
-
 <br>
 
 ## Usage
@@ -45,7 +41,6 @@
 4. **☑ Recursive processing** で、下位階層に対する処理の可否を選択 
 5. ｢**Delete**｣ をクリックして実行
 6. 必要に応じて ｢**Undo**｣ で元に戻す
-
 <br>
 
 ## Use Case
@@ -53,7 +48,6 @@
 - 一部のキーワードを含む成果物だけを残したい場合
 - ビルド生成物や中間ファイルの整理
 - 大量の検証ファイルから必要なものだけを残す作業
-
 <br>
 
 ## Caution
@@ -66,7 +60,6 @@
 - 注意喚起メッセージの表示
 
 ※ 実運用では、重要データに対して使用する前にテスト用ディレクトリでの確認を推奨します。
-
 <br>
 
 ## UI Components
@@ -85,7 +78,6 @@
 >| Undo | 直前状態への復元支援 |
 >| Help | 操作方法表示 |
 >| Exit | アプリ終了 |
-
 <br>
 
 ## Tech Stack
@@ -93,7 +85,6 @@
 - WPF
 - .NET
 - Visual Studio
-
 <br>
 
 ## Design / Implementation Points
@@ -102,7 +93,6 @@
 - 危険な処理であるため、画面上に注意メッセージを明示
 - Undo を実装し、操作リスクの軽減を意識
 - 処理メッセージ表示により、何が起きているかを分かりやすく可視化
-
 <br>
 
 ## Why WPF
@@ -112,27 +102,22 @@ GUI 操作との相性が良い WPF を採用しています。
 - 業務ツールとして実装しやすい
 - 状態表示やメッセージ表示を組み込みやすい
 - デスクトップユーティリティに適した構成
-
 <br>
 
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-<p align="left">
-  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
-
-```bash    
-doxygen Doxyfile  
-```
-
+　![](image/shell_B.png)  
+　```bash    
+　doxygen Doxyfile  
+　```
 <br>
 
 ## Download
-🔗 https://github.com/AHazeyama/public/releases/latest  
-
+&emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
+> [!NOTE]
+&emsp; 各ツールの軽量版として Tkinter 実装も公開しています。
 <br>
 
 ## License
-TBD
+&emsp; TBD

@@ -2,7 +2,7 @@
 
 #┌──────────────────────────────────────────────────────────
 #│ Name     : renm_tk.py
-#│ Libraly  : Tkinter
+#│ Library  : Tkinter
 #│ Function : batch renaming tool for files and directories
 #└──────────────────────────────────────────────────────────
 
@@ -14,7 +14,7 @@ import re
 import shutil
 import tkinter as tk
 import tkinter.font as tkfont
-from tkinter import N, S, E, W, NE, LEFT, RIGHT, VERTICAL, END
+from tkinter import N, S, E, W, NE, NW, LEFT, RIGHT, VERTICAL, END
 from tkinter import ttk
 from tkinter import Text
 from tkinter import messagebox
@@ -22,9 +22,6 @@ from tkinter import StringVar
 from tkinter import BooleanVar
 from tkinter import filedialog
 from os.path import expanduser
-from pathlib import Path
-
-# Path設定
 from pathlib import Path
 
 # Path設定
@@ -44,10 +41,6 @@ def select_click(event):
 	msg.delete(1.0, END)
 	# フォルダが選ばれたら、その中身を表示
 	if ret:
-##		files = os.listdir(ret)
-##		for name in files:
-##			name += '\n'
-##			msg.insert(tk.END, name, "info")
 		msg.insert(tk.END, "Scanボタンで内容を確認してください。", "info")
 	else:
 		msg.insert(tk.END, "フォルダが選択されませんでした。", "info")
@@ -264,7 +257,7 @@ if __name__ == '__main__':
 		label_wid = 13								# 説明文
 		place_wid = 56								# 入力欄
 		entry_wid = 66								# 入力欄
-		text_wid =  72								# メッセージエリア
+		text_wid =  91								# メッセージエリア
 		dummy_wid = 18								# ボタン位置調整用ダミー
 	else:
 		label_wid = 13
@@ -320,9 +313,9 @@ if __name__ == '__main__':
 	canvas1 = tk.Canvas(frame1, width=canvas_wid, height=canvas_hgt, highlightthickness=0)
 	canvas1.create_rectangle(0, 0, grad_wid, canvas_hgt, fill=line_col, outline=line_col)
 	canvas1.pack(side="left", padx=7)
+	font_col = "black"
 	grad_col = ["CC","CC","CC", "5F","5F","5F"]
 	grad_draw(canvas1, grad_col, grad_size)
-	font_col = "black"
 	canvas1.create_text(font_x, font_y, text="Select", fill=font_col, font=(font_knd, font_siz))
 	canvas1.bind("<Button-1>", select_click)			# クリックイベントをバインド
 	
@@ -369,7 +362,13 @@ if __name__ == '__main__':
 	# Recursive Check
 	bln0 = BooleanVar()
 	bln0.set(True)
-	rec_chk = ttk.Checkbutton(frame3, variable=bln0, text='Recursive processing', style="NoFocus.TCheckbutton", command=on_check)
+	rec_chk = ttk.Checkbutton(
+		frame3,
+		variable=bln0,
+		text='Recursive processing',
+		style="NoFocus.TCheckbutton",
+		command=on_check
+	)
 	rec_chk.pack(side=LEFT)
 
 ##### DIR名の変換は訳解らなくなるからヤメ
@@ -389,7 +388,7 @@ if __name__ == '__main__':
 	
 	# Message Entry
 	label4 = ttk.Label(frame4, text='Processing message', padding=(5, 2), style="Custom.TLabel")
-	label4.grid(row=0, column=0, sticky=NE)
+	label4.grid(row=0, column=0, sticky=NW)
 	
 	msg = tk.Text(frame4, width=text_wid, background=back_col, font=(font_knd, font_siz))
 	msg.grid(row=1, column=0, sticky=(N, W, S, E))
@@ -398,17 +397,19 @@ if __name__ == '__main__':
 	msg.tag_config("war2", foreground="magenta", background=back_col, font=(font_knd, font_siz, "bold", "italic"))
 
 	msg.insert(tk.END, "使用方法は [Help] ボタンで表示されます。", "info")
-	msg.grid(row=0, column=1, sticky=(N, W, S, E))
+#	msg.grid(row=0, column=1, sticky=(N, W, S, E))
 
 	# Scrollbar
-	msg.config(state="normal")
+#	msg.config(state="normal")
 	scrollbar = ttk.Scrollbar(
 		frame4, 
 		orient=VERTICAL, 
-		command=msg.yview)
+		command=msg.yview
+    )
 	msg['yscrollcommand'] = scrollbar.set
 	msg.config(state="disabled")
-	scrollbar.grid(row=0, column=1, sticky=(N, S, E))
+	scrollbar.grid(row=1, column=0, sticky=(N, S, E))
+#	scrollbar.grid(row=0, column=1, sticky=(N, S, E))
 
 ### #-----------------------------------------------------
 ### ##############
