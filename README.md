@@ -30,6 +30,11 @@
 | [ptnc_flask](https://github.com/AHazeyama/public/tree/main/ptnc_flask) | **Python** / **FLASK** による位取り記数法 (2,8,10,16進数) 変換ツール | 🌐 | [<img src="./ptnc_flask/image/pnct_flask.png" width="128">](./ptnc_flask/image/pnct_flask.png)|  
 | Gradient | ツール群のGUI統一用グラディエント確認ツール **Excel**  (.xlsm)| ![](./image/env/OS_WE.png) | [<img src="./image/Gradient_1.png" width="128">](./image/Gradient_1.png) |
 <p align="left">
+
+> [!NOTE]  
+> 各画像をクリックして頂けると、拡大表示します。<br>
+
+> [!WARNING]  
 	<img src="./image/Caution_dark.png#gh-dark-mode-only" alt="banner dark">
 	<img src="./image/Caution_light.png#gh-light-mode-only" alt="banner light">
 </p>
@@ -39,6 +44,5 @@
 &emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
 
 > [!NOTE]  
-> 各画像をクリックして頂けると、拡大表示します。<br>
 > 各ツールの軽量版として Tkinter 実装も公vしています。  
 
