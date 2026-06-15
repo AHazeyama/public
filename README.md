@@ -21,7 +21,7 @@
 <br>
 
 # Tool Description
-| Item | Description | Platform | Preview |   
+| Item<font size=1> (Link)</font> | Description | Platform | Preview |   
 |:--|:--|:--:|:--:|  
 | [exrm_wpf](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | **C#** / **WPF** によるファイル操作ツール | ![](image/env/OS_W.png) | [<img src="./exrm_wpf/image/exrm_wpf.png" width="128">](./exrm_wpf/image/exrm_wpf.png) |  
 | [renm_ps6](https://github.com/AHazeyama/public/tree/main/renm_ps6) | **Python** / **PySide6** によるファイル一括リネームツール | ![](image/env/OS_WL.png) | [<img src="./renm_ps6/image/renm_ps6.png" width="128">](./renm_ps6/image/renm_ps6.png)|  
