@@ -39,5 +39,6 @@
 &emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
 
 > [!NOTE]  
+> 各画像をクリックして頂けると、拡大表示します。<br>
 > 各ツールの軽量版として Tkinter 実装も公vしています。  
 
