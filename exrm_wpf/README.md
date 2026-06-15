@@ -68,7 +68,7 @@
 >|:--|:--|
 >| Exec directory | 処理対象ディレクトリ |
 >| not removed words | 削除対象外とする文字列 |
->| Recursive processing | 下位ディレクトリを含めて再帰処理 |
+>| ☑ Recursive processing | 下位ディレクトリを含めて再帰処理 |
 >| Processing message | 処理内容・注意事項の表示 |
 ### Buttons
 >| Button | Description |
@@ -108,8 +108,8 @@ GUI 操作との相性が良い WPF を採用しています。
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
 　![](image/shell_B.png)  
-　```bash    
-　doxygen Doxyfile  
+　```
+doxygen Doxyfile  
 　```
 <br>
 

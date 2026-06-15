@@ -69,26 +69,19 @@
 <br>
 
 ## Install
-<p align="left">
-  <img src="./image/shell_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/shell_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
-
-```bash
+![](./image/shell_BP.png)
+```
 pip install -r requirements.txt
 ```
 
 <br>
 
 ## Run (Local)
-<p align="left">
-  <img src="./image/shell_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/shell_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
+![](./image/shell_BP.png)
 
-```bash
+　```
 python app.py
-```
+　```
 
 <br>
 
@@ -107,26 +100,20 @@ Docker を使用して実行することもできます。
 <br>
 
 ## Build
-<p align="left">
-  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
+![](./image/shell_B.png)
 
-```bash
+　```
 docker build -t ptnc_flask .
-```
+　```
 
 <br>
 
 ## Run
-<p align="left">
-  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
+![](./image/shell_B.png)
 
-```bash
+　```
 docker run -p 5000:5000 ptnc_flask
-```
+　```
 
 ## Access
 * Application  
@@ -149,14 +136,11 @@ docker run -p 5000:5000 ptnc_flask
 ## Documentation
 Doxygen により生成できます。
 ソースコードの可読性向上と構造理解を目的としています。  
-<p align="left">
-  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
+![](./image/shell_B.png)
 
-```bash
+　```
 doxygen Doxyfile
-```
+　```  
 生成後、以下のファイルをブラウザで開くことでドキュメントを確認できます。  
 ```
 docs/html/index.html

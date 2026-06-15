@@ -50,7 +50,6 @@
 誤操作により意図しない結果になる可能性があります。
 
 そのため、以下の対策を実装しています：
-
 * 処理内容の可視化（ログ表示）
 * バックアップ生成（.bk）
 * Undoによる復元機能
@@ -97,7 +96,7 @@
 
 ## Build (for developers) 
 &emsp; ![](image/shell_BP.png)  
-```bash  
+```
 pyinstaller ^  
   --noconsole ^  
   --onefile ^  

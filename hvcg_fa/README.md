@@ -73,24 +73,16 @@
 <br>
 
 ## Install
-<p align="left">
-  <img src="./image/shell_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/shell_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
-
-```bash
+![](./image/shell_BP.png)
+```
 pip install -r requirements.txt  
 ```
 
 <br>
 
 ## Run (Local)
-<p align="left">
-  <img src="./image/shell_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/shell_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
-
-```bash
+![](./image/shell_BP.png)
+```
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 ```
 
@@ -111,26 +103,16 @@ Docker を使用して実行することもできます。
 <br>
 
 ## Build
-<p align="left">
-  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
-
-```bash
-docker build -t hvgc_fa .
-```
-
-<br>
-
-## Run
-<p align="left">
-  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
-
-```bash
+Docker作成  
+&emsp; ![](./image/shell_B.png)  
+　```
+docker build -t hvgc_fa .  
+　```  
+Docker実行  
+&emsp; ![](./image/shell_B.png)  
+　```
 docker run -p 8000:8000 hvgc_fa
-```
+　```
 
 ## Access
 * Application  
@@ -153,13 +135,9 @@ docker run -p 8000:8000 hvgc_fa
 ## Documentation
 Doxygen により生成できます。
 ソースコードの可読性向上と構造理解を目的としています。  
-![](./image/bash_logo.png)
-<p align="left">
-  <img src="./image/bash_logo_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/bash_logo_light.png#gh-light-mode-only" alt="renm banner light">
-</p>
 
-```bash
+![](./image/shell_B.png)
+```
 doxygen Doxyfile
 ```
 生成後、以下のファイルをブラウザで開くことでドキュメントを確認できます。  
