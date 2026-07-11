@@ -51,14 +51,14 @@
 
 ## UI Components
 ### Input items
->| Item | Eescription |
+>| Item | Description |
 >| :--| :--|
 >| YYYY-MM-DD| 現在日付 |
 >| HH:MM:SS | 現在時刻 |
 >| HH:MM:SS | カウントダウン残時間 |
 >| セット Count / Limit | 繰り返し回数 |
 ### Buttons
->| Item | Eescription |
+>| Item | Description |
 >| :--| :--|
 >| Start | カウントダウン開始 |
 >| Stop | カウントダウン停止 |
