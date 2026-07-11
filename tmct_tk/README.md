@@ -89,7 +89,7 @@
 <br>
 
 ## Build (for developers) 
-&emsp; ![](assets/shell_BP.png)  
+　![](assets/shell_BP.png)  
 ```
 pyinstaller ^  
   --noconsole ^  
@@ -103,15 +103,15 @@ pyinstaller ^
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-&emsp; ![](assets/shell_B.png)  
+　![](assets/shell_B.png)  
 　```
 doxygen Doxyfile
 　```
 <br>
 
 ## Download
-&emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
+　🔗 https://github.com/AHazeyama/public/releases/latest  
 <br>
 
 ## License
-&emsp; TBD
+　TBD
