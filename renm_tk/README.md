@@ -57,7 +57,7 @@
 
 ## UI Components
 ### Input items
->| Item | Eescription |
+>| Item | Description |
 >| :--| :--|
 >| Exec directory         | 処理対象ディレクトリ         |
 >| Before word            | 変換対象文字列 (正規表現対応) |
@@ -65,7 +65,7 @@
 >| ☑ Recursive processing | サブディレクトリを再帰処理   |
 >| Processing message     | 処理ログ表示                |
 ### Buttons
->| Item | Eescription |
+>| Item | Description |
 >| :--| :--|
 >| Move  | 変換実行       |
 >| Clear | 入力クリア     |
@@ -95,7 +95,7 @@
 <br>
 
 ## Build (for developers) 
-&emsp; ![](assets/shell_BP.png)  
+　![](assets/shell_BP.png)  
 ```
 pyinstaller ^  
   --noconsole ^  
@@ -110,14 +110,14 @@ pyinstaller ^
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-&emsp; ![](assets/shell_B.png)  
+　![](assets/shell_B.png)  
 　```
 doxygen Doxyfile
 　```
 <br>
 
 ## Download
-&emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
+　🔗 https://github.com/AHazeyama/public/releases/latest  
 
 ## License
-&emsp; TBD
+　TBD

@@ -1,11 +1,11 @@
 <p align="left">
-  <img src="./image/Title_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/Title_light.png#gh-light-mode-only" alt="renm banner light">
+  <img src="./assets/Title_dark.png#gh-dark-mode-only" alt="renm banner dark">
+  <img src="./assets/Title_light.png#gh-light-mode-only" alt="renm banner light">
 </p>
 
 # batch renaming tool for files and directories [renm_ps6]
 <p align="left">
-  <img src="./image/renm_ps6.png" width="720">
+  <img src="./assets/renm_ps6.png" width="720">
 </p>
 <br>
 
@@ -46,18 +46,17 @@
 <br>
 
 ## Caution
-&emsp; 本ツールはファイル / ディレクトリ構成を変更します。
-&emsp; 誤操作により意図しない結果になる可能性があります。
+　本ツールはファイル / ディレクトリ構成を変更します。  
+　誤操作により意図しない結果になる可能性があります。  
 
-&emsp; そのため、以下の対策を実装しています：
-* 処理内容の可視化（ログ表示）
-* バックアップ生成（.bk）
-* Undoによる復元機能
-<br>
+　そのため、以下の対策を実装しています  
+* 処理内容の可視化（ログ表示）  
+* バックアップ生成（.bk）  
+* Undoによる復元機能  
 
 ## UI Components
 ### Input items
->| Item | Eescription |
+>| Item | Description |
 >| :--| :--|
 >| Exec directory         | 処理対象ディレクトリ     |
 >| Before word            | 変換対象文字列（正規表現対応） |
@@ -65,7 +64,7 @@
 >| ☑ Recursive processing | サブディレクトリを再帰処理  |
 >| Processing message     | 処理ログ表示         |
 ### Buttons
->| Item | Eescription |
+>| Item | Description |
 >| :--| :--|
 >| Move                   | 変換実行           |
 >| Clear                  | 入力クリア          |
@@ -77,24 +76,21 @@
 ## Tech Stack
 * Python 3.x
 * PySide6
-<br>
 
 ## Design / Implementation Points
 - 一括リネーム、文字列追加/削除に特化
 - GUI から扱えるようにして、CLI に不慣れな利用者でも操作可能
 - Undo を実装し、操作リスクの軽減を意識
 - 処理メッセージ表示により、何が起きているかを分かりやすく可視化
-<br>
 
 ## Why PySide6
 本ツールはグラフィック実装の容易性を重視し、自由度の高い PySide6 を採用しています。
 - グラフィックの自由度と実装容易化
 - 状態表示やメッセージ表示を組み込みやすい
 - デスクトップユーティリティに適した構成
-<br>
 
 ## Build (for developers) 
-&emsp; ![](image/env/shell_BP.png)  
+　![](assets/env/shell_BP.png);  
 ```
 pyinstaller ^  
   --noconsole ^  
@@ -105,22 +101,21 @@ pyinstaller ^
   --collect-all PySide6 ^  
   renm_ps6.py  
 ```  
-<br>
 
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-&emsp; ![](image/env/shell_B.png)  
+　![](assets/env/shell_B.png)  
 　```
 doxygen Doxyfile
 　```
 <br>
 
 ## Download
-&emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
+　🔗 https://github.com/AHazeyama/public/releases/latest  
 > [!NOTE]
-&emsp; 各ツールの軽量版として Tkinter 実装も公開しています。
+　各ツールの軽量版として Tkinter 実装も公開しています。
 <br>
 
 ## License
-&emsp; TBD
+　TBD

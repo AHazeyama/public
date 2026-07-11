@@ -1,10 +1,10 @@
 <p align="left">
-  <img src="./image/Title_dark.png#gh-dark-mode-only" alt="banner dark">
-  <img src="./image/Title_light.png#gh-light-mode-only" alt="banner light">
+  <img src="./assets/Title_dark.png#gh-dark-mode-only" alt="banner dark">
+  <img src="./assets/Title_light.png#gh-light-mode-only" alt="banner light">
 </p>
 
 # exclusive removal tool [exrm_wpf]
-![](./image/exrm_wpf.png)
+![](./assets/exrm_wpf.png)
 <br>
 
 ## Overview
@@ -78,7 +78,6 @@
 >| Undo | 直前状態への復元支援 |
 >| Help | 操作方法表示 |
 >| Exit | アプリ終了 |
-<br>
 
 ## Tech Stack
 - C#
@@ -107,17 +106,17 @@ GUI 操作との相性が良い WPF を採用しています。
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-　![](image/shell_B.png)  
+　![](./assets/shell_B.png)  
 　```
 doxygen Doxyfile  
 　```
 <br>
 
 ## Download
-&emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
+　🔗 https://github.com/AHazeyama/public/releases/latest  
 > [!NOTE]
-&emsp; 各ツールの軽量版として Tkinter 実装も公開しています。
+>　各ツールの軽量版として Tkinter 実装も公開しています。
 <br>
 
 ## License
-&emsp; TBD
+　TBD
