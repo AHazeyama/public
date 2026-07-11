@@ -223,7 +223,7 @@ if __name__ == '__main__':
 	root.title('batch renaming tool for files and directories [renm_tk]')
 
 	try:
-   		root.iconbitmap(resource_path("renm_tk.ico"))
+   		root.iconbitmap(resource_path("tmct_tk.ico"))
 	except Exception:
 		pass
 

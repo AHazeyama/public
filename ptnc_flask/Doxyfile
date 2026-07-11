@@ -105,5 +105,5 @@ EXCLUDE_PATTERNS       = hashgc_env/* venv/* __pycache__/* build/* dist/* docs/*
 #-----------------------------------------------------------
 # 任意：トップにロゴを出したい場合（画像を置いたら指定）
 #-----------------------------------------------------------
-# PROJECT_LOGO           = assets/logo.png
+PROJECT_LOGO           = assets/Title_light.png
 

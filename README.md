@@ -1,6 +1,6 @@
 <p align="left">
-	<img src="./image/GitHub_description_dark.png#gh-dark-mode-only" alt="banner dark">
-	<img src="./image/GitHub_description_light.png#gh-light-mode-only" alt="banner light">
+	<img src="./assets/GitHub_description_dark.png#gh-dark-mode-only" alt="banner dark">
+	<img src="./assets/GitHub_description_light.png#gh-light-mode-only" alt="banner light">
 </p>
 
 # Overview
@@ -14,7 +14,7 @@
 
 | exrm | renm | hvcg |
 |------|------|------|
-| <img src="./image/exrm_1.png" width="200"> | <img src="./image/renm_1.png" width="200"> | <img src="./image/hvcg_1.png" width="200"> |   
+| <img src="./assets/exrm_1.png" width="200"> | <img src="./assets/renm_1.png" width="200"> | <img src="./assets/hvcg_1.png" width="200"> |   
 | [条件付き削除](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | [正規表現リネーム](https://github.com/AHazeyama/public/tree/main/renm_ps6) | [Checksum検証](https://github.com/AHazeyama/public/tree/main/hvcg_fa) |
 
 ***
@@ -23,20 +23,21 @@
 # Tool Description
 | Item<font size=1> (Link)</font> | Description | Platform | Preview |   
 |:--|:--|:--:|:--:|  
-| [exrm_wpf](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | **C#** / **WPF** によるファイル操作ツール | ![](image/env/OS_W.png) | [<img src="./exrm_wpf/image/exrm_wpf.png" width="128">](./exrm_wpf/image/exrm_wpf.png) |  
-| [renm_ps6](https://github.com/AHazeyama/public/tree/main/renm_ps6) | **Python** / **PySide6** によるファイル一括リネームツール | ![](image/env/OS_WL.png) | [<img src="./renm_ps6/image/renm_ps6.png" width="128">](./renm_ps6/image/renm_ps6.png)|  
-| [renm_tk](https://github.com/AHazeyama/public/tree/main/renm_tk) | **Python** / **Tkinter** によるファイル一括リネームツール | ![](image/env/OS_WL.png) | [<img src="./renm_tk/image/renm_tk.png" width="128">](./renm_tk/image/renm_tk.png)|  
-| [hvgc_fa](https://github.com/AHazeyama/public/tree/main/hvcg_fa) | **Python** / **FastAPI** による**Checksum** (Hash値) ツール | 🌐 | [<img src="./hvcg_fa/image/hvgc_fa.png" width="128">](./hvcg_fa/image/hvgc_fa.png)|  
-| [ptnc_flask](https://github.com/AHazeyama/public/tree/main/ptnc_flask) | **Python** / **FLASK** による位取り記数法 (2,8,10,16進数) 変換ツール | 🌐 | [<img src="./ptnc_flask/image/pnct_flask.png" width="128">](./ptnc_flask/image/pnct_flask.png)|  
-| Gradient | ツール群のGUI統一用グラディエント確認ツール **Excel**  (.xlsm)| ![](./image/env/OS_WE.png) | [<img src="./image/Gradient_1.png" width="128">](./image/Gradient_1.png) |
+| [exrm_wpf](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | **C#** / **WPF** によるファイル操作ツール | ![](assets/env/OS_W.png) | [<img src="./exrm_wpf/assets/exrm_wpf.png" width="128">](./exrm_wpf/assets/exrm_wpf.png) |  
+| [renm_ps6](https://github.com/AHazeyama/public/tree/main/renm_ps6) | **Python** / **PySide6** によるファイル一括リネームツール | ![](assets/env/OS_WL.png) | [<img src="./renm_ps6/assets/renm_ps6.png" width="128">](./renm_ps6/assets/renm_ps6.png)|  
+| [renm_tk](https://github.com/AHazeyama/public/tree/main/renm_tk) | **Python** / **Tkinter** によるファイル一括リネームツール | ![](assets/env/OS_WL.png) | [<img src="./renm_tk/assets/renm_tk.png" width="128">](./renm_tk/assets/renm_tk.png)|  
+| [tmct_tk](https://github.com/AHazeyama/public/tree/main/tmct_tk) | **Python** / **Tkinter** によるタイマー&カウンター | ![](assets/env/OS_WL.png) | [<img src="./tmct_tk/assets/tmct.png" width="64">](./tmct_tk/assets/tmct.png) |
+| [hvgc_fa](https://github.com/AHazeyama/public/tree/main/hvcg_fa) | **Python** / **FastAPI** による**Checksum** (Hash値) ツール | 🌐 | [<img src="./hvcg_fa/assets/hvgc_fa.png" width="128">](./hvcg_fa/assets/hvgc_fa.png)|  
+| [ptnc_flask](https://github.com/AHazeyama/public/tree/main/ptnc_flask) | **Python** / **FLASK** による位取り記数法 (2,8,10,16進数) 変換ツール | 🌐 | [<img src="./ptnc_flask/assets/pnct_flask.png" width="128">](./ptnc_flask/assets/pnct_flask.png)|  
+| Gradient | ツール群のGUI統一用グラディエント確認ツール **Excel**  (.xlsm)| ![](./assets/env/OS_WE.png) | [<img src="./assets/Gradient_1.png" width="128">](./assets/Gradient_1.png) |
 <p align="left">
 
 > [!NOTE]  
 > 各画像をクリックして頂けると、拡大表示します。<br>
 
 > [!WARNING]  
-	<img src="./image/Caution_dark.png#gh-dark-mode-only" alt="banner dark">
-	<img src="./image/Caution_light.png#gh-light-mode-only" alt="banner light">
+	<img src="./assets/Caution_dark.png#gh-dark-mode-only" alt="banner dark">
+	<img src="./assets/Caution_light.png#gh-light-mode-only" alt="banner light">
 </p>
 <br>
 

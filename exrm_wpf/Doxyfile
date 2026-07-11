@@ -8,6 +8,9 @@ PROJECT_NAME           = "exrm_wpf"
 # プロジェクトの簡単な説明
 PROJECT_BRIEF          = "exclusive removal tool [exrm_pwf]"
 
+# プロジェクトロゴ
+PROJECT_LOGO           = assets/Title_light.png
+
 # 出力ディレクトリ
 OUTPUT_DIRECTORY       = docs
 

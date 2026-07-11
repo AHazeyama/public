@@ -1,11 +1,11 @@
 <p align="left">
-  <img src="./image/Title_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./image/Title_light.png#gh-light-mode-only" alt="renm banner light">
+  <img src="./assets/Title_dark.png#gh-dark-mode-only" alt="renm banner dark">
+  <img src="./assets/Title_light.png#gh-light-mode-only" alt="renm banner light">
 </p>
 
 # batch renaming tool for files and directories [renm_tk]
 <p align="left">
-  <img src="./image/renm_tk.png" width="720">
+  <img src="./assets/renm_tk.png" width="720">
 </p>
 <br>
 
@@ -95,7 +95,7 @@
 <br>
 
 ## Build (for developers) 
-&emsp; ![](image/shell_BP.png)  
+&emsp; ![](assets/shell_BP.png)  
 ```
 pyinstaller ^  
   --noconsole ^  
@@ -110,7 +110,7 @@ pyinstaller ^
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-&emsp; ![](image/shell_B.png)  
+&emsp; ![](assets/shell_B.png)  
 　```
 doxygen Doxyfile
 　```
@@ -118,9 +118,6 @@ doxygen Doxyfile
 
 ## Download
 &emsp; 🔗 https://github.com/AHazeyama/public/releases/latest  
-> [!NOTE]
-&emsp; 各ツールの軽量版として Tkinter 実装も公vしています。
-<br>
 
 ## License
 &emsp; TBD
