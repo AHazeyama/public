@@ -1,0 +1,29 @@
+name: tmct_flt
+description: Clock Timer & Counter for rehabilitation.
+
+publish_to: "none"
+
+version: 0.9.1+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.5
+  wakelock_plus: ^1.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/tmct_flt.png"
+
+flutter:
+  uses-material-design: true
