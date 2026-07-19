@@ -73,21 +73,18 @@
 * Python 3.x
 * Tkinter
 <br>
-
 ## Design / Implementation Points
 - タイマーとその実行回数確認に特化
 - 説明を不要とするUI
 - タイマー再開時のストップ時間保持
 - 残り10からの表示色変化によるラストスパートの視覚的サポート
 <br>
-
 ## Why Tkinter
 本ツールはPython標準ライブラリのみの構成と動作の軽快性を重視し、Tkinter を採用しています。
 - 動作の軽快感
 - 外部ライブラリ不使用による実装の容易化
 - デスクトップユーティリティに適した構成
 <br>
-
 ## Build (for developers) 
 　![](assets/shell_BP.png)  
 ```
