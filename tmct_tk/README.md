@@ -5,7 +5,7 @@
 
 # Clock Timer & Counter [tmct_tk]
 <p align="left">
-  <img src="./assets/tmct.png" width="400">
+  <img src="./assets/tmct_tk.png" width="400">
 </p>
 <br>
 
