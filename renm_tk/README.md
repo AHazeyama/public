@@ -84,7 +84,7 @@
 
 ## Build (for developers) 
 　![](./assets/env/M_SHELL_BASH-PWSH.png)  
-```
+```pwsh
 pyinstaller `  
   --noconsole `  
   --onefile `  
@@ -100,6 +100,10 @@ pyinstaller `
 　![](./assets/env/M_SHELL_BASH.png)  
 　```
 doxygen Doxyfile
+　```  
+　生成後、以下のファイルをブラウザで開くことでドキュメントを確認できます。  
+　```  
+🗁 docs/html/index.html  
 　```
 
 ## Download
