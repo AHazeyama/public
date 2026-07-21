@@ -6,9 +6,9 @@
 # Overview
 ## 業務効率化および運用改善を目的としたツール群。
 ファイル操作や整合性検証といった反復作業を対象に開発しました。  
-　* デスクトップアプリケーション ( **C#** [ **WPF** ] / **Python** [ **PySide6** / **Tkinter** ] )  
-　* Web ( API / アプリケーション ) ( **Python** [ **FastAPI** / **FLASK**] )  
-　* flt ( Android / iOS アプリケーション ) ( **Flutter** )  
+　* DeskTop ( アプリケーション [ **Windows** ] )　　( **C#** [ **WPF** ] / **Python** [ **PySide6** / **Tkinter** ] )  
+　* Web　　( API / アプリケーション )　　　 　 　( **Python** [ **FastAPI** / **FLASK**] )  
+　* Mobile　( アプリケーション [ **Android** / **iOS** ] ) ( **Dart** [**Flutter**] )  
 単なる機能実装に留まらず、実運用を想定し、操作性・安全性・再現性を重視した設計としています。  
 本ツール群では、複数フレームワーク間での**UI/UX**統一を意識して、ボタン色・操作体系・ログ表現を共通化しています。  
 ## Featured Tools
