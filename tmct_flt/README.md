@@ -31,12 +31,12 @@
 * 初期時間･セット数の変更
 
 ## Usage
-1. 時･分･秒を設定 (数字指定又は上下ボタンによる増減)
-2. 実行回数設定 (数字指定又は上下ボタンによる増減) 
-3. [Start] ⇒ 時間経過(残り10秒で表示色変化) ⇒ 停止 ⇒ 自動リセット
-4. 場合により[Stop] ⇒ [Start(停止秒から再開)]
-5. [Clear]で初期状態復帰
-6. [現在の時間･セット数を初期値に設定]で初期値変更 (任意で)
+1. 時･分･秒を設定 (数字指定又は▲▼ボタンによる増減)
+2. 実行回数設定 (数字指定又は⊕⊖ボタンによる増減) 
+3. [Start] ⇒ 時間経過 (残り10秒で表示色変化) ⇒ 停止 ⇒ 自動リセット
+4. 場合により [Stop] ⇒ [Start]　　# 停止秒から再開
+5. [Clear] で初期状態復帰
+6. [現在の時間･セット数を初期値に設定] で初期値変更 (任意)
 
 ## Use Case
 - リハビリテーションでの一定時間姿勢保持を支援
@@ -84,44 +84,48 @@
 
 ## Build (for Windows) 
 　Flutter SDKとAndroid Studioをセットアップした後、PowerShellで実行します。  
+> [!NOTE]
+>  <⏎> : Press the Enter key.  
+
 　![](./assets/env/M_SHELL_PWSH.png)  
 ```pwsh
-　flutter doctor
+　flutter doctor <⏎>  
 　　　: # Execution Result
-　flutter create --platforms=android,ios tmct_flt  
+　flutter create --platforms=android,ios tmct_flt <⏎>  
 　　　: # Execution Result
-　tree /f app_dir
+　tree /f app_dir <⏎>  
 　app_dir  
 　　│    pubspec.yaml  
 　　└─ lib  
 　　     main.dart  
 ``` 
 　その後、プロジェクトのディレクトリで実行します。  
+
 　![](./assets/env/M_SHELL_PWSH.png)  
 ```pwsh
-　flutter pub get
+　flutter pub get <⏎>  
 　　　: # Execution Result
-　flutter run
+　flutter run <⏎>  
 　　　: # Execution Result
 ``` 
 　接続中のAndroid端末を指定する場合：  
 　![](./assets/env/M_SHELL_PWSH.png)  
 ```pwsh
-　flutter devices
+　flutter devices <⏎>  
 　　　: # Execution Result
-　flutter run -d <device-id>
+　flutter run -d <device-id> <⏎>  
 　　　: # Execution Result
 ``` 
 ## Android APKの作成
 　動作確認用：  
 　![](./assets/env/M_SHELL_PWSH.png)  
 　```pwsh
-flutter build apk --debug
+flutter build apk --debug <⏎>  
 　```  
 　配布用：  
 　![](./assets/env/M_SHELL_PWSH.png)  
 　```pwsh  
-flutter build apk --release  
+flutter build apk --release <⏎>  
 　```   
 　生成先：   
 　```  
