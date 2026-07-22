@@ -133,12 +133,5 @@ flutter build apk --release
 ## Download
 　🔗 https://github.com/AHazeyama/public/releases/latest  
 
-## History  
-|Ver-Rev|Content|Update date|  
-|:---|:---|:---|  
-| v0.9.0 | βVersion           | 2026.07.20 |  
-| v0.9.1 | 実機での動作不可対策 | 2026.07.21 |  
-| v1.0.0 | Official version   | 2026.07.22 |  
-
 ## License
 　TBD
