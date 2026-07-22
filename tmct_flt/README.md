@@ -9,9 +9,9 @@
 </p>
 
 ## Overview
-　**Android** / **iOS** 向けに **Flutter** で開発したリハビリテーションタイマーです。  
+　**Android** / **iOS** 向けに **Flutter** で開発したカウントダウンタイマーです。  
 　日付・現在時刻・カウントダウンタイマー、実施セット数を表示します。  
-　リハビリやストレッチ、一定時間の姿勢維持などに利用できます。  
+　リハビリテーションやストレッチ、一定時間の姿勢維持などに利用できます。  
 > [!NOTE]
 > 初公開版です。ご意見･ご要望を歓迎します。  
 
@@ -50,8 +50,8 @@
 >| :--| :--|
 >| YYYY-MM-DD| 現在日付 |
 >| HH:MM:SS | 現在時刻 |
->| HH:MM:SS | カウントダウン残時間 |
->| セット Count / Limit | 繰り返し回数 |
+>| HH:MM:SS | タイマー時間 |
+>| セット | 繰り返し回数 |
 ### Buttons
 >| Item | Description |
 >| :--| :--|
@@ -62,7 +62,7 @@
 >| 分 | タイマー分 設定 |
 >| 秒 | タイマー秒 設定 |
 >| 目標セット数 | タイマー実行回数 |
->| 現在の時間･セット数を初期値に設定 | 指定した時間と繰り返し回数を初期値に設定 |
+>| 現在の時間･セット数を初期値に設定 | 指定した時間とセット数を初期値に設定 |
 
 ## Tech Stack
 * Flutter
@@ -81,7 +81,7 @@
 > [!CAUTION]
 > Xpedia10 IV 及び AndroidStudio Emulator(Pixcel7) にて動作検証を行っています。  
 > iOS用コードは同じプロジェクト内に保持されますが、iOSアプリのビルドと実機確認にはmacOSとXcodeが必要です。  
-> 当方ではMacを用意できた時点で、プロジェクトを検証する予定です (人身御供になっていただけると幸いです)。  
+> Mac版はPCを用意できた時点で、プロジェクトを検証する予定です (人身御供になっていただけると幸いです)。  
 
 ## Build (for Windows) 
 　Flutter SDKとAndroid Studioをセットアップした後、PowerShellで実行します。  
@@ -128,10 +128,17 @@ flutter build apk --release
 　```  
 🗁 build/app/outputs/flutter-apk/app-release.apk  
 　```  
-　生成した **app-release.apk** を **tmct_flt_v0.9.0.apk** に変更して配布  
+　生成した **app-release.apk** をアプリケーション名に変更して配布  
 
 ## Download
 　🔗 https://github.com/AHazeyama/public/releases/latest  
+
+## History  
+|Ver-Rev|Content|Update date|  
+|:---|:---|:---|  
+| v0.9.0 | βVersion           | 2026.07.20 |  
+| v0.9.1 | 実機での動作不可対策 | 2026.07.21 |  
+| v1.0.0 | Official version   | 2026.07.22 |  
 
 ## License
 　TBD
