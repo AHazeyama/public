@@ -5,7 +5,7 @@
 
 # Clock Timer & Counter [tmct_flt] - Rehabilitation Timer
 <p align="left">
-  <img src="./assets/tmct_flt.png" width="240">
+  <img src="./assets/tmct_flt_v1.2.0.png" width="240">
 </p>
 
 ## Overview
@@ -84,7 +84,7 @@
 
 ## Build (for Windows) 
 　Flutter SDKとAndroid Studioをセットアップした後、PowerShellで実行します。  
-> [!NOTE]
+> [!NOTE]  
 >  <⏎> : Press the Enter key.  
 
 　![](./assets/env/M_SHELL_PWSH.png)  
