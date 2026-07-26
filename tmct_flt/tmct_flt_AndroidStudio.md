@@ -82,7 +82,7 @@ flutter doctor -v <⏎>
 |Welcome|Choose Components|Configuration Settings|Choose StartMenu|Installing ⇒ <br>Complete|Completion Android Studio|  
 |:--: |:--: |:--: |:--: |:--: |:--:|  
 |[<img src="./assets/prtsc/02-03/02-03-01_Welcome.png" width="48">](./assets/prtsc/02-03/02-03-01_Welcome.png)|[<img src="./assets/prtsc/02-03/02-03-02_ChooseComponents.png" width="48">](./assets/prtsc/02-03/02-03-02_ChooseComponents.png)|[<img src="./assets/prtsc/02-03/02-03-03_Configuration.png" width="48">](./assets/prtsc/02-03/02-03-03_Configuration.png)|[<img src="./assets/prtsc/02-03/02-03-04_ChooseStartMenu.png" width="48">](./assets/prtsc/02-03/02-03-04_ChooseStartMenu.png)|[<img src="./assets/prtsc/02-03/02-03-05_Installing.png" width="48">](./assets/prtsc/02-03/02-03-05_Installing.png)⇒[<img src="./assets/prtsc/02-03/02-03-06_InstallationConplete.png" width="48">](./assets/prtsc/02-03/02-03-06_InstallationConplete.png)|[<img src="./assets/prtsc/02-03/02-03-07_CompletionAndroidStudio.png" width="48">](./assets/prtsc/02-03/02-03-07_CompletionAndroidStudio.png) |
-|[<u>N</u>ext>]⬇️|[Next>]⬇️|[<u>N</u>ext>⬇️]|[<u>I</u>nstall]⬇️|⌛wait ⇒ [<u>N</u>ext>]⬇️|[Finish]⬇️|  
+|[<u>N</u>ext>]⬇️|[ <u>N</u> ext]⬇️|[<u>N</u>ext>⬇️]|[<u>I</u>nstall]⬇️|⌛wait ⇒ [<u>N</u>ext>]⬇️|[Finish]⬇️|  
 ---
 
 ### AndroidStudio セットアップ
