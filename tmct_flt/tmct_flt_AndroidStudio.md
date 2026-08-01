@@ -39,7 +39,7 @@
 　　　7.2 Androidライセンス承認  
 　　　7.3 Emulator(Pixcel7)インストール  
 　　8. Emulator起動
-　[🔗インストール手順](./docs/02_Environment.md)  
+<!--　[🔗インストール手順](./docs/02_Environment.md)  -->
 
 # スマートフォンアプリ(tmct_flt)開発  
 ## 開発環境確認  
