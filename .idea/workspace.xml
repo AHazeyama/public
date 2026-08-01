@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5573b30-6db0-472a-ba1c-b2262c5d7346" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/tmct_flt/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/Tutorial.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/kotlin/com/example/tmct_flt/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/android/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/Title_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/Title_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/Tutorial_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/Tutorial_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_EDT_VSCode_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_EDT_VSCode_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_EDT_Vim_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_EDT_Vim_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_Equip_XPERIA_10IV_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_FW_Flutter_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_IDE_AndroidStudo_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_LANG_Dart_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_OS_Win11_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/env/M_SHELL_PWSH_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/icon/tmct_flt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/message/01-01_Flutter--version.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/message/01-02_Drt--version.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/message/02-01_VSC-Flutter-Ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/message/02-02_VSC-Dart-Ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/message/03-01_flutter_doctor-v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/message/04-01_android-studio-quail2-windows.exe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/message/04-02_InstallItem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/prtsc/04-03_Welcome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/prtsc/04-04_InstallType.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/prtsc/04-05_VerifySettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/prtsc/04-06_LicenseAgreement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/prtsc/04-07_EownloadingComponents1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/prtsc/04-08_EownloadingComponents2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/prtsc/06-00_SDK-Install.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/assets/tmct_flt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmct_flt/tmct_flt_AndroidStudio.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3GvMnW4eBulDx9uF2eYwTP9XKhS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5573b30-6db0-472a-ba1c-b2262c5d7346" name="Changes" comment="" />
+      <created>1784847757927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784847757927</updated>
+    </task>
+    <servers />
+  </component>
+</project>

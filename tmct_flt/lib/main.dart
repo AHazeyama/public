@@ -1,8 +1,11 @@
 import 'dart:async';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:vibration/vibration.dart';
+import 'package:vibration/vibration_presets.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
 void main() {
@@ -26,7 +29,7 @@ class ClckMobileApp extends StatelessWidget {
           secondary: Color(0xFFFFFF66),
           surface: Color(0xFF292929),
         ),
-        fontFamily: 'sans-serif-rounded',
+        fontFamily: 'MPlusRounded',
         fontFamilyFallback: const [
           'SF Pro Rounded',
           'Arial Rounded MT Bold',
@@ -58,11 +61,16 @@ class _TimerHomePageState extends State<TimerHomePage>
   static const int _factoryDefaultHours = 0;
   static const int _factoryDefaultMinutes = 0;
   static const int _factoryDefaultSeconds = 20;
+  static const int _factoryDefaultTargetSets = 5;
   static const String _defaultHoursKey = 'default_hours';
   static const String _defaultMinutesKey = 'default_minutes';
   static const String _defaultSecondsKey = 'default_seconds';
+  static const String _defaultTargetSetsKey = 'default_target_sets';
+  static const String _soundEnabledKey = 'sound_enabled';
+  static const String _vibrationEnabledKey = 'vibration_enabled';
 
   final SharedPreferencesAsync _preferences = SharedPreferencesAsync();
+  final AudioPlayer _completionPlayer = AudioPlayer();
 
   final TextEditingController _hoursController =
       TextEditingController(text: '0');
@@ -84,12 +92,15 @@ class _TimerHomePageState extends State<TimerHomePage>
   int _defaultHours = _factoryDefaultHours;
   int _defaultMinutes = _factoryDefaultMinutes;
   int _defaultSeconds = _factoryDefaultSeconds;
+  int _defaultTargetSets = _factoryDefaultTargetSets;
+  bool _soundEnabled = true;
+  bool _vibrationEnabled = true;
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    _loadDefaultTime();
+    _loadDefaultSettings();
 
     _ticker = Timer.periodic(
       const Duration(milliseconds: 200),
@@ -98,13 +109,19 @@ class _TimerHomePageState extends State<TimerHomePage>
   }
 
 
-  Future<void> _loadDefaultTime() async {
+  Future<void> _loadDefaultSettings() async {
     final hours =
         await _preferences.getInt(_defaultHoursKey) ?? _factoryDefaultHours;
     final minutes =
         await _preferences.getInt(_defaultMinutesKey) ?? _factoryDefaultMinutes;
     final seconds =
         await _preferences.getInt(_defaultSecondsKey) ?? _factoryDefaultSeconds;
+    final targetSets = await _preferences.getInt(_defaultTargetSetsKey) ??
+        _factoryDefaultTargetSets;
+    final soundEnabled =
+        await _preferences.getBool(_soundEnabledKey) ?? true;
+    final vibrationEnabled =
+        await _preferences.getBool(_vibrationEnabledKey) ?? true;
 
     if (!mounted) return;
 
@@ -112,21 +129,28 @@ class _TimerHomePageState extends State<TimerHomePage>
       _defaultHours = hours;
       _defaultMinutes = minutes;
       _defaultSeconds = seconds;
-      _applyDefaultTime();
+      _defaultTargetSets = targetSets.clamp(1, 99);
+      _soundEnabled = soundEnabled;
+      _vibrationEnabled = vibrationEnabled;
+      _applyDefaultSettings();
     });
   }
 
-  void _applyDefaultTime() {
+  void _applyDefaultSettings() {
     _hoursController.text = _defaultHours.toString();
     _minutesController.text = _defaultMinutes.toString();
     _secondsController.text = _defaultSeconds.toString();
+    _targetSetsController.text = _defaultTargetSets.toString();
   }
 
-  Future<void> _saveCurrentTimeAsDefault() async {
+  Future<void> _saveCurrentSettingsAsDefault() async {
     if (_running) return;
 
     final duration = _readConfiguredDuration();
     if (duration == null) return;
+
+    final targetSets = _readTargetSets();
+    if (targetSets == null) return;
 
     final hours = duration.inHours;
     final minutes = duration.inMinutes.remainder(60);
@@ -136,6 +160,7 @@ class _TimerHomePageState extends State<TimerHomePage>
       _preferences.setInt(_defaultHoursKey, hours),
       _preferences.setInt(_defaultMinutesKey, minutes),
       _preferences.setInt(_defaultSecondsKey, seconds),
+      _preferences.setInt(_defaultTargetSetsKey, targetSets),
     ]);
 
     if (!mounted) return;
@@ -144,11 +169,13 @@ class _TimerHomePageState extends State<TimerHomePage>
       _defaultHours = hours;
       _defaultMinutes = minutes;
       _defaultSeconds = seconds;
+      _defaultTargetSets = targetSets;
     });
 
     await _showMessage(
       title: '初期値を保存しました',
-      message: '${_formatDefaultTime()}を起動時とClear時の初期値に設定しました。',
+      message: '${_formatDefaultTime()} × $_defaultTargetSetsセットを\n'
+          '起動時とClear時の初期値に設定しました。',
     );
   }
 
@@ -165,6 +192,7 @@ class _TimerHomePageState extends State<TimerHomePage>
     WidgetsBinding.instance.removeObserver(this);
     _ticker?.cancel();
     WakelockPlus.disable();
+    unawaited(_completionPlayer.dispose());
 
     _hoursController.dispose();
     _minutesController.dispose();
@@ -304,17 +332,51 @@ class _TimerHomePageState extends State<TimerHomePage>
       _remaining = Duration.zero;
       _completedSets = 0;
 
-      _applyDefaultTime();
-      _targetSetsController.text = '5';
+      _applyDefaultSettings();
     });
 
     await WakelockPlus.disable();
   }
 
+  Future<void> _toggleSound() async {
+    final enabled = !_soundEnabled;
+    setState(() => _soundEnabled = enabled);
+    await _preferences.setBool(_soundEnabledKey, enabled);
+  }
+
+  Future<void> _toggleVibration() async {
+    final enabled = !_vibrationEnabled;
+    setState(() => _vibrationEnabled = enabled);
+    await _preferences.setBool(_vibrationEnabledKey, enabled);
+  }
+
+  Future<void> _playCompletionAlert() async {
+    final alerts = <Future<void>>[];
+
+    if (_soundEnabled) {
+      alerts.add(
+        _completionPlayer
+            .play(AssetSource('sounds/pilorin.wav'))
+            .catchError((Object _) {}),
+      );
+    }
+
+    if (_vibrationEnabled) {
+      alerts.add(
+        Vibration.vibrate(preset: VibrationPreset.doubleBuzz)
+            .catchError((Object _) {}),
+      );
+    }
+
+    if (alerts.isNotEmpty) {
+      await Future.wait(alerts);
+    }
+  }
+
   Future<void> _finishOneSet() async {
     if (_completionDialogOpen || !mounted) return;
 
-    HapticFeedback.heavyImpact();
+    await _playCompletionAlert();
 
     final targetSets = _readTargetSets() ?? 5;
     setState(() => _completedSets += 1);
@@ -440,7 +502,7 @@ class _TimerHomePageState extends State<TimerHomePage>
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     const Text(
-                      'Digital Clock / Timer',
+                      'Clock Timer & Counter',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 22,
@@ -551,7 +613,7 @@ class _TimerHomePageState extends State<TimerHomePage>
                     Text(
                       _running
                           ? 'タイマー動作中は画面を点灯したままにします'
-                          : '初期設定：${_formatDefaultTime()} × 5セット',
+                          : '初期設定：${_formatDefaultTime()} × $_defaultTargetSetsセット',
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Color(0xFFBBBBBB),
@@ -592,12 +654,14 @@ class _TimerHomePageState extends State<TimerHomePage>
                     const SizedBox(height: 10),
                     _buildTargetSetSelector(),
                     const SizedBox(height: 12),
+                    _buildAlertSelector(),
+                    const SizedBox(height: 12),
                     FilledButton.icon(
-                      onPressed: _running ? null : _saveCurrentTimeAsDefault,
+                      onPressed: _running ? null : _saveCurrentSettingsAsDefault,
                       icon: const Icon(Icons.save_outlined),
-                      label: const Text('現在の時間を初期値に設定'),
+                      label: const Text('現在の時間・セット数を初期値に設定'),
                       style: FilledButton.styleFrom(
-                        backgroundColor: const Color(0xFF444444),
+                        backgroundColor: const Color(0xFF0ECB00),
                         foregroundColor: Colors.white,
                         minimumSize: const Size.fromHeight(48),
                       ),
@@ -609,6 +673,34 @@ class _TimerHomePageState extends State<TimerHomePage>
           },
         ),
       ),
+    );
+  }
+
+  Widget _buildAlertSelector() {
+    return Row(
+      children: [
+        Expanded(
+          child: _AlertToggleButton(
+            icon: _soundEnabled
+                ? Icons.volume_up_rounded
+                : Icons.volume_off_rounded,
+            label: '音',
+            enabled: _soundEnabled,
+            onPressed: _toggleSound,
+          ),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: _AlertToggleButton(
+            icon: _vibrationEnabled
+                ? Icons.vibration_rounded
+                : Icons.mobile_off_rounded,
+            label: '振動',
+            enabled: _vibrationEnabled,
+            onPressed: _toggleVibration,
+          ),
+        ),
+      ],
     );
   }
 
@@ -661,6 +753,45 @@ class _TimerHomePageState extends State<TimerHomePage>
           icon: const Icon(Icons.add),
         ),
       ],
+    );
+  }
+}
+
+class _AlertToggleButton extends StatelessWidget {
+  const _AlertToggleButton({
+    required this.icon,
+    required this.label,
+    required this.enabled,
+    required this.onPressed,
+  });
+
+  final IconData icon;
+  final String label;
+  final bool enabled;
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 46,
+      child: FilledButton.icon(
+        onPressed: onPressed,
+        icon: Icon(icon, size: 21),
+        label: Text('$label ${enabled ? 'ON' : 'OFF'}'),
+        style: FilledButton.styleFrom(
+          backgroundColor: enabled
+              ? const Color(0xFF2E7D32)
+              : const Color(0xFF555555),
+          foregroundColor: Colors.white,
+          textStyle: const TextStyle(
+            fontSize: 15,
+            fontWeight: FontWeight.w800,
+          ),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(8),
+          ),
+        ),
+      ),
     );
   }
 }

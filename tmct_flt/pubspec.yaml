@@ -1,9 +1,8 @@
-name: tmct_flt
-description: Clock Timer & Counter for rehabilitation.
-
+name: tmct_mobile
+description: Rehabilitation and stretching timer for Android and iOS.
 publish_to: "none"
 
-version: 0.9.1+1
+version: 1.2.0+2
 
 environment:
   sdk: ">=3.10.0 <4.0.0"
@@ -11,8 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.5.5
   wakelock_plus: ^1.6.1
+  shared_preferences: ^2.5.5
+  audioplayers: ^6.8.1
+  vibration: ^3.2.0
 
 dev_dependencies:
   flutter_test:
@@ -22,8 +23,21 @@ dev_dependencies:
 
 flutter_launcher_icons:
   android: true
-  ios: false
+  ios: true
   image_path: "assets/icon/tmct_flt.png"
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/sounds/pilorin.wav
+
+  fonts:
+    - family: MPlusRounded
+      fonts:
+        - asset: fonts/MPLUSRounded1c-Regular.ttf
+          weight: 400
+        - asset: fonts/MPLUSRounded1c-Bold.ttf
+          weight: 700
+        - asset: fonts/MPLUSRounded1c-ExtraBold.ttf
+          weight: 800

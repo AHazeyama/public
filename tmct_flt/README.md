@@ -136,5 +136,8 @@ flutter build apk --release <⏎>
 ## Download
 　🔗 https://github.com/AHazeyama/public/releases/latest  
 
+## Development Tutorial  
+　🔗[tmct_flt_AndroidStudio](./tmct_flt_AndroidStudio.md)  
+
 ## License
 　TBD

@@ -1,1 +1,0 @@
-# tmct_flt_AndroidStudio
