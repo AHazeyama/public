@@ -1,4 +1,19 @@
-# AndroidStudio SDK Introduction  
+<p akugb=:keft>  
+	<img src="./assets/SDK-Introduction_titlebar_dark.png#gh-dark-mode-only" alt="banner dark">  
+	<img src="./assets/SDK-Introduction_titlebar_light.png#gh-light-mode-only" alt="banner light">  
+</p>  
+
+　インストール済みの **Flutter** と **Android Studio**  の環境、生成物の削除を行います。  
+> [!NOTE]  
+> 縮小表示されている画像は⬇️で拡大されます。  
+> 
+> ```pwsh  
+> ※ 記号例  
+> 　🪟:デスクトップ、⬇️:マウスクリック、 [･･･]:ボタン、<･･･>:Press the Key、⇒:次動作、#･･･:コメント  
+> 　"･･･":テキスト、a/b:選択(a or b)、｢･･･｣:ウィンドウ/メニュー/フォーム、  
+> ```  
+  
+### 現状確認														<!-- 01-01 -->  
 ## Languages & Frameworks  
 　[<img src="./assets/prtsc/AS-SDK-Introduntion/03-03-01i_Languages-and-Frameworks1.png" height="112" alt="image">](./assets/prtsc/AS-SDK-Introduntion/03-03-01i_Languages-and-Frameworks1.png)  
 　<img src="./assets/prtsc/AS-SDK-Introduntion/03-03-01a_Operation sequence.png" alt="Configuratin details">  
