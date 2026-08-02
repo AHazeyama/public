@@ -17,54 +17,47 @@ public/
 
 
 # リハビリテーション用タイマー&カウンター[tmct]開発手順  
-#
-## 開発環境初期化													<!-- 01 -->  
-## 現状確認															<!-- 01-01 -->  
-### Flutter SDK 環境
-### Android 環境  
-### Android Studio 削除削除											<!-- 01-02 -->  
-### Android Studio 削除  
-### Android Studio 削除確認
-### Android SDK 環境  
-### .android  
-### 設定 及び キャッシュ  
-### Flutter SDK 削除  
-### Flutter & Dart 設定･キャッシュ 削除
-### プロジェクト内のBhild生成物 削除  
-## 再起動 ⇒  削除確認												<!-- 01-03 -->
-### 削除対象  
-　　　･Windows 11
-　　　･Git for Windows
-　　　･VS Code
-　　　･Flutter SDK
-　　　･Android Studio
-　　　･Android SDK
-　　　･Android Emulator
+## 開発環境初期化														<!-- 01 -->  
+### 現状確認															<!-- 01-01 -->  
+　1. Flutter SDK 環境
+　2. Android 環境  
+### 環境削除															<!-- 02-02 -->
+　1. Android Studio 削除削除
+　2. Android Studio 削除  
+　3. Android Studio 削除確認
+　4. Android SDK 環境  
+　5. .android  
+　6. 設定 及び キャッシュ  
+　7. Flutter SDK 削除  
+　8. Flutter & Dart 設定･キャッシュ 削除
+　9. プロジェクト内のBhild生成物 削除  
+### 再起動 ⇒  削除確認													<!-- 01-03 -->
+　1. 削除対象  
 
-# 開発ツールインストール											<!-- 02 -->
-##　インストール済みTool確認										<!-- 02-01 -->
-##　Flutter(Framework) & Dart(Language) インストール				<!-- 02-02 -->
-##　環境変数登録													<!-- 02-03 -->
-###　インストール&Path確認  
-###　VS Codeへの機能拡張追加  
-###　Flutter初回診断  
-##　Android Studio(IDE) インストール								<!-- 02-04 -->
-###　SDKインストール  
-###　Androidライセンス承認  
-###　Emulator(Pixcel7)インストール  
-##　Emulator起動													<!-- 02-05 -->
+## 開発ツールインストール												<!-- 02 -->
+###　インストール済みTool確認											<!-- 02-01 -->
+###　Flutter(Framework) & Dart(Language) インストール					<!-- 02-02 -->
+###　環境変数登録														<!-- 02-03 -->
+　1. インストール&Path確認  
+　2. VS Codeへの機能拡張追加  
+　3. Flutter初回診断  
+###　Android Studio(IDE) インストール									<!-- 02-04 -->
+　1. SDKインストール  
+　2. Androidライセンス承認  
+　3. Emulator(Pixcel7)インストール  
+###　Emulator起動														<!-- 02-05 -->
 
-# Flutterアプリケーション作成
-## Codig															<!-- 03-01 -->
-## Emulatorデバッグ													<!-- 03-02 -->
-## 配布版作成														<!-- 03-03 -->
-###　バージョン設定  
-###　配布用アプリケーション(.apk)作成  
-###　アプリケーションリネーム  
+## Mobileアプリケーション作成											<!-- 03 -->
+### Codig																<!-- 03-01 -->
+### Emulatorデバッグ													<!-- 03-02 -->
+　1. バージョン設定  
+　2. 配布用アプリケーション(.apk)作成  
+　3. アプリケーションリネーム  
 
-# 実機検証															<!-- 03 -->
-## EXPERIA10IV														<!-- 03-01 -->
-###　1. スマートフォン側USBデバッグ準備  
-###　2. スマートフォン ️<img src="./assets/env/W-allow.png" height="11"> PC有線接続  
-###　3. アプリケーションインストール & 実行  
-###　4. 検証作業 
+## 実機検証																<!-- 04 -->
+### 配布版作成															<!-- 04-01 -->
+### EXPERIA10IV															<!-- 04-02 -->
+　1. スマートフォン側USBデバッグ準備  
+　2. スマートフォン ️<img src="./assets/env/W-allow.png" height="11"> PC有線接続  
+　3. アプリケーションインストール & 実行  
+　4. 検証作業 
