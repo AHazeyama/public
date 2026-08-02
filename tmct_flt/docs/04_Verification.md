@@ -4,6 +4,7 @@
 </p>  
 
 # 実機検証
-　tmct_flt(Flutter/Dart)の開発を行います。
+## USB接続での検証  
+　tmct_flt.apkを実機にインストールし、検証します。
 
 <img src="./assets/Situation.png" width="640">
