@@ -125,7 +125,7 @@ $env:Path -split ';' |
 ```
 　<img src="./assets/prtsc/01-02-04_flutter-clean.png">
 
-　"C:\Development\flutter"を削除
+　🗁 : "C:\Development\flutter"を削除
 
 ## 再起動 ⇒  削除確認                                           <!-- 01-03 -->
 ```pwsh
