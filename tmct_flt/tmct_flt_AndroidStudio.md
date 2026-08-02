@@ -38,19 +38,22 @@
 　1. 削除対象  
   
 [🔗開発環境初期化手順](./docs/01_Initialize.md)  
+<br>
 
-## 開発ツールインストール												<!-- 02 -->  
-###　インストール済みTool確認											<!-- 02-01 -->  
-###　Flutter(Framework) & Dart(Language) インストール					<!-- 02-02 -->  
-###　環境変数登録														<!-- 02-03 -->  
+## 開発ツールインストール												<!-- 02 -->    
+
+### インストール済みTool確認											<!-- 02-01 -->  
+
+### Flutter(Framework) & Dart(Language) インストール					<!-- 02-02 -->  
+### 環境変数登録														<!-- 02-03 -->  
 　1. インストール&Path確認  
 　2. VS Codeへの機能拡張追加  
 　3. Flutter初回診断  
-###　Android Studio(IDE) インストール									<!-- 02-04 -->  
+### Android Studio(IDE) インストール									<!-- 02-04 -->  
 　1. SDKインストール  
 　2. Androidライセンス承認  
 　3. Emulator(Pixcel7)インストール  
-###　Emulator起動														<!-- 02-05 -->  
+### Emulator起動														<!-- 02-05 -->  
 
 [🔗開発ツールインストール手順](./docs/02_Environment.md)  
   
