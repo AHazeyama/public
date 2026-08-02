@@ -1,15 +1,19 @@
-# 01_Initialize  
-　インストール済みの **Flutter** と **Android Studio**  の環境、生成物の削除を行います。  
+<p akugb=:keft>  
+	<img src="./assets/01_Initialize_titlebar_dark.png#gh-dark-mode-only" alt="banner dark">  
+	<img src="./assets/01_Initialize_titlebar_light.png#gh-light-mode-only" alt="banner light">  
+</p>  
+　インストール済みの **Flutter** と **Android Studio**  及びその環境、生成物の削除を行います。  
+
 > [!NOTE]  
 > 縮小表示されている画像は⬇️で拡大されます。  
 > 
-> ※ 記号例  
 > ```pwsh  
+> ※ 記号例  
 > 　🪟:デスクトップ、⬇️:マウスクリック、 [･･･]:ボタン、<･･･>:Press the Key、⇒:次動作、#･･･:コメント  
 > 　"･･･":テキスト、a/b:選択(a or b)、｢･･･｣:ウィンドウ/メニュー/フォーム、  
 > ```  
   
-### 現状確認														<!-- 01-01 -->  
+# 開発環境初期化														<!-- 01-01 -->  
 #### 　Flutter SDK 環境  
 　この章のコマンドは全て<img src="./assets/env/M_TERM_PoewrShell.png" height="12">  。　※<⏎> : Enter key press  
 　現在の開発環境確認  
@@ -121,7 +125,7 @@ $env:Path -split ';' |
 ```
 　<img src="./assets/prtsc/01-02-04_flutter-clean.png">
 
-　🗁"C:\Develop\flutter"を削除
+　"C:\Development\flutter"を削除
 
 ## 再起動 ⇒  削除確認                                           <!-- 01-03 -->
 ```pwsh
