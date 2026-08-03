@@ -87,7 +87,7 @@
 > [!NOTE]  
 >  <⏎> : Press the Enter key.  
 
-　![](./assets/env/M_SHELL_PWSH.png)  
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ```pwsh
 　flutter doctor <⏎>  
 　　　: # Execution Result
@@ -101,7 +101,7 @@
 ``` 
 　その後、プロジェクトのディレクトリで実行します。  
 
-　![](./assets/env/M_SHELL_PWSH.png)  
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ```pwsh
 　flutter pub get <⏎>  
 　　　: # Execution Result
@@ -109,7 +109,7 @@
 　　　: # Execution Result
 ``` 
 　接続中のAndroid端末を指定する場合：  
-　![](./assets/env/M_SHELL_PWSH.png)  
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ```pwsh
 　flutter devices <⏎>  
 　　　: # Execution Result
@@ -118,19 +118,17 @@
 ``` 
 ## Android APKの作成
 　動作確認用：  
-　![](./assets/env/M_SHELL_PWSH.png)  
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 　```pwsh
 flutter build apk --debug <⏎>  
 　```  
 　配布用：  
-　![](./assets/env/M_SHELL_PWSH.png)  
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 　```pwsh  
 flutter build apk --release <⏎>  
 　```   
 　生成先：   
-　```  
-🗁 build/app/outputs/flutter-apk/app-release.apk  
-　```  
+　　🗁 build/app/outputs/flutter-apk/app-release.apk  
 　生成した **app-release.apk** をアプリケーション名に変更して配布  
 
 ## Download
