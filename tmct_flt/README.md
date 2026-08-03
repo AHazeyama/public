@@ -119,14 +119,14 @@
 ## Android APKの作成
 　動作確認用：  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　```pwsh
-flutter build apk --debug <⏎>  
-　```  
+```pwsh
+　flutter build apk --debug <⏎>  
+```  
 　配布用：  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　```pwsh  
-flutter build apk --release <⏎>  
-　```   
+```pwsh  
+　flutter build apk --release <⏎>  
+```   
 　生成先：   
 　　🗁 build/app/outputs/flutter-apk/app-release.apk  
 　生成した **app-release.apk** をアプリケーション名に変更して配布  
