@@ -49,7 +49,7 @@ $env:Path -split ';' |
         $_ -match 'flutter|android|dart|gradle|java'  
     } <⏎>  
 ```  
-　　<img src="./assets/prtsc/01-01-04_$envpath.png">  
+　　<img src="./assets/prtsc/01-01-04_envpath.png">  
   
 ## 環境削除																<!-- 01-02 -->  
 ## Android Studio 削除  
