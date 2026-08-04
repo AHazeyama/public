@@ -87,7 +87,7 @@
 > [!NOTE]  
 >  <⏎> : Press the Enter key.  
 
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
 ```pwsh
 　flutter doctor <⏎>  
 　　　: # Execution Result
@@ -101,7 +101,7 @@
 ``` 
 　その後、プロジェクトのディレクトリで実行します。  
 
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
 ```pwsh
 　flutter pub get <⏎>  
 　　　: # Execution Result
@@ -109,7 +109,7 @@
 　　　: # Execution Result
 ``` 
 　接続中のAndroid端末を指定する場合：  
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
 ```pwsh
 　flutter devices <⏎>  
 　　　: # Execution Result
@@ -118,12 +118,12 @@
 ``` 
 ## Android APKの作成
 　動作確認用：  
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
 ```pwsh
 　flutter build apk --debug <⏎>  
 ```  
 　配布用：  
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
 ```pwsh  
 　flutter build apk --release <⏎>  
 ```   
