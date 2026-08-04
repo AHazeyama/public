@@ -2,6 +2,8 @@
 	<img src="./assets/01_Initialize_titlebar_dark.png#gh-dark-mode-only" alt="banner dark">  
 	<img src="./assets/01_Initialize_titlebar_light.png#gh-light-mode-only" alt="banner light">  
 </p>  
+
+# 開発環境初期化
 　インストール済みの **Flutter** と **Android Studio**  及びその環境、生成物の削除を行います。  
 
 > [!NOTE]  
@@ -13,10 +15,11 @@
 > 　"･･･":テキスト、a/b:選択(a or b)、｢･･･｣:ウィンドウ/メニュー/フォーム、  
 > ```  
   
-# 開発環境初期化														<!-- 01-01 -->  
-#### 　Flutter SDK 環境  
-　この章のコマンドは全て<img src="./assets/env/M_TERM_PoewrShell.png" height="12">  。　※<⏎> : Enter key press  
+## 環境確認
+### 　Flutter SDK 環境  
+　この章のコマンドは全て<img src="./assets/env/M_TERM_PoewrShell.png" height="12"> にて実行 。　※<⏎> : Enter key press  
 　現在の開発環境確認  
+
 　Path確認  
 ```pwsh  
 　where.exe flutter <⏎>  
@@ -28,8 +31,8 @@
 　flutter doctor -v <⏎>  
 ```  
 　　[<img src="./assets/prtsc/01-01-02_flutter-doctor.png" height="256">](./assets/prtsc/01-02_flutter-doctor.png)  
-  
-#### 　Android 環境  
+
+### 　Android 環境  
 ```pwsh  
 　Get-ChildItem Env: |  
 　    Where-Object {  
@@ -48,29 +51,29 @@ $env:Path -split ';' |
 ```  
 　　<img src="./assets/prtsc/01-01-04_$envpath.png">  
   
-## Android Studio              									<!-- 01-02 -->  
-### Android Studio 削除  
+## 環境削除																<!-- 01-02 -->  
+## Android Studio 削除  
 　EmuratorはAndroidStudioから削除  
 　残骸が残っていたら削除 : %USERPROFILE%\.android\avd  
 　🖥️左下｢ <img src="./assets/env/M_ICON_Windows1.png" height="18" align="top">️  ]⬇️ ⇒ ｢ <img src="./assets/env/M_MENU_AndroidStudio1.png" align="top"> ｣右⬇️ ⇒ ｢ <img src="./assets/env/M_MENU_trash-can.png" align="top"> ｣ ⇒  
 　｢⚙️Window｣ ⇒ ｢　<img src="./assets/env/M_MENU_AndroidStudio2.png" height="20">　｣⬇️ ⇒ 「アンインストール」
 
-### Android Studio 削除確認  
+## Android Studio 削除 確認  
 ```pwsh
 　Test-Path "C:\Program Files\Android\Android Studio" <⏎>
 　true
 　Remove-Item -Recurse -Force "C:\Program Files\Android\Android Studio" <⏎>
 ```
-
-### Android SDK 環境  
+## Android SDK 環境  
 ```pwsh
 　Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Android\Sdk" <⏎>
 ```
-### $HOMEの環境削除
+## $HOMEの環境 削除
 ```pwsh
 　Remove-Item -Recurse -Force "$env:USERPROFILE\.android" <⏎>
 ```
-### 設定 及び キャッシュ削除  
+## 設定 及び キャッシュ 削除  
+### 環境変数
 ```pwsh
 　Get-ChildItem "$env:LOCALAPPDATA\Google" -Directory -Filter "AndroidStudio*" <⏎>
 ```
@@ -127,7 +130,7 @@ $env:Path -split ';' |
 
 　🗁 : " **C:\Development\flutter** " を削除
 
-## 再起動 ⇒  削除確認                                           <!-- 01-03 -->
+## 再起動 ⇒  削除確認                                                   <!-- 01-03 -->  
 ```pwsh
 　Get-ChildItem "$env:USERPROFILE" -Force -Directory |
     Where-Object {
