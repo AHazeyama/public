@@ -78,7 +78,7 @@
 　本ツールはSourceCodeを Android / iOS 共通とするためにFlutterを使用しています。
 - Android / iOS 共通UI
 > [!CAUTION]
-> Xpedia10 IV 及び AndroidStudio Emulator(Pixcel7) にて動作検証を行っています。  
+> Xpedia10 IV 及び AndroidStudio Emulator(Pixel7) にて動作検証を行っています。  
 > iOS用コードは同じプロジェクト内に保持されますが、iOSアプリのビルドと実機確認にはmacOSとXcodeが必要です。  
 > Mac版はPCを用意できた時点で、プロジェクトを検証する予定です (人身御供になっていただけると幸いです)。  
 
