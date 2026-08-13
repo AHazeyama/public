@@ -33,8 +33,8 @@
 | [tmct_tk](https://github.com/AHazeyama/public/tree/main/tmct_tk) | **Python** [ **Tkinter** ] によるカウントダウンタイマー&カウンター | ![](assets/env/M_ICO_W-L.png) | [<img src="./tmct_tk/assets/tmct_tk.png" width="64">](./tmct_tk/assets/tmct_tk.png) |
 | [tmct_flt](https://github.com/AHazeyama/public/tree/main/tmct_flt) | **Dart** [ **Flutter** ] によるカウントダウンタイマー&カウンター | ![](assets/env/M_ICO_Android-iOS.png)| [<img src="./tmct_flt/assets/tmct_flt_v1.2.0.png" width="32">](./tmct_flt/assets/tmct_flt_v1.2.0.png) |
 | [hvgc_fa](https://github.com/AHazeyama/public/tree/main/hvcg_fa) | **Python** [ **FastAPI** ] による**Checksum** (Hash値) ツール | 🌐 | [<img src="./hvcg_fa/assets/hvgc_fa.png" width="128">](./hvcg_fa/assets/hvgc_fa.png)|  
-| [ptnc_flask](https://github.com/AHazeyama/public/tree/main/ptnc_flask) | **Python** / **FLASK** による位取り記数法 (2,8,10,16進数) 変換ツール | 🌐 | [<img src="./ptnc_flask/assets/pnct_flask.png" width="128">](./ptnc_flask/assets/pnct_flask.png)|  
-| Gradient | ツール群のGUI統一用グラディエント確認ツール **Excel**  (.xlsm)| ![](./assets/env/M_ICO_W-E.png) | [<img src="./assets/Gradient_1.png" width="128">](./assets/Gradient_1.png) |
+| [ptnc_flask](https://github.com/AHazeyama/public/tree/main/ptnc_flask) | **Python** [ **FLASK** ] による位取り記数法 (2,8,10,16進数) 変換ツール | 🌐 | [<img src="./ptnc_flask/assets/pnct_flask.png" width="128">](./ptnc_flask/assets/pnct_flask.png)|  
+| Gradient | **Excel** (.xlsm) ツール群のGUI統一用グラディエント確認ツール | ![](./assets/env/M_ICO_W-E.png) | [<img src="./assets/Gradient_1.png" width="128">](./assets/Gradient_1.png) |
 <p align="left">
 
 > [!NOTE]  
