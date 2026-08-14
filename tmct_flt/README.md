@@ -136,6 +136,8 @@
 
 ## Development Tutorial  
 　🔗[tmct_flt_AndroidStudio](./tmct_flt_AndroidStudio.md)  
+> [!CAUTION]
+> 現在作成中につき、内容は保証できません。 
 
 ## License
 　TBD
