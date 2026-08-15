@@ -2,16 +2,20 @@
 	<img src="./assets/GitHub_description_dark.png#gh-dark-mode-only" alt="banner dark">
 	<img src="./assets/GitHub_description_light.png#gh-light-mode-only" alt="banner light">
 </p>
+
 <!--
 <img src="./assets/GitHub_description_light.png">  
 -->
 
 # Overview
 ## 業務効率化および運用改善を目的としたツール群。
-ファイル操作や整合性検証といった反復作業を対象に開発しました。  
+実務上の課題に対して作成したツールのうち、汎用化できるものを公開しています。
+ファイル操作や整合性検証といった反復作業補助が目的です。  
+
 　* DeskTop ( アプリケーション [ **Windows** ] )　　( **C#** [ **WPF** ]　**/**　**Python** [ **PySide6** / **Tkinter** ] )  
 　* Web　　( API / アプリケーション )　　　　 　 　( **Python** [ **FastAPI** / **FLASK**] )  
 　* Mobile　( アプリケーション [ **Android** / **iOS** ] ) ( **Dart** [**Flutter**] )  
+
 単なる機能実装に留まらず、実運用を想定し、操作性・安全性・再現性を重視した設計としています。  
 本ツール群では、複数フレームワーク間での**UI/UX**統一を意識して、ボタン色・操作体系・ログ表現を共通化しています。  
 ## Featured Tools
