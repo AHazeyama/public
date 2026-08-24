@@ -97,4 +97,4 @@
 　1. 削除対象  
 ### 完了確認															<!-- APP-04 -->  
   
-[🔗開発環境初期化手順](./docs/01_Initialize.md)  
+[🔗開発環境初期化手順](./docs/APP_Initialize.md)  
