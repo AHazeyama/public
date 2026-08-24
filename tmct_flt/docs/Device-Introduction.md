@@ -1,4 +1,4 @@
-# AndroidStudio Device Introduction  
+# Android Studio Device Introduction  
 ## Add Device  
 　[<img src="./assets/prtsc/AS_Device-Introduction/Dev-01i_AddDevice.png" height="112" alt="image">](./assets/prtsc/AS_Device-Introduction/Dev-01i_AddDevice.png)  
 　<img src="./assets/prtsc/AS_Device-Introduction/Dev-01a_AddDevice.png">  
