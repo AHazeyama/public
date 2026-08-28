@@ -28,7 +28,7 @@
 ## 環境確認                                                         <!-- APP -->  
 ### 　Flutter SDK 環境                                              <!-- APP-01 -->  
 　この章のコマンドは全て<img src="./assets/env/M_SHELL_PoewrShell.png" height="12"> にて実行　　　※`<⏎>` : Enter key press  
-```
+```  
 　現在の開発環境確認  
   
 　Path確認  
@@ -114,8 +114,8 @@ $env:Path -split ';' |
   
 ### 設定 及び キャッシュ 削除  
 > [!IMPORTANT]  
-> Android Studioで生成されたディレクトリは "**AndroidStudio** "、"**Android Studio**"等のバリエーションが存在する。  
-> **Get-ChildItem** で検索出来たディレクトリそれぞれに適した **Remove-Item** コマンドを実行  
+> Android Studioで生成されたディレクトリは "**AndroidStudio** "、"**Android Studio**"等のバリエーションが存在します。  
+> **Get-ChildItem** で検索出来たディレクトリそれぞれに適した **Remove-Item** コマンドを実行して下さい。  
 #### Local環境/キャッシュ  
 　AppData\Local\Google\  
 ```pwsh  
@@ -177,9 +177,8 @@ $env:Path -split ';' |
     }  
 　} <⏎>　　　　　# ⚠️<⏎>前の"}"までコピーして実行  
 ```  
-> [!NOTE]  
-> 実行メッセージが一瞬表示される。  
-> 他のメッセージが無く、プロンプトが表示されれば削除完了  
+　# 実行メッセージが一瞬表示される。  
+　# 他のメッセージが無く、プロンプトが表示されれば削除完了  
   
 ```pwsh  
 　Get-ChildItem "$env:LOCALAPPDATA\Pub\Cache" <⏎>  
@@ -210,9 +209,9 @@ $env:Path -split ';' |
     } <⏎>  
 ```  
 　<img src="./assets/prtsc/APP-03-01_Remove-Item-android.png">  
-```pwsh
+```pwsh  
 　Remove-Item -Recurse -Force "$env:USERPROFILE\.android" <⏎>  
-```
+```  
 　# 正常に削除できればメッセージ無し  
 ```pwsh  
 　Get-ChildItem "$env:LOCALAPPDATA" -Force -Directory |  
@@ -221,14 +220,14 @@ $env:Path -split ';' |
     } <⏎>  
 ```  
 　<img src="./assets/prtsc/APP-03-02_Get-ChildItem1.png">  
-```pwsh
+```pwsh  
 　Remove-Item -Recurse -Force "$env:LOCALAPPDATA\上記DIR" <⏎>  
-```
+```  
 　# Get-ChidlItemで抽出されたDIRを個別に削除  
 　# 正常に削除できればメッセージ無し  
-
-
-
+  
+  
+  
 ```pwsh  
 　Get-ChildItem "$env:APPDATA" -Force -Directory |  
     Where-Object {  
@@ -236,9 +235,9 @@ $env:Path -split ';' |
     } <⏎>  
 ```  
 　<img src="./assets/prtsc/APP-03-03_Get-ChildItem2.png">  
-```pwsh
+```pwsh  
 　Remove-Item -Recurse -Force "$env:APPDATA\.dart-tool" <⏎>  
-```
+```  
 　# 正常に削除できればメッセージ無し  
-
+  
 #### 残DIRの削除で初期化完了  
