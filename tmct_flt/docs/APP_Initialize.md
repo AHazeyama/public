@@ -224,8 +224,8 @@ $env:Path -split ';' |
 ```pwsh
 　Remove-Item -Recurse -Force "$env:LOCALAPPDATA\上記DIR" <⏎>  
 ```
-> [!NOTE]  
-> Get-ChidlItemで抽出されたDIRを個別に削除  
+　# Get-ChidlItemで抽出されたDIRを個別に削除  
+　# 正常に削除できればメッセージ無し  
 
 
 
