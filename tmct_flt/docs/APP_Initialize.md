@@ -220,7 +220,7 @@ $env:Path -split ';' |
         $_.Name -match 'android|flutter|dart|gradle|pub'  
     } <⏎>  
 ```  
-　<img src="./assets/prtsc/APP-03-01_Get-ChildItem1.png">  
+　<img src="./assets/prtsc/APP-03-02_Get-ChildItem1.png">  
 ```pwsh
 　Remove-Item -Recurse -Force "$env:LOCALAPPDATA\上記DIR" <⏎>  
 ```
@@ -235,7 +235,7 @@ $env:Path -split ';' |
         $_.Name -match 'android|flutter|dart|gradle|pub'  
     } <⏎>  
 ```  
-　<img src="./assets/prtsc/APP-03-02_Get-ChildItem2.png">  
+　<img src="./assets/prtsc/APP-03-03_Get-ChildItem2.png">  
 ```pwsh
 　Remove-Item -Recurse -Force "$env:APPDATA\.dart-tool" <⏎>  
 ```
