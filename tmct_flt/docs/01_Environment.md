@@ -29,13 +29,13 @@
 ## Flutter(Framework) & Dart(Language) インストール						<!-- 01-02 -->  
 　　👇ボタンより FlutterSDK バンドルをダウンロード  
 　　[<img src="./assets/env/M_flutter-download.png" height="18" align="top">](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.44.8-stable.zip)  🔗[Install Flutter manually](https://docs.flutter.dev/install/manual)  
-　解凍して任意のフォルダへ保存　　推奨：🗁 C:\Develop\  
+　解凍して任意のフォルダへ保存　　推奨：🗁 C : \Develop\  
 
 ## 環境変数登録															<!-- 01-03 -->  
 ### インストール&Path確認  
-　画面左下の <img src="./assets/env/M_search-bar.png" height="18" align="top"> へ"環境変数"を入力して <img src="./assets/env/M_env-val-icon.png" height="18"> を⬇️  
+　画面左下の <img src="./assets/env/M_search-bar.png" height="18" align="top"> へ"環境変数"を入力して [<img src="./assets/env/M_env-val-icon.png" height="18">](./assets/env/M_env-val-icon.png) を⬇️  
 　｢･･･のユーザー環境変数(<u>U</u>)｣ ⇒ ｢Path｣ ⇒ [編集(<u>E</u>)…] ⇒ ｢環境変数名の編集｣/[新規] ⇒ 追加 "C:\Develop\flutter\bin"  
-　　　[<img src="./assets/prtsc/01-03-01_Env-val-cntl.png" width="96">](./assets/prtsc/01-03-01_Env-val-cntl.png)  
+　　　[<img src="./assets/prtsc/01-03-01_Env-val-cntl.png" width="320">](./assets/prtsc/01-03-01_Env-val-cntl.png)  
 
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ```pwsh
@@ -48,8 +48,7 @@
 　　<img src="./assets/prtsc/01-03-03_dart-version.png">  
   
 ### VS Code への機能拡張追加  
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　左ツールバーの <img src="./assets/env/M_vsc-extention.png" height="18" align="top"> ⬇️ 、又は  <img src="./assets/env/M_vsc-setting.png" height="18" align="top">️⬇️ ⇒ [機能拡張　Ctrl+Shift+X]⬇️ ⇒  
+　左ツールバーの <img src="./assets/env/M_vsc-extention.png" height="20" align="top"> ⬇️ 、又は  <img src="./assets/env/M_vsc-setting.png" height="20" align="top">️⬇️ ⇒ <img src="./assets/env/M_vxc_ext_ext.png" align="top">⬇️ ⇒  
 　<img src="./assets/env/M_vsc_flutter-extention.png" height="32" align="top">　**/**　<img src="./assets/env/M_vsc_dart-extention.png" height="32" align="top">　インストール   
 
 ### Flutter初回診断  
@@ -57,16 +56,16 @@
 ```pwsh
 　flutter doctor -v <⏎>  
 ```  
-　　　[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="96">](./assets/prtsc/01-03-04_flutter-doctor-error.png)  
+　　[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="384">](./assets/prtsc/01-03-04_flutter-doctor-error.png)  
 > [!IMPORTANT]  
-> この時点ではAndroidにエラーが出ていても問題無し  
+> この時点では Android Studio / cmdline-tools がインストールされていないため、にエラーが出る。  
 > Flutterがインストールされていれば **OK**  
 
 ## Android Studio(IDE) インストール										<!-- 01-04 -->  
 　![](./assets/env/M_IDE_AndroidStudo_20.png)  
 　インストーラ入手  
 　　🔗[Android Studio](https://developer.android.com/studio?hl=ja)　※使用許諾の必要があるため、リンク先の <img src="./assets/env/M_androidstudio-install.png" height="18"> よりダウンロード  
-　　<img src="./assets/env/M_androidstudio-installer-brace.png" height="24"> W⬇️  
+　　<img src="./assets/env/M_androidstudio-installer0.png" height="24"> W⬇️  
 　　デフォルト設定でインストール  
 　　SDKインストール先 : 🗁 C:\Users\ユーザー名\AppData\Local\Android\Sdk  
 
@@ -80,23 +79,24 @@
 > **tmct_flt** は **main.dart** 及び **pubspec.yaml** を別途作成し、Android Studioに読み込ませています。
 
 ### SDK インストール  
-　<img src="./assets/env/M_IDE_AndroidStudo_60.png" height="20">  
-　　[<img src="./assets/prtsc/01-04-03_menu-bar-SDKmaneger.png" height="48">](./assets/prtsc/01-04-03_menu-bar-SDKmaneger.png)  
-　Menu ｢<img src="./assets/prtsc/as-menu-button.png">｣ ⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  SDKインストール   
+　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
+　　[<img src="./assets/env/M_as_menu-bar-SDK_Maneger.png" height="48">](./assets/env/M_as_menu-bar-SDK_Maneger.png)  
+　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="11">｣ ⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  SDKインストール   
 
 |Item|Content|Remarks|  
 |:---|:---|:---|  
 |SDK Platforms|Android 16.0 ("Baklava")|Emulator用なので、一般的なSDKで|
-|SDK Tools|Android SDK Build-Tools<br>　　37.0.0<br>　　36.1.0<br>　　36.0.0<br>Android Emulator<br>Android SDK Platform-Tools|<br>┐<br>┼─　｢ <img src="./assets/prtsc/show-package-details.png" height="18" align="top"> ｣ で表示<br>┘<br> <br> <br>|  
+|SDK Tools|Android SDK Build-Tools<br>　　37.0.0<br>　　36.1.0<br>　　36.0.0<br>Android Emulator<br>Android SDK Platform-Tools|<br>┐<br>┼─　｢ <img src="./assets/env/M_as_SDK-ShowPackageDetails-on.png" height="18" align="top"> ｣ で表示<br>┘<br> <br> <br>|  
 
 　　🔗[SDKインストール方法詳細](./SDK-Introduction.md)  
 
 > [!IMPORTANT]
-> 項目の左に [<img src="./assets/prtsc/download-button.png">]️ がある場合は、先にクリックしてインストールすること。  
+> 項目の左に [<img src="./assets/env/M_as_menu-button.png">]️ がある場合は、先にクリックしてインストールすること。  
 
 ### Emulator(Pixel7)インストール  
-　<img src="./assets/env/M_IDE_AndroidStudo_60.png" height="20">  
+　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
 　　<img src="./assets/prtsc/01-04-04_menu-bar_DeviceManeger.png" height="48">  
+　　<img src="./assets/prtsc" height="48">  
 　Menu ｢<img src="./assets/prtsc/as-menu-button.png">️｣⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  スマートフォンイメージ インストール   
 
 #### 設定内容  
@@ -121,11 +121,19 @@
 
 　<img src="./assets/prtsc/01-04-06_flutter-doctor-LicenseApproval2.png">  
 　上記メッセージを確認できれば承認完了。
+
+### 完了確認
+次の状態になっていれば、開発環境の構築は完了です。
+- `flutter doctor -v` でFlutter及びAndroid toolchainが認識される
+- Androidライセンスが承認済み
+- Android StudioからPixel 7 Emulatorを起動できる
+- VS CodeでFlutter及びDart拡張機能が有効になっている
+
   
 ## Emulator起動															<!-- 01-05 -->  
-　<img src="./assets/env/M_IDE_AndroidStudo_60.png" height="20">  
-　Menu ｢<img src="./assets/prtsc/as-menu-button.png">️｣⬇️ ⇒ ｢Tools」 ⇒ ｢Device Manager｣⬇️ ⇒  
-　　<img src="./assets/prtsc/01-04-04_menu-bar_DeviceManeger.png" height="48">  
+　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
+　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="11">️｣⬇️ ⇒ ｢Tools」 ⇒ ｢Device Manager｣⬇️ ⇒  
+　　<img src="./assets/env/M_as_menu-bar-SDK_Maneger.png" height="48">  
 
 　｢Device Manager｣⬇️ ⇒ 　　　｢**＋**｣⬇️ ⇒ 　　　　　　　　｢Create Virtual Device｣⬇️  
 　　<img src="./assets/prtsc/01-05-01_DeviceManagerRun1.png" width="128" align="top"> 
