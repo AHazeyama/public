@@ -110,7 +110,7 @@ $env:Path -split ';' |
 ```pwsh  
 　Remove-Item -Recurse -Force "$env:USERPROFILE\.android" <⏎>  
 ```  
-　# メッセージ無し　※正常に削除された場合、メッセージは出力されない  
+　`# メッセージ無し　※正常に削除された場合、メッセージは出力されない  `
   
 ### 設定 及び キャッシュ 削除  
 > [!IMPORTANT]  
@@ -126,7 +126,7 @@ $env:Path -split ';' |
 ```pwsh  
 　Remove-Item -Recurse -Force $env:LOCALAPPDATA\Google\ディレクトリ名 <⏎>  
 ```  
-　# メッセージ無し　※正常に削除された場合、メッセージは出力されない  
+　`# メッセージ無し　※正常に削除された場合、メッセージは出力されない  `
   
 　AppData\Roaming\Google\  
 ```pwsh  
@@ -161,7 +161,7 @@ $env:Path -split ';' |
 　Remove-Item -Recurse -Force "C:\Develop\flutter" <⏎>  
 ```  
 　[<img src="./assets/prtsc/APP-02-09_Remove-Item-flutter.png" height="18">](./assets/prtsc/APP-02-09_Remove-Item-flutter.png)  
-　# プログレスバーの消滅で削除完了  
+　`# プログレスバーの消滅で削除完了  `
   
 ### Flutter & Dart 設定･キャッシュ 削除  
 ```pwsh  
@@ -177,8 +177,8 @@ $env:Path -split ';' |
     }  
 　} <⏎>　　　　　# ⚠️<⏎>前の"}"までコピーして実行  
 ```  
-　# 実行メッセージが一瞬表示される。  
-　# 他のメッセージが無く、プロンプトが表示されれば削除完了  
+　`# 実行メッセージが一瞬表示される`。  
+　`# 他のメッセージが無く、プロンプトが表示されれば削除完了`  
   
 ```pwsh  
 　Get-ChildItem "$env:LOCALAPPDATA\Pub\Cache" <⏎>  
@@ -188,7 +188,7 @@ $env:Path -split ';' |
 　Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Pub\Cache" -ErrorAction SilentlyContinue <⏎>  
 ```  
 　[<img src="./assets/prtsc/APP-02-11_Remove-Item-Local-flutter.png" height="18">](./assets/prtsc/APP-02-11_Remove-Item-Local-flutter.png)  
-　# プログレスバーの消滅で削除完了  
+　`# プログレスバーの消滅で削除完了  `
   
 　🗁 : " **C:\Development\flutter** " を削除  
   
@@ -212,7 +212,7 @@ $env:Path -split ';' |
 ```pwsh  
 　Remove-Item -Recurse -Force "$env:USERPROFILE\.android" <⏎>  
 ```  
-　# 正常に削除できればメッセージ無し  
+　`# 正常に削除できればメッセージ無し  `
 ```pwsh  
 　Get-ChildItem "$env:LOCALAPPDATA" -Force -Directory |  
     Where-Object {  
@@ -223,8 +223,8 @@ $env:Path -split ';' |
 ```pwsh  
 　Remove-Item -Recurse -Force "$env:LOCALAPPDATA\上記DIR" <⏎>  
 ```  
-　# Get-ChidlItemで抽出されたDIRを個別に削除  
-　# 正常に削除できればメッセージ無し  
+　`# Get-ChidlItemで抽出されたDIRを個別に削除`  
+　`# 正常に削除できればメッセージ無し`  
   
   
   
@@ -238,6 +238,6 @@ $env:Path -split ';' |
 ```pwsh  
 　Remove-Item -Recurse -Force "$env:APPDATA\.dart-tool" <⏎>  
 ```  
-　# 正常に削除できればメッセージ無し  
+　`# 正常に削除できればメッセージ無し`  
   
 #### 残DIRの削除で初期化完了  
