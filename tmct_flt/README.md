@@ -142,7 +142,6 @@
 　🔗 https://github.com/AHazeyama/public/releases/latest  
   
 ## Development Tutorial  
-　各アプリケーションの単体起動版(.exe)は下記リンクよりダウンロードできます。  
 　🔗[tmct_flt_AndroidStudio](./tmct_flt_AndroidStudio.md)  
   
 ## License  
