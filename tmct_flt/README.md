@@ -1,7 +1,11 @@
+<!--
 <p align="left">
   <img src="./assets/Title_dark.png#gh-dark-mode-only" alt="renm banner dark">
   <img src="./assets/Title_light.png#gh-light-mode-only" alt="renm banner light">
 </p>
+-->
+
+  <img src="./assets/Title_light.png">  
 
 # Clock Timer & Counter [tmct_flt] - Rehabilitation Timer
 <p align="left">
@@ -21,7 +25,8 @@
 * タイマー実行回数の自動カウント  
 * ストップ後の停止時間からの再スタート  
 * タイマー初期時間変更
-* 各設定を画面上で行う**UI**を採用　　　# 設定画面を無くし、直感的に操作可能  
+* 各設定を画面上で行う**UI**を採用　　
+* 必要機能のみとし、複雑な設定を除外<br>全操作を1画面に集約することによるUIの簡略化
 
 ## Features
 * Android / iOS 共通UI
@@ -41,6 +46,7 @@
 
 ## Use Case
 - リハビリテーションでの一定時間姿勢保持を支援
+- ヘルスケア等での時間測定の管理  
 - インスタント食品の調理時間計測
 - その他一般的な作業の時間計測及び回数確認
 
