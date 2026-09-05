@@ -78,12 +78,12 @@
 #### インストール  
 　Emulator 確認 (FlutterからAndroid StudioのEmulatorが操作可能かを確認)  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　<img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">
 　<img src="./assets/prtsc/02-02-08_flutter-devices.png">  
   
 　Emulator へインストール   
   
-　<img src="./assets/env/M_flutter-run-emulator-5554.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_flutter-run-emulator-5554.png">　<img src="./assets/env/M_return.png">
 　[<img src="./assets/prtsc/02-02-10_flutter-run-emulator-5554.png" width="1024">](./assets/prtsc/02-02-10_flutter-run-emulator-5554.png)　　  
   
 　Emulator表示の遷移  
