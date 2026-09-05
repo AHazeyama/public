@@ -15,12 +15,12 @@
 > 　<img src="./assets/env/M_return.png"> : Enter key press
 
 ## インストール済みツール確認										<!-- 01-01 -->
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">
-><img src="./assets/env/M_git-version.png">　<img src="./assets/env/M_return.png" height="12">  
-><img src="./assets/prtsc/01-01-01_git-version.png">
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_git-version.png">　<img src="./assets/env/M_return.png" height="12">  
+　<img src="./assets/prtsc/01-01-01_git-version.png">
 
-><img src="./assets/env/M_code-version.png">　<img src="./assets/env/M_return.png" height="12">  
-><img src="./assets/prtsc/01-01-02_code-version.png">
+　<img src="./assets/env/M_code-version.png">　<img src="./assets/env/M_return.png" height="12">  
+　<img src="./assets/prtsc/01-01-02_code-version.png">
 
 ## Flutter(Framework) & Dart(Language) インストール				<!-- 01-02 -->
 　👇ボタンより FlutterSDK バンドルをダウンロード  
@@ -33,21 +33,21 @@
 　｢･･･のユーザー環境変数(<u>U</u>)｣ ⇒ ｢Path｣ ⇒ [編集(<u>E</u>)…] ⇒ ｢環境変数名の編集｣/[新規] ⇒ 追加 "C:\Develop\flutter\bin"  
 [<img src="./assets/prtsc/01-03-01_Env-val-cntl.png" width="320">](./assets/prtsc/01-03-01_Env-val-cntl.png)
 
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">
-><img src="./assets/env/M_flutter-version.png">　<img src="./assets/env/M_return.png" height="12">
-><img src="./assets/prtsc/01-03-02_flutter-version.png" width="1024">
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_flutter-version.png">　<img src="./assets/env/M_return.png" height="12">
+　<img src="./assets/prtsc/01-03-02_flutter-version.png" width="1024">
 
-><img src="./assets/env/M_dart-version.png">　<img src="./assets/env/M_return.png" height="12">
-><img src="./assets/prtsc/01-03-03_dart-version.png">
+　<img src="./assets/env/M_dart-version.png">　<img src="./assets/env/M_return.png" height="12">
+　<img src="./assets/prtsc/01-03-03_dart-version.png">
 
 ### VS Code への機能拡張追加
 　左ツールバーの <img src="./assets/env/M_vsc-extention.png" height="20" align="top"> ⬇️ 、又は  <img src="./assets/env/M_vsc-setting.png" height="20" align="top">️⬇️ ⇒ <img src="./assets/env/M_vxc_ext_ext.png" align="top">⬇️ ⇒  
 　<img src="./assets/env/M_vsc_flutter-extention.png" height="32" align="top">　**/**　<img src="./assets/env/M_vsc_dart-extention.png" height="32" align="top">　インストール  
 
 ### Flutter初回診断
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">
-><img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png" height="12"> 
->[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="1024">](./assets/prtsc/01-03-04_flutter-doctor-error.png)
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png" height="12"> 
+　[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="1024">](./assets/prtsc/01-03-04_flutter-doctor-error.png)
 
 > [!IMPORTANT]
 > この時点では Android Studio / cmdline-tools がインストールされていないため、にエラーが出る。
@@ -74,10 +74,10 @@
 　　[<img src="./assets/env/M_as_menu-bar-SDK_Maneger.png" height="48">](./assets/env/M_as_menu-bar-SDK_Maneger.png)  
 　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="11">｣ ⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  SDKインストール  
 
->|Item|Content|Remarks|
->|:---|:---|:---|
->|SDK Platforms|Android 16.0 ("Baklava")|Emulator用なので、一般的なSDKで|
->|SDK Tools|Android SDK Build-Tools<br>　　37.0.0<br>　　36.1.0<br>　　36.0.0<br>Android Emulator<br>Android SDK Platform-Tools|<br>┐<br>┼─　｢ <img src="./assets/env/M_as_SDK-ShowPackageDetails-on.png" height="18" align="top"> ｣ で表示<br>┘<br> <br> <br>|
+|Item|Content|Remarks|
+|:---|:---|:---|
+|SDK Platforms|Android 16.0 ("Baklava")|Emulator用なので、一般的なSDKで|
+|SDK Tools|Android SDK Build-Tools<br>　　37.0.0<br>　　36.1.0<br>　　36.0.0<br>Android Emulator<br>Android SDK Platform-Tools|<br>┐<br>┼─　｢ <img src="./assets/env/M_as_SDK-ShowPackageDetails-on.png" height="18" align="top"> ｣ で表示<br>┘<br> <br> <br>|
 
 　🔗[SDKインストール方法詳細](./SDK-Introduction.md)
 
@@ -94,25 +94,24 @@
 <img src="./assets/env/M_as_add-CreateVirtualDevice.png" height="48" align="top">⬇️
 
 #### 設定内容
->|Item|Content|Remarks|
->|:---|:---|:---|
->|name|Pixel 7||
->|API|API 36.1 "Baklava";Android 16||
->|Services|Google Play Store||
->|System Image|16KB Page Size Google Play Intel x86 64 Atom System Image||
+|Item|Content|Remarks|
+|:---|:---|:---|
+|name|Pixel 7||
+|API|API 36.1 "Baklava";Android 16||
+|Services|Google Play Store||
+|System Image|16KB Page Size Google Play Intel x86 64 Atom System Image||
 　🔗[Device設定方法詳細](./Device-Introduction.md)
 > [!IMPORTANT]
 > &emsp; 項目の左に [<img src="./assets/env/M_as_download-button.png">]️ がある場合は、先にクリックしてインストールすること。
 
 ### Android ライセンス承認
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">
-><img src="./assets/env/M_flutter doctor-android-licenses.png">　<img src="./assets/env/M_return.png" height="12"> 
-><img src="./assets/prtsc/01-04-05_flutter-doctor-LicenseApproval1.png" width="1024">
->以降、何度か"Accept? (y/N)"と聞かれるので、全て\<y\>で **OK**  
->
-><img src="./assets/prtsc/01-04-06_flutter-doctor-LicenseApproval2.png">  
->
->上記メッセージを確認できれば承認完了。
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+　<img src="./assets/env/M_flutter doctor-android-licenses.png">　<img src="./assets/env/M_return.png" height="12"> 
+　<img src="./assets/prtsc/01-04-05_flutter-doctor-LicenseApproval1.png" width="1024">
+　以降、何度か"Accept? (y/N)"と聞かれるので、全て\<y\>で **OK**  
+
+　<img src="./assets/prtsc/01-04-06_flutter-doctor-LicenseApproval2.png">  
+　上記メッセージを確認できれば承認完了。
 
 ### 完了確認
 次の状態になっていれば、開発環境の構築は完了です。
