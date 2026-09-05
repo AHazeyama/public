@@ -46,12 +46,13 @@
 　　<img src="./assets/prtsc/02-02-04_flutter-pub-get.png">  
 　  
 #### アイコン生成  
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 　アイコンファイル追加  
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ><img src="./assets/env/M_flutter-pub-add.png">　<img src="./assets/env/M_return.png">  
 >[<img src="./assets/prtsc/02-02-05_flutter-pub-add.png" height="192">](./assets/prtsc/02-02-05_flutter-pub-add.png)  
   
 　アイコンファイル登録  
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ><img src="./assets/env/M_dart-run.png">　<img src="./assets/env/M_return.png">  
 ><img src="./assets/prtsc/02-02-06_dart-run-flutter_luncher_icons.png">  
   
@@ -142,7 +143,7 @@
 ><img src="./assets/prtsc/02-04-05_flutter-doctor.png">  
   
 ><img src="./assets/env/M_flutter-build-apk.png">　<img src="./assets/env/M_return.png">  
->[<img src="./assets/prtsc/02-04-05_flutter-build-apk-release.png" height="72">](./assets/prtsc/02-04-05_flutter-build-apk-release.png)  
+>[<img src="./assets/prtsc/02-04-06_flutter-build-apk-release.png" height="72">](./assets/prtsc/02-04-06_flutter-build-apk-release.png)  
   
 　Buildアプリケーション保存 🗁 : `Project folder` \build\app\outputs\flutter-apk\  
   
