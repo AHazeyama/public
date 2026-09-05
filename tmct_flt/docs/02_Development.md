@@ -14,7 +14,7 @@
 > 　"…":テキスト、a/b:選択(a or b)、｢…｣:ウィンドウ/メニュー/フォーム、  
 > 　<img src="./assets/env/M_return.png"> : Enter key press  
   
-## Coding																<!-- 02-01 -->  
+## Coding														<!-- 02-01 -->  
 　コーディング過程は省略。  
 　ソースコード[tmct_flt]は下記参照。  
 | Created file | 🗁 Location |  
@@ -22,15 +22,15 @@
 | [🔗main.dart](https://github.com/AHazeyama/public/blob/main/tmct_flt/lib/main.dart) | Project_dir \ lib \ |  
 | [🔗pubspec.yaml](https://github.com/AHazeyama/public/blob/main/tmct_flt/pubspec.yaml) | Project_dir \ |  
   
-## アプリケーションのインストール										<!-- 02-02 -->  
+## アプリケーションのインストール									<!-- 02-02 -->  
 #### 開発環境確認  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ><img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png">   
->[<img src="./assets/prtsc/02-02-01_flutter-doctor.png" height="192">](./assets/prtsc/02-02-01_flutter-doctor.png)  
+>[<img src="./assets/prtsc/02-02-01_flutter-doctor.png" height="512">](./assets/prtsc/02-02-01_flutter-doctor.png)  
   
   
 ><img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">  
->[<img src="./assets/prtsc/02-02-02_flutter-devices.png" width="704">](./assets/prtsc/02-02-02_flutter-devices.png)  
+>[<img src="./assets/prtsc/02-02-02_flutter-devices.png" width="1024">](./assets/prtsc/02-02-02_flutter-devices.png)  
   
 #### ファイルバックアップ  
 　｢Coding｣で作成したファイルをバックアップ。  
@@ -38,18 +38,18 @@
 #### Androidフォルダ生成  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ><img src="./assets/env/M_flutter-create.png">　<img src="./assets/env/M_return.png">  
-　　[<img src="./assets/prtsc/02-02-03_flutter-create.png" height="192">](./assets/prtsc/02-02-04_flutter-pub-get.png)  
+>[<img src="./assets/prtsc/02-02-03_flutter-create.png" width="512">](./assets/prtsc/02-02-04_flutter-pub-get.png)  
   
 #### パッケージ取得  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ><img src="./assets/env/M_flutter-pub-get.png">　<img src="./assets/env/M_return.png">  
-　　<img src="./assets/prtsc/02-02-04_flutter-pub-get.png">  
+><img src="./assets/prtsc/02-02-04_flutter-pub-get.png">  
 　  
 #### アイコン生成  
 　アイコンファイル追加  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 ><img src="./assets/env/M_flutter-pub-add.png">　<img src="./assets/env/M_return.png">  
->[<img src="./assets/prtsc/02-02-05_flutter-pub-add.png" height="192">](./assets/prtsc/02-02-05_flutter-pub-add.png)  
+>[<img src="./assets/prtsc/02-02-05_flutter-pub-add.png" width="1024">](./assets/prtsc/02-02-05_flutter-pub-add.png)  
   
 　アイコンファイル登録  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
@@ -58,7 +58,7 @@
   
   
 > [!NOTE]  
-> [<img src="./assets/prtsc/02-02-06_dart-run-flutter_luncher_icons_warn.png" height="256">](./assets/prtsc/02-02-06_dart-run-flutter_luncher_icons_warn.png)  
+> [<img src="./assets/prtsc/02-02-06_dart-run-flutter_luncher_icons_warn.png" wkdth="1024">](./assets/prtsc/02-02-06_dart-run-flutter_luncher_icons_warn.png)  
 > iOS環境を作成していない場合、上記Warningが出力される。  
 > 原因はiconファイルのフォルダ階層かファイル名の不一致。  
 > またはpubspec.yamlで"ios:**True**"になってる ⇒ **False**へ変更。  
@@ -84,14 +84,14 @@
 　Emulator へインストール   
   
 ><img src="./assets/env/M_flutter-run-emulator-5554.png">　<img src="./assets/env/M_return.png">  
->[<img src="./assets/prtsc/02-02-10_flutter-run-emulator-5554.png" height="256">](./assets/prtsc/02-02-10_flutter-run-emulator-5554.png)　　  
+>[<img src="./assets/prtsc/02-02-10_flutter-run-emulator-5554.png" width="1024">](./assets/prtsc/02-02-10_flutter-run-emulator-5554.png)　　  
   
 　Emulator表示の遷移  
 |Initial|Installing...|Running|After execution|  
 |:---|:---|:---|:---|  
 |[<img src="./assets/prtsc/02-02-09_emulator01.png" height="256">](./assets/prtsc/02-02-09_emulator01.png)|[<img src="./assets/prtsc/02-02-11_emulator02.png" height="256">](./assets/prtsc/02-02-11_emulator02.png)|[<img src="./assets/prtsc/02-02-12_emulator03.png" height="256">](./assets/prtsc/02-02-12_emulator03.png)|[<img src="./assets/prtsc/02-02-13_emulator04.png" height="256">](./assets/prtsc/02-02-13_emulator04.png)|  
   
-## デバッグ (Emulator)													<!-- 02-03 -->  
+## デバッグ (Emulator)											<!-- 02-03 -->  
 　Android StudioからEmulatorを起動し、tmct_fltをデバッグ実行します。  
 ### 操作手順  
 1. Emulatorを起動  
@@ -113,7 +113,7 @@
 #### 項目設定方法  
 　[🔗SoftwareDevelopmentGuideへのリンク]  
 -->  
-## 配布用アプリケーション(.apk)作成										<!-- 02-04 -->  
+## 配布用アプリケーション(.apk)作成								<!-- 02-04 -->  
 ### バージョン設定  
 　pubspec.yaml 内で設定  
 　　<img src="./assets/prtsc/02-04-01_version-setup.png">  

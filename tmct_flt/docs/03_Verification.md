@@ -5,18 +5,17 @@
   
 # 実機検証																<!-- 04 -->  
 　<img src="./assets/env/M_SP_XPERIA10IV.png" height="20">  
-　スマートフォン[Xperia 10 IV]での検証を行います。  
+　実機検証にはスマートフォン**Xperia 10 IV**を使用しています。  
   
 > [!NOTE]  
 > 縮小表示されている画像は⬇️で拡大されます。  
 >   
-> ```pwsh  
 > ※ 記号例  
-> 　🪟:デスクトップ、⬇️:マウスクリック、 [･･･]:ボタン、<･･･>:Press the Key、⇒:次動作、#･･･:コメント  
-> 　"･･･":テキスト、a/b:選択(a or b)、｢･･･｣:ウィンドウ/メニュー/フォーム、  
-> ```  
+> 　🪟:デスクトップ、⬇️:マウスクリック、 […]:ボタン、<…>:Press the Key、⇒:次動作、#…:コメント  
+> 　"…":テキスト、a/b:選択(a or b)、｢…｣:ウィンドウ/メニュー/フォーム、  
+> 　<img src="./assets/env/M_return.png"> : Enter key press  
   
-## USB接続でのインストール												<!-- 03-01 -->  
+## USB接続でのインストール										<!-- 03-01 -->  
 ### スマートフォン側USBデバッグ準備  
 　USBデバッグモードOn  
 　<img src="./assets/env/M_Android_logo0.png" height="12" >  
@@ -37,14 +36,11 @@
 ### アプリケーションインストール & 実行  
 #### PC側作業  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-```pwsh  
-　flutter devices <⏎>  
-```  
-　[<img src="./assets/prtsc/03-01-01_flutter-devices.png" height="128">](./assets/prtsc/03-01-01_flutter-devices.png)  
-```pwsh  
-　flutter run -d <実機のdevice-id> <⏎>  
-```  
-　[<img src="./assets/prtsc/03-01-02_flutter-run.png" height="540">](./assets/prtsc/03-01-01_flutter-devices.png)  
+><img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">  
+>[<img src="./assets/prtsc/03-01-01_flutter-devices.png" width="1024">](./assets/prtsc/03-01-01_flutter-devices.png)  
+  
+><img src="./assets/env/M_flutter-run-Device-ID.png">　<img src="./assets/env/M_return.png">  
+>[<img src="./assets/prtsc/03-01-02_flutter-run-HQ632N105E.png" width="1024">](./assets/prtsc/03-01-02_flutter-run-HQ632N105E.png)  
   
 #### 画面遷移  
 　<img src="./assets/env/M_Android_logo0.png" height="12" >  
@@ -76,3 +72,4 @@
 #### 項目設定方法  
 　[🔗SoftwareDevelopmentGuideへのリンク]  
 -->  
+  
