@@ -3,10 +3,15 @@
 	<img src="./assets/Tutorial_light.png#gh-light-mode-only" alt="banner light">  
 </p>  
   
+<!--
+	<img src="./assets/Tutorial_light.png#gh-light-mode-only" alt="banner light">  
+-->
+<!--
 > [!NOTE]  
 > 現在、編集途中です。  
 > リンク先内容等、不備がありますが、ご容赦ください。  
 > 随時更新して行く予定です。  
+-->
   
 # Overview  
 #### 目的 : OS不問のMobileアプリケーション開発、<br>　　　　リハビリテーション(姿勢保持動作)支援アプリケーション <br> 内容 : **Android** / **iOS** 共用開発環境を構築し、アプリケーション開発を行う  
@@ -19,8 +24,8 @@
 |OS|<img src="./assets/env/M_OS_Win11.png" height="13">|  
 |言語|<img src="./assets/env/M_LANG_Dart.png" height="20">|  
 |Framework|<img src="./assets/env/M_FW_Flutter.png" height="26">|  
-|IDE|<img src="./assets/env/M_IDE_AndroidStudo.png" height="28">|  
-|Editor|<img src="./assets/env/M_EDT_Vim.png" height="14">　**/**　<img src="./assets/env/M_EDT_VSCode.png" height="14">|  
+IDE|<img src="./assets/env/M_IDE_AndroidStudo.png" height="28">|  
+|Editor | <img src="./assets/env/M_EDT_Vim-icon.png" height="22" align="top" alt="Vim">　**/**　<img src="./assets/env/M_EDT_VSCode-banner.png" height="22" align="top" alt="VS Code">
 |検証機材|<img src="./assets/env/M_SP_XPERIA10IV.png" height="12">|  
   
 # リハビリテーション用タイマー&カウンター[tmct]開発手順  
