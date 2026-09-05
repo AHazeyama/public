@@ -9,11 +9,10 @@
 > [!NOTE]  
 > 縮小表示されている画像は⬇️で拡大されます。  
 > 
-> ```pwsh  
 > ※ 記号例  
 > 　🪟:デスクトップ、⬇️:マウスクリック、 […]:ボタン、<…>:Press the Key、⇒:次動作、#…:コメント  
 > 　"…":テキスト、a/b:選択(a or b)、｢…｣:ウィンドウ/メニュー/フォーム、  
-> ```  
+> 　<img src="./assets/env/M_return.png"> : Enter key press  
 
 ## Coding																<!-- 02-01 -->  
 　コーディング過程は省略。  
@@ -26,44 +25,35 @@
 ## アプリケーションのインストール										<!-- 02-02 -->
 #### 開発環境確認  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">
-```pwsh  
-　flutter doctor -v <⏎>
-```  
-　　[<img src="./assets/prtsc/02-02-01_flutter-doctor.png" height="192">](./assets/prtsc/02-02-01_flutter-doctor.png)  
-```pwsh  
-　flutter devices <⏎>
-```  
-　　[<img src="./assets/prtsc/02-02-02_flutter-devices.png" width="704">](./assets/prtsc/02-02-02_flutter-devices.png)  
+><img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png">   
+>[<img src="./assets/prtsc/02-02-01_flutter-doctor.png" height="192">](./assets/prtsc/02-02-01_flutter-doctor.png)  
+
+
+><img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">
+>[<img src="./assets/prtsc/02-02-02_flutter-devices.png" width="704">](./assets/prtsc/02-02-02_flutter-devices.png)
 
 #### ファイルバックアップ  
 　｢Coding｣で作成したファイルをバックアップ。  
+
 #### Androidフォルダ生成  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">
-```pwsh  
-　flutter create --platforms=android --project-name tmct_flt . <⏎>  
-```  
+><img src="./assets/env/M_flutter-create.png">　<img src="./assets/env/M_return.png">
 　　[<img src="./assets/prtsc/02-02-03_flutter-create.png" height="192">](./assets/prtsc/02-02-04_flutter-pub-get.png)  
 
 #### パッケージ取得  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-```pwsh  
-　flutter pub get <⏎>  
-```  
+><img src="./assets/env/M_flutter-pub-get.png">　<img src="./assets/env/M_return.png">
 　　<img src="./assets/prtsc/02-02-04_flutter-pub-get.png">  
 　
 #### アイコン生成  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 　アイコンファイル追加  
-```pwsh  
-　flutter pub add --dev flutter_launcher_icons <⏎>  
-```  
-　　[<img src="./assets/prtsc/02-02-05_flutter-pub-add.png" height="192">](./assets/prtsc/02-02-05_flutter-pub-add.png)  
+><img src="./assets/env/M_flutter-pub-add.png">　<img src="./assets/env/M_return.png">
+>[<img src="./assets/prtsc/02-02-05_flutter-pub-add.png" height="192">](./assets/prtsc/02-02-05_flutter-pub-add.png)  
 
 　アイコンファイル登録  
-```pwsh  
-　dart run flutter_launcher_icons <⏎>
-```  
-　　<img src="./assets/prtsc/02-02-06_dart-run-flutter_luncher_icons.png">  
+><img src="./assets/env/M_dart-run.png">　<img src="./assets/env/M_return.png">
+><img src="./assets/prtsc/02-02-06_dart-run-flutter_luncher_icons.png">  
 
 
 > [!NOTE]
@@ -77,27 +67,23 @@
 　　🗁: .\ Project_dir \  TEST  
 
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-```pwsh  
-　flutter analyze <⏎>  
-```  
-　　<img src="./assets/prtsc/02-02-07_flutter-analyze.png">  
+><img src="./assets/env/M_flutter-analyze.png">　<img src="./assets/env/M_return.png">  
+><img src="./assets/prtsc/02-02-07_flutter-analyze.png">  
 
 > [!NOTE]
 > 参考:TESTフォルダを削除しなかった場合のメッセージ  
 > <img src="./assets/prtsc/02-02-07_flutter-analyze-error.png">
 
 #### インストール  
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 　Emulator 確認 (FlutterからAndroid StudioのEmulatorが操作可能かを確認)  
-```pwsh  
-　flutter devices <⏎>
-```  
-　<img src="./assets/prtsc/02-02-08_flutter-devices.png">  
+　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
+><img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">  
+><img src="./assets/prtsc/02-02-08_flutter-devices.png">  
+
 　Emulator へインストール   
-```pwsh  
-　flutter run -d emulator-5554 <⏎>
-```  
-　[<img src="./assets/prtsc/02-02-10_flutter-run-emulator-5554.png" height="256">](./assets/prtsc/02-02-10_flutter-run-emulator-5554.png)　　
+
+><img src="./assets/env/M_flutter-run-emulator-5554.png">　<img src="./assets/env/M_return.png">  
+>[<img src="./assets/prtsc/02-02-10_flutter-run-emulator-5554.png" height="256">](./assets/prtsc/02-02-10_flutter-run-emulator-5554.png)　　
 
 　Emulator表示の遷移  
 |Initial|Installing...|Running|After execution|  
@@ -143,22 +129,21 @@
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
 
 #### 環境整備  
-```pwsh
-　flutter clean <⏎>
-```
-　　<img src="./assets/prtsc/02-04-03_flutter-clean.png">  
+><img src="./assets/env/M_flutter-clean.png">　<img src="./assets/env/M_return.png">  
+><img src="./assets/prtsc/02-04-03_flutter-clean.png">  
 
 #### パッケージ取得  
-```pwsh  
-　flutter pub get <⏎>  
-```  
-　　<img src="./assets/prtsc/02-04-04_flutter-pub-get.png">  
+><img src="./assets/env/M_flutter-pub-get.png">　<img src="./assets/env/M_return.png">  
+><img src="./assets/prtsc/02-04-04_flutter-pub-get.png">  
 
-#### Build  
-```pwsh  
-　flutter build apk --release <⏎>
-```  
-　　[<img src="./assets/prtsc/02-04-05_flutter-build-apk-release.png" height="72">](./assets/prtsc/02-04-05_flutter-build-apk-release.png)  
+
+
+><img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png">  
+><img src="./assets/prtsc/02-04-05_flutter-doctor.png">  
+
+><img src="./assets/env/M_flutter-build-apk.png">　<img src="./assets/env/M_return.png">  
+>[<img src="./assets/prtsc/02-04-05_flutter-build-apk-release.png" height="72">](./assets/prtsc/02-04-05_flutter-build-apk-release.png)  
+
 　Buildアプリケーション保存 🗁 : `Project folder` \build\app\outputs\flutter-apk\  
 
 #### アプリケーションリネーム  
