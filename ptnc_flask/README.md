@@ -1,0 +1,115 @@
+<p align="left">
+  <img src="./assets/Title_dark.png#gh-dark-mode-only" alt="banner dark">
+  <img src="./assets/Title_light.png#gh-light-mode-only" alt="banner light">
+</p>
+
+#  positional numeral conversion tool [ptnc_flask]
+![](./assets/pnct_flask.png)
+
+## Overview
+　位取り記数法 (**2,8,10,16進数**) 変換を行うツールです。
+
+　2進数10桁(Excel上限)を超える数値を扱う事が出来ます。  
+　単位区切り(SI接頭語)","を挿入する事が出来ます。
+
+　また、FLASK により Webアプリとすることで、リモート利用可能としています。  
+　将来的な自動化処理やクラウド環境での利用も視野に入れた構成としています。
+
+## Features
+- 位取り記数法 (**2,8,10,16進数**) 変換
+- 負数(2進数では2の補数表現)に対応
+- 桁区切り"**,**"を挿入可能
+- 2進数の出力桁数を指定可能(先頭"0"詰め)
+- シンプルなUIによる直感的操作
+- エラーハンドリング（未選択・不正入力）
+- メッセージ表示による操作ガイド
+
+## Frame work (FLASK)
+本ツールは **FLASK** により Webアプリとして作成されています。
+### Endpoints
+- `POST /comvert`  
+変換数値を各位取り記法(**2,8,10,16進数**)へ変換
+- `POST /insert`  
+変換数値を各位取り記法(**2,8,10,16進数**)へ変換
+
+## Usage
+1. "**Binary**"**,**"**Octal**"**,**"**Decimal**"**,**"**Hex**"のいずれかの**"**value**"**欄に数値を入力
+2. ｢**Conversion**｣をクリック
+3. 各"value"に表示された数値の｢Copy｣をクリック
+
+## Use Case
+- 数値を各位取り記法の数値へ変換  
+(2進数はExcel上限以上の桁に対応)
+- 桁区切り","の付加  
+(Windows｢電卓｣では桁区切りがスペース)
+
+## Tech Stack
+- Python 3.x
+- FLASK
+- Jinja2
+
+## Requirements
+- Python 3.10 以上
+- pip
+
+## Install
+　![](./assets/env/M_SHELL_BASH-PWSH.png)  
+　```
+pip install -r requirements.txt
+　```
+
+## Run (Local)
+![](./assets/env/M_SHELL_BASH-PWSH.png)  
+　```
+python app.py
+　```
+
+## Access
+* Application  
+http://127.0.0.1:5000
+
+* Swagger UI  
+http://localhost:5000/docs
+
+## Run with Docker
+　Docker を使用して実行することもできます。  
+
+## Build
+　![](./assets/env/M_SHELL_BASH.png)  
+　```
+docker build -t ptnc_flask .
+　```
+
+## Run
+　![](./assets/env/M_SHELL_BASH.png)  
+　```
+docker run -p 5000:5000 ptnc_flask
+　```
+
+## Access
+* Application  
+http://localhost:5000  
+* Swagger UI  
+http://localhost:5000/docs
+
+## Deployment Perspective
+　本ツールは単体のローカルGUI用途に留まらず、FLASK による API 化により、以下のような運用を想定しています。  
+* ローカル環境での検証ツール
+* 社内向けAPIとしての利用
+* Docker コンテナによる実行環境の統一
+* クラウド環境への展開
+
+## Documentation
+　Doxygen により生成できます。  
+　ソースコードの可読性向上と構造理解を目的としています。  
+　![](./assets/env/M_SHELL_BASH.png)  
+　```
+doxygen Doxyfile
+　```  
+　生成後、以下のファイルをブラウザで開くことでドキュメントを確認できます。  
+　```
+🗁 docs/html/index.html
+　```
+
+## License
+TBD
