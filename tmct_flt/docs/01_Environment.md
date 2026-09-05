@@ -100,6 +100,7 @@
 |API|API 36.1 "Baklava";Android 16||
 |Services|Google Play Store||
 |System Image|16KB Page Size Google Play Intel x86 64 Atom System Image||
+
 　🔗[Device設定方法詳細](./Device-Introduction.md)
 > [!IMPORTANT]
 > &emsp; 項目の左に [<img src="./assets/env/M_as_download-button.png">]️ がある場合は、先にクリックしてインストールすること。
