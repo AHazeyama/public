@@ -95,9 +95,8 @@
 
 ### Emulator(Pixel7)インストール  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
-　　<img src="./assets/prtsc/01-04-04_menu-bar_DeviceManeger.png" height="48">  
-　　<img src="./assets/prtsc" height="48">  
-　Menu ｢<img src="./assets/prtsc/as-menu-button.png">️｣⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  スマートフォンイメージ インストール   
+　　<img src="./assets/env/M_as_menu-bar_Device_Maneger.png" height="48">  
+　Menu ｢<img src="./assets/env/M_as_menu-bar_Device_Maneger-button.png" height="12">️｣⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  スマートフォンイメージ インストール   
 
 #### 設定内容  
 |Item|Content|Remarks|  
@@ -109,7 +108,7 @@
 
 　　🔗[Device設定方法詳細](./Device-Introduction.md)  
 > [!IMPORTANT]
-> 項目の左に [<img src="./assets/prtsc/download-button.png">]️ がある場合は、先にクリックしてインストールすること。  
+> 項目の左に [<img src="./assets/env/M_as_download-button.png">]️ がある場合は、先にクリックしてインストールすること。  
 
 ### Android ライセンス承認  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
@@ -131,9 +130,9 @@
 
   
 ## Emulator起動															<!-- 01-05 -->  
-　<img src="./assets/env/M_IDE_AndroidStudo_60.png" height="20">  
-　Menu ｢<img src="./assets/prtsc/as-menu-button.png">️｣⬇️ ⇒ ｢Tools」 ⇒ ｢Device Manager｣⬇️ ⇒  
-　　<img src="./assets/prtsc/01-04-04_menu-bar_DeviceManeger.png" height="48">  
+　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
+　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="12">️｣⬇️ ⇒ ｢Tools」 ⇒ ｢Device Manager｣⬇️ ⇒  
+　　<img src="./assets/env/M_as_menu-bar_Device_Maneger.png" height="48">  
 
 　｢Device Manager｣⬇️ ⇒ 　　　｢**＋**｣⬇️ ⇒ 　　　　　　　　｢Create Virtual Device｣⬇️  
 　　<img src="./assets/prtsc/01-05-01_DeviceManagerRun1.png" width="128" align="top"> 
