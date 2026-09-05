@@ -16,11 +16,11 @@
 
 ## インストール済みツール確認										<!-- 01-01 -->  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
->　<img src="./assets/env/M_git-version.png">　<img src="./assets/env/M_return.png" height="12">  
->　<img src="./assets/prtsc/01-01-01_git-version.png">  
+><img src="./assets/env/M_git-version.png">　<img src="./assets/env/M_return.png" height="12">  
+><img src="./assets/prtsc/01-01-01_git-version.png">  
 
->　<img src="./assets/env/M_code-version.png">　<img src="./assets/env/M_return.png" height="12">  
->　<img src="./assets/prtsc/01-01-02_code-version.png">  
+><img src="./assets/env/M_code-version.png">　<img src="./assets/env/M_return.png" height="12">  
+><img src="./assets/prtsc/01-01-02_code-version.png">  
 
 ## Flutter(Framework) & Dart(Language) インストール				<!-- 01-02 -->  
 　　👇ボタンより FlutterSDK バンドルをダウンロード  
@@ -34,11 +34,11 @@
 　　　[<img src="./assets/prtsc/01-03-01_Env-val-cntl.png" width="320">](./assets/prtsc/01-03-01_Env-val-cntl.png)  
 
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-> 　<img src="./assets/env/M_flutter-version.png">　<img src="./assets/env/M_return.png" height="12">
-> 　<img src="./assets/prtsc/01-03-02_flutter-version.png" height="140">  
+><img src="./assets/env/M_flutter-version.png">　<img src="./assets/env/M_return.png" height="12">
+><img src="./assets/prtsc/01-03-02_flutter-version.png" height="140">  
 
-> 　<img src="./assets/env/M_dart-version.png">　<img src="./assets/env/M_return.png" height="12">
-> 　<img src="./assets/prtsc/01-03-03_dart-version.png">  
+><img src="./assets/env/M_dart-version.png">　<img src="./assets/env/M_return.png" height="12">
+><img src="./assets/prtsc/01-03-03_dart-version.png">  
   
 ### VS Code への機能拡張追加  
 　左ツールバーの <img src="./assets/env/M_vsc-extention.png" height="20" align="top"> ⬇️ 、又は  <img src="./assets/env/M_vsc-setting.png" height="20" align="top">️⬇️ ⇒ <img src="./assets/env/M_vxc_ext_ext.png" align="top">⬇️ ⇒  
@@ -46,8 +46,8 @@
 
 ### Flutter初回診断  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-> 　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png" height="12">   
-> 　[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="384">](./assets/prtsc/01-03-04_flutter-doctor-error.png)  
+><img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png" height="12">   
+>[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="384">](./assets/prtsc/01-03-04_flutter-doctor-error.png)  
 
 > [!IMPORTANT]  
 > この時点では Android Studio / cmdline-tools がインストールされていないため、にエラーが出る。  
@@ -107,12 +107,12 @@
 
 ### Android ライセンス承認  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-> 　<img src="./assets/env/M_flutter doctor-android-licenses.png">　<img src="./assets/env/M_return.png" height="12">   
-> 　<img src="./assets/prtsc/01-04-05_flutter-doctor-LicenseApproval1.png" height="48">  
+><img src="./assets/env/M_flutter doctor-android-licenses.png">　<img src="./assets/env/M_return.png" height="12">   
+><img src="./assets/prtsc/01-04-05_flutter-doctor-LicenseApproval1.png" height="48">  
 
 　以降、何度か"Accept? (y/N)"と聞かれるので、全て\<y\>で **OK**  
 
-> 　<img src="./assets/prtsc/01-04-06_flutter-doctor-LicenseApproval2.png">  
+><img src="./assets/prtsc/01-04-06_flutter-doctor-LicenseApproval2.png">  
 
 　上記メッセージを確認できれば承認完了。
 
