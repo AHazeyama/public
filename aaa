@@ -1,0 +1,31 @@
+public ─┬─ exrm_wpf
+	    ├─ jrenm_ps6
+	    ├─ renm_tk
+	    ├─ tmct_tk
+	    ├─ tmct_flt
+	    ├─ hvgc_fa
+	    └─ ptnc_flask
+
+
+GitHubの構成変更です。
+現状、各アプリはそれぞれローカルにディレクトリを持ってます。
+1.GitHub側でそれぞれのリポジトリを作成
+2.ローカルで各アプリの空ディレクトリを用意
+3.ローカルDIRに一度pull
+4.ローカルDIRにアプリの環境をコピー
+5.GitHubへpush
+の流れで良いでしょうか？
+
+
+
+git_dir ─┬─ public 
+	     ├─ exrm_wpf
+	     ├─ jrenm_ps6
+	     ├─ renm_tk
+	     ├─ tmct_tk
+	     ├─ tmct_flt
+	     ├─ hvgc_fa
+	     └─ ptnc_flask
+
+
+

@@ -64,3 +64,5 @@
 > [!NOTE]  
 > 各ツールの軽量版として Tkinter 実装も公開しています。  
 
+## License
+　TBD

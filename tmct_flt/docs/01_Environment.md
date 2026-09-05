@@ -31,13 +31,12 @@
 ### インストール&Path確認
 　🪟左下の <img src="./assets/env/M_search-bar.png" height="18" align="top"> へ"環境変数"を入力して [<img src="./assets/env/M_env-val-icon.png" height="18">](./assets/env/M_env-val-icon.png) を⬇️  
 　｢･･･のユーザー環境変数(<u>U</u>)｣ ⇒ ｢Path｣ ⇒ [編集(<u>E</u>)…] ⇒ ｢環境変数名の編集｣/[新規] ⇒ 追加 "C:\Develop\flutter\bin"  
-[<img src="./assets/prtsc/01-03-01_Env-val-cntl.png" width="320">](./assets/prtsc/01-03-01_Env-val-cntl.png)
+　[<img src="./assets/prtsc/01-03-01_Env-val-cntl.png" width="320">](./assets/prtsc/01-03-01_Env-val-cntl.png)
 
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　<img src="./assets/env/M_flutter-version.png">　<img src="./assets/env/M_return.png" height="12">
-　<img src="./assets/prtsc/01-03-02_flutter-version.png" width="1024">
-
-　<img src="./assets/env/M_dart-version.png">　<img src="./assets/env/M_return.png" height="12">
+　<img src="./assets/env/M_flutter-version.png">　<img src="./assets/env/M_return.png" height="12">  
+　<img src="./assets/prtsc/01-03-02_flutter-version.png" width="680">  
+　<img src="./assets/env/M_dart-version.png">　<img src="./assets/env/M_return.png" >  
 　<img src="./assets/prtsc/01-03-03_dart-version.png">
 
 ### VS Code への機能拡張追加
@@ -46,8 +45,8 @@
 
 ### Flutter初回診断
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png" height="12"> 
-　[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="1024">](./assets/prtsc/01-03-04_flutter-doctor-error.png)
+　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png" height="12">  
+　[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="680">](./assets/prtsc/01-03-04_flutter-doctor-error.png)
 
 > [!IMPORTANT]
 > この時点では Android Studio / cmdline-tools がインストールされていないため、にエラーが出る。
@@ -107,27 +106,27 @@
 
 ### Android ライセンス承認
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　<img src="./assets/env/M_flutter doctor-android-licenses.png">　<img src="./assets/env/M_return.png" height="12"> 
-　<img src="./assets/prtsc/01-04-05_flutter-doctor-LicenseApproval1.png" width="1024">
+　<img src="./assets/env/M_flutter doctor-android-licenses.png">　<img src="./assets/env/M_return.png" height="12">  
+　<img src="./assets/prtsc/01-04-05_flutter-doctor-LicenseApproval1.png" width="680">  
 　以降、何度か"Accept? (y/N)"と聞かれるので、全て\<y\>で **OK**  
 
 　<img src="./assets/prtsc/01-04-06_flutter-doctor-LicenseApproval2.png">  
 　上記メッセージを確認できれば承認完了。
 
 ### 完了確認
-次の状態になっていれば、開発環境の構築は完了です。
+　次の状態になっていれば、開発環境の構築は完了です。
 - `flutter doctor -v` でFlutter及びAndroid toolchainが認識される
 - Androidライセンスが承認済み
-- Android StudioからPixel 7 Emulatorを起動できる
+- Android Studioから Pixel7 Emulatorを起動できる
 - VS CodeでFlutter及びDart拡張機能が有効になっている
 
 ## Emulator起動														<!-- 01-05 -->
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
 　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="12">️｣⬇️ ⇒ ｢Tools」 ⇒ ｢Device Manager｣⬇️ ⇒  
-　　<img src="./assets/env/M_as_menu-bar_Device_Maneger.png" height="48">
+　<img src="./assets/env/M_as_menu-bar_Device_Maneger.png" height="48">  
 
-　　｢Device Manager｣⬇️  　　　｢**＋**｣⬇️  　　　　　　　　　 ｢Create Virtual Device｣⬇️  
-　　<img src="./assets/prtsc/01-05-01_DeviceManagerRun1.png" width="128" align="top"> 
+　｢Device Manager｣⬇️  　　　｢**＋**｣⬇️  　　　　　　　　　 ｢Create Virtual Device｣⬇️  
+　<img src="./assets/prtsc/01-05-01_DeviceManagerRun1.png" width="128" align="top"> 
 　<img src="./assets/env/M_allow-R.png" height="20" align="top"> 
 　<img src="./assets/prtsc/01-05-02_DeviceManagerRun2.png" width="128" align="top">
 　<img src="./assets/env/M_allow-R.png" height="20" align="top"> 
