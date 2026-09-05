@@ -33,7 +33,7 @@
 
 ## 環境変数登録															<!-- 01-03 -->  
 ### インストール&Path確認  
-　画面左下の <img src="./assets/env/M_search-bar.png" height="18" align="top"> へ"環境変数"を入力して [<img src="./assets/env/M_env-val-icon.png" height="18">](./assets/env/M_env-val-icon.png) を⬇️  
+　🪟左下の <img src="./assets/env/M_search-bar.png" height="18" align="top"> へ"環境変数"を入力して [<img src="./assets/env/M_env-val-icon.png" height="18">](./assets/env/M_env-val-icon.png) を⬇️  
 　｢･･･のユーザー環境変数(<u>U</u>)｣ ⇒ ｢Path｣ ⇒ [編集(<u>E</u>)…] ⇒ ｢環境変数名の編集｣/[新規] ⇒ 追加 "C:\Develop\flutter\bin"  
 　　　[<img src="./assets/prtsc/01-03-01_Env-val-cntl.png" width="320">](./assets/prtsc/01-03-01_Env-val-cntl.png)  
 
@@ -73,7 +73,7 @@
 |Welcome to<br>Android Studio|Trust and Open<br>Project|  
 |:---:|:---:|  
 |[<img src="./assets/prtsc/01-04-01_welcomeAS.png" width="128">](./assets/prtsc/01-04-01_welcomeAS.png) |[<img src="./assets/prtsc/01-04-02_trust-and-openproject.png" width="128">](./assets/prtsc/01-04-02_trust-and-openproject.png)|  
-|｢Open｣ ⬇️|<img src="./assets/prtsc/trust-project.png" height="18" align="top"> ⬇️|
+|｢Open｣ ⬇️|<img src="./assets/env/M_as_trust-project.png" height="18" align="top"> ⬇️|
 
 > [!IMPORTANT]
 > **tmct_flt** は **main.dart** 及び **pubspec.yaml** を別途作成し、Android Studioに読み込ませています。
