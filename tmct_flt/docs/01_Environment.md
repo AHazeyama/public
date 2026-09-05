@@ -3,7 +3,7 @@
 	<img src="./assets/01_Environment_titlebar_light.png#gh-light-mode-only" alt="banner light">  
 </p>  
 
-# 開発ツールインストール												<!-- 01 -->    
+# 開発ツールインストール											<!-- 01 -->    
 　**SDK(Flutter)** 及び **IDE(Android Studio)** のインストールと環境設定を行います。  
 
 > [!NOTE]  
@@ -15,18 +15,15 @@
 > 　"･･･":テキスト、a/b:選択(a or b)、｢･･･｣:ウィンドウ/メニュー/フォーム、  
 > ```  
 
-## インストール済みツール確認												<!-- 01-01 -->  
+## インストール済みツール確認										<!-- 01-01 -->  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-```pwsh
-　git --version <⏎>  
-```  
-　　<img src="./assets/prtsc/01-01-01_git-version.png">  
-```pwsh
-　code --version <⏎>  
-```  
-　　<img src="./assets/prtsc/01-01-02_code-version.png">  
+>　<img src="./assets/env/M_git-version.png">　<img src="./assets/env/M_return.png" height="12">  
+>　<img src="./assets/prtsc/01-01-01_git-version.png">  
 
-## Flutter(Framework) & Dart(Language) インストール						<!-- 01-02 -->  
+>　<img src="./assets/env/M_code-version.png">　<img src="./assets/env/M_return.png" height="12">  
+>　<img src="./assets/prtsc/01-01-02_code-version.png">  
+
+## Flutter(Framework) & Dart(Language) インストール				<!-- 01-02 -->  
 　　👇ボタンより FlutterSDK バンドルをダウンロード  
 　　[<img src="./assets/env/M_flutter-download.png" height="18" align="top">](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.44.8-stable.zip)  🔗[Install Flutter manually](https://docs.flutter.dev/install/manual)  
 　解凍して任意のフォルダへ保存　　推奨：🗁 C : \Develop\  
@@ -38,14 +35,11 @@
 　　　[<img src="./assets/prtsc/01-03-01_Env-val-cntl.png" width="320">](./assets/prtsc/01-03-01_Env-val-cntl.png)  
 
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-```pwsh
-　flutter --version <⏎>
-```  
-　　[<img src="./assets/prtsc/01-03-02_flutter-version.png" height="140">](./assets/prtsc/01-03-02_flutter-version.png)  
-```pwsh
-　dart --version <⏎>
-```  
-　　<img src="./assets/prtsc/01-03-03_dart-version.png">  
+> 　<img src="./assets/env/M_flutter-version.png">　<img src="./assets/env/M_return.png" height="12">
+> 　<img src="./assets/prtsc/01-03-02_flutter-version.png" height="140">  
+
+> 　<img src="./assets/env/M_dart-version.png">　<img src="./assets/env/M_return.png" height="12">
+> 　<img src="./assets/prtsc/01-03-03_dart-version.png">  
   
 ### VS Code への機能拡張追加  
 　左ツールバーの <img src="./assets/env/M_vsc-extention.png" height="20" align="top"> ⬇️ 、又は  <img src="./assets/env/M_vsc-setting.png" height="20" align="top">️⬇️ ⇒ <img src="./assets/env/M_vxc_ext_ext.png" align="top">⬇️ ⇒  
@@ -53,10 +47,9 @@
 
 ### Flutter初回診断  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-```pwsh
-　flutter doctor -v <⏎>  
-```  
-　　[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="384">](./assets/prtsc/01-03-04_flutter-doctor-error.png)  
+> 　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png" height="12">   
+> 　[<img src="./assets/prtsc/01-03-04_flutter-doctor-error.png" width="384">](./assets/prtsc/01-03-04_flutter-doctor-error.png)  
+
 > [!IMPORTANT]  
 > この時点では Android Studio / cmdline-tools がインストールされていないため、にエラーが出る。  
 > Flutterがインストールされていれば **OK**  
@@ -115,13 +108,13 @@
 
 ### Android ライセンス承認  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-```pwsh
-　flutter doctor --android-licenses <⏎>  
-```  
-　<img src="./assets/prtsc/01-04-05_flutter-doctor-LicenseApproval1.png" height="48">  
+> 　<img src="./assets/env/M_flutter doctor-android-licenses.png">　<img src="./assets/env/M_return.png" height="12">   
+> 　<img src="./assets/prtsc/01-04-05_flutter-doctor-LicenseApproval1.png" height="48">  
+
 　以降、何度か"Accept? (y/N)"と聞かれるので、全て\<y\>で **OK**  
 
-　<img src="./assets/prtsc/01-04-06_flutter-doctor-LicenseApproval2.png">  
+> 　<img src="./assets/prtsc/01-04-06_flutter-doctor-LicenseApproval2.png">  
+
 　上記メッセージを確認できれば承認完了。
 
 ### 完了確認
