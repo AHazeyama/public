@@ -22,7 +22,6 @@
 |:---|:---|  
 | [🔗main.dart](https://github.com/AHazeyama/public/blob/main/tmct_flt/lib/main.dart) | Project_dir \ lib \ |  
 | [🔗pubspec.yaml](https://github.com/AHazeyama/public/blob/main/tmct_flt/pubspec.yaml) | Project_dir \ |  
-| [🔗AndroidManifest.xml](https://github.com/AHazeyama/public/blob/main/tmct_flt/android/app/src/main/AndroidManifest.xml) | Project_dir \ android \ app \ src \ main \ |  
 
 ## アプリケーションのインストール										<!-- 02-02 -->
 #### 開発環境確認  
