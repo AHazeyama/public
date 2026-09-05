@@ -119,12 +119,12 @@
 　　<img src="./assets/prtsc/02-04-01_version-setup.png">  
 　バージョン内容  
 　　<img src="./assets/prtsc/02-04-02_version-positoin.png" height="96">  
-|Version Name|Details of Add-ons|  
-|:---|:---|  
-|Major version|主要機能の追加|  
-|Minor version|機能変更、小規模追加|  
-|Bug fixes|バグ対策|  
-|build no|機能変更を伴わない修正、内部的なバグ対策|  
+>|Version Name|Details of Add-ons|  
+>|:---|:---|  
+>|Major version|主要機能の追加|  
+>|Minor version|機能変更、小規模追加|  
+>|Bug fixes|バグ対策|  
+>|build no|機能変更を伴わない修正、内部的なバグ対策|  
   
 ### Release Build  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
@@ -153,4 +153,3 @@
 > [!TIP]  
 > **アプリケーション名_V1.0.0.0+1** といった名称でも、スマートフォンへインストールするとversionは表示されない。  
 > ➡ アプリ情報で確認できます。  
-  
