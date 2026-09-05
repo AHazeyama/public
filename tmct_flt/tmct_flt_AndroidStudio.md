@@ -25,7 +25,7 @@
 |言語|<img src="./assets/env/M_LANG_Dart.png" height="20">|  
 |Framework|<img src="./assets/env/M_FW_Flutter.png" height="26">|  
 IDE|<img src="./assets/env/M_IDE_AndroidStudo.png" height="28">|  
-|Editor | <img src="./assets/env/M_EDT_Vim-icon.png" height="22" align="top" alt="Vim">　**/**　<img src="./assets/env/M_EDT_VSCode-banner.png" height="22" align="top" alt="VS Code">
+|Editor | <img src="./assets/env/M_EDT_Vim-icon.png" height="28" align="top" alt="Vim">　**/**　<img src="./assets/env/M_EDT_VSCode-banner.png" height="28" align="top" alt="VS Code">
 |検証機材|<img src="./assets/env/M_SP_XPERIA10IV.png" height="12">|  
   
 # リハビリテーション用タイマー&カウンター[tmct]開発手順  
