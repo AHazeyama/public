@@ -95,20 +95,23 @@
 
 ### Emulator(Pixel7)インストール  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
-　　<img src="./assets/env/M_as_menu-bar_Device_Maneger.png" height="48">  
-　Menu ｢<img src="./assets/env/M_as_menu-bar_Device_Maneger-button.png" height="12">️｣⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  スマートフォンイメージ インストール   
+　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="12">️｣⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  スマートフォンイメージ インストール   
+　<img src="./assets/prtsc/01-05-01_DeviceManagerRun1.png" height="48" >
+<img src="./assets/env/M_allow-L.png" height="18" align="top">
+<img src="./assets/env/M_as_add.png" height="48">⬇️
+<img src="./assets/env/M_allow-L.png" height="18" align="top">
+<img src="./assets/env/M_as_add-CreateVirtualDevice.png" height="48" align="top">⬇️
 
 #### 設定内容  
-|Item|Content|Remarks|  
-|:---|:---|:---|  
-|name|Pixel 7||
-|API|API 36.1 "Baklava";Android 16||
-|Services|Google Play Store||
-|System Image|16KB Page Size Google Play Intel x86 64 Atom System Image||
-
-　　🔗[Device設定方法詳細](./Device-Introduction.md)  
+>|Item|Content|Remarks|  
+>|:---|:---|:---|  
+>|name|Pixel 7||
+>|API|API 36.1 "Baklava";Android 16||
+>|Services|Google Play Store||
+>|System Image|16KB Page Size Google Play Intel x86 64 Atom System Image||
+　🔗[Device設定方法詳細](./Device-Introduction.md)  
 > [!IMPORTANT]
-> 項目の左に [<img src="./assets/env/M_as_download-button.png">]️ がある場合は、先にクリックしてインストールすること。  
+> &emsp; 項目の左に [<img src="./assets/env/M_as_download-button.png">]️ がある場合は、先にクリックしてインストールすること。  
 
 ### Android ライセンス承認  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
