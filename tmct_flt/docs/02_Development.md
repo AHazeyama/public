@@ -29,7 +29,7 @@
 　[<img src="./assets/prtsc/02-02-01_flutter-doctor.png" height="512">](./assets/prtsc/02-02-01_flutter-doctor.png)  
   
   
-　<img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">
 　[<img src="./assets/prtsc/02-02-02_flutter-devices.png" width="1024">](./assets/prtsc/02-02-02_flutter-devices.png)  
   
 #### ファイルバックアップ  
@@ -48,7 +48,7 @@
 #### アイコン生成  
 　アイコンファイル追加  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　<img src="./assets/env/M_flutter-pub-add.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_flutter-pub-add.png">　<img src="./assets/env/M_return.png">
 　[<img src="./assets/prtsc/02-02-05_flutter-pub-add.png" width="1024">](./assets/prtsc/02-02-05_flutter-pub-add.png)  
   
 　アイコンファイル登録  
@@ -82,7 +82,6 @@
 　<img src="./assets/prtsc/02-02-08_flutter-devices.png">  
   
 　Emulator へインストール   
-  
 　<img src="./assets/env/M_flutter-run-emulator-5554.png">　<img src="./assets/env/M_return.png">
 　[<img src="./assets/prtsc/02-02-10_flutter-run-emulator-5554.png" width="1024">](./assets/prtsc/02-02-10_flutter-run-emulator-5554.png)　　  
   
