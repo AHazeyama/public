@@ -48,7 +48,7 @@
 #### アイコン生成  
 　アイコンファイル追加  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　<img src="./assets/env/M_flutter-pub-add.png">　<img src="./assets/env/M_return.png">
+　<img src="./assets/env/M_flutter-pub-add.png">　<img src="./assets/env/M_return.png">  
 　[<img src="./assets/prtsc/02-02-05_flutter-pub-add.png" width="680">](./assets/prtsc/02-02-05_flutter-pub-add.png)  
   
 　アイコンファイル登録  
@@ -78,11 +78,11 @@
 #### インストール  
 　Emulator 確認 (FlutterからAndroid StudioのEmulatorが操作可能かを確認)  
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
-　<img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">
-　<img src="./assets/prtsc/02-02-08_flutter-devices.png">  
+　<img src="./assets/env/M_flutter-devices.png">　<img src="./assets/env/M_return.png">  
+　[<img src="./assets/prtsc/02-02-08_flutter-devices.png" width="680">](./assets/prtsc/02-02-08_flutter-devices.png)  
   
 　Emulator へインストール   
-　<img src="./assets/env/M_flutter-run-emulator-5554.png">　<img src="./assets/env/M_return.png">
+　<img src="./assets/env/M_flutter-run-emulator-5554.png">　<img src="./assets/env/M_return.png">  
 　[<img src="./assets/prtsc/02-02-10_flutter-run-emulator-5554.png" width="680">](./assets/prtsc/02-02-10_flutter-run-emulator-5554.png)　　  
   
 　Emulator表示の遷移  
@@ -139,10 +139,10 @@
   
   
 　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png">  
-　<img src="./assets/prtsc/02-04-05_flutter-doctor.png">  
+　[<img src="./assets/prtsc/02-04-05_flutter-doctor.png" width="680">](./assets/prtsc/02-04-05_flutter-doctor.png)  
   
-><img src="./assets/env/M_flutter-build-apk.png">　<img src="./assets/env/M_return.png">  
->[<img src="./assets/prtsc/02-04-06_flutter-build-apk-release.png" height="72">](./assets/prtsc/02-04-06_flutter-build-apk-release.png)  
+<img src="./assets/env/M_flutter-build-apk.png">　<img src="./assets/env/M_return.png">  
+[<img src="./assets/prtsc/02-04-06_flutter-build-apk-release.png" width="680">](./assets/prtsc/02-04-06_flutter-build-apk-release.png)  
   
 　Buildアプリケーション保存 🗁 : `Project folder` \build\app\outputs\flutter-apk\  
   
