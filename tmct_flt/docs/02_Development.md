@@ -141,8 +141,8 @@
 　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png">  
 　[<img src="./assets/prtsc/02-04-05_flutter-doctor.png" width="680">](./assets/prtsc/02-04-05_flutter-doctor.png)  
   
-<img src="./assets/env/M_flutter-build-apk.png">　<img src="./assets/env/M_return.png">  
-[<img src="./assets/prtsc/02-04-06_flutter-build-apk-release.png" width="680">](./assets/prtsc/02-04-06_flutter-build-apk-release.png)  
+　<img src="./assets/env/M_flutter-build-apk.png">　<img src="./assets/env/M_return.png">  
+　[<img src="./assets/prtsc/02-04-06_flutter-build-apk-release.png" width="680">](./assets/prtsc/02-04-06_flutter-build-apk-release.png)  
   
 　Buildアプリケーション保存 🗁 : `Project folder` \build\app\outputs\flutter-apk\  
   
