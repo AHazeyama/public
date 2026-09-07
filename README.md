@@ -44,17 +44,8 @@
 > Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。  
 > 各画像をクリックして頂けると、拡大表示します。  
 
-> [!WARNING] Excel(.xlsm)に関して  
-> 	<img src="./assets/Caution-Security.png">  
-
-<!--
 > [!WARNING]  
-> 	<img src="./assets/Caution_light.png">
--->
-
-</p>
-
-<br>  
+> 	<img src="./assets/Caution-Security.png">  
 
 # Download the Release 
 　🔗 https://github.com/AHazeyama/public/releases/latest  
