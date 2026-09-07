@@ -44,9 +44,8 @@
 > Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。<br>
 > 各画像をクリックして頂けると、拡大表示します。<br>
 
-> [!WARNING]  
-> 	<img src="./assets/Caution_dark.png#gh-dark-mode-only" alt="banner dark">
-> 	<img src="./assets/Caution_light.png#gh-light-mode-only" alt="banner light">
+> [!WARNING] Excel(.xlsm)に関して  
+> 	<img src="./assets/Caution-Security.png">  
 
 <!--
 > [!WARNING]  
