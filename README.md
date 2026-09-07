@@ -41,8 +41,8 @@
 <p align="left">
 
 >[!NOTE] リンク
->Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。<br>
->各画像をクリックして頂けると、拡大表示します。<br>
+>Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。  
+>各画像をクリックして頂けると、拡大表示します。  
 
 > [!WARNING] Excel(.xlsm)に関して  
 > 	<img src="./assets/Caution-Security.png">  
