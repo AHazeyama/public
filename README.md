@@ -11,10 +11,9 @@
 ## 業務効率化および運用改善を目的としたツール群。
 実務上の課題に対して作成したツールのうち、汎用化できるものを公開しています。  
 ファイル操作や整合性検証といった反復作業補助が目的です。  
-
-　* DeskTop ( アプリケーション [ **Windows** ] )　　( **C#** [ **WPF** ]　**/**　**Python** [ **PySide6** / **Tkinter** ] )  
-　* Web　　( API / アプリケーション )　　　　 　 　( **Python** [ **FastAPI** / **FLASK**] )  
-　* Mobile　( アプリケーション [ **Android** / **iOS** ] ) ( **Dart** [**Flutter**] )  
+　* DeskTop ( アプリケーション [ **Windows** ] )　　 : ( **C#** [ **WPF** ]　**/**　**Python** [ **PySide6** / **Tkinter** ] )  
+　* Web　　( API / アプリケーション )　　　　　　: ( **Python** [ **FastAPI** / **FLASK**] )  
+　* Mobile　( アプリケーション [ **Android** / **iOS** ] ) : ( **Dart** [**Flutter**] )  
 
 単なる機能実装に留まらず、実運用を想定し、操作性・安全性・再現性を重視した設計としています。  
 本ツール群では、複数フレームワーク間での**UI/UX**統一を意識して、ボタン色・操作体系・ログ表現を共通化しています。  
@@ -41,7 +40,7 @@
 | Gradient | **Excel** (.xlsm) ツール群のGUI統一用グラディエント確認ツール | ![](./assets/env/M_ICO_W-E.png) | [<img src="./assets/Gradient_1.png" width="128">](./assets/Gradient_1.png) |
 <p align="left">
 
-> [!NOTE]  
+> [!NOTE] リンク
 > Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。<br>
 > 各画像をクリックして頂けると、拡大表示します。<br>
 
