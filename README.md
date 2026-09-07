@@ -40,9 +40,9 @@
 | Gradient | **Excel** (.xlsm) ツール群のGUI統一用グラディエント確認ツール | ![](./assets/env/M_ICO_W-E.png) | [<img src="./assets/Gradient_1.png" width="128">](./assets/Gradient_1.png) |
 <p align="left">
 
->[!NOTE] リンク
->Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。  
->各画像をクリックして頂けると、拡大表示します。  
+> [!NOTE]  
+> Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。  
+> 各画像をクリックして頂けると、拡大表示します。  
 
 > [!WARNING] Excel(.xlsm)に関して  
 > 	<img src="./assets/Caution-Security.png">  
