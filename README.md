@@ -45,7 +45,7 @@
 > 各画像をクリックして頂けると、拡大表示します。  
 
 > [!WARNING]  
-> 	<img src="./assets/Caution-Security.png">  
+> 	<img src="./assets/CautionSecurity.png">  
 
 # Download the Release 
 　🔗 https://github.com/AHazeyama/public/releases/latest  
