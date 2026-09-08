@@ -20,22 +20,29 @@
 > 縮小表示されている画像は⬇️で拡大されます。  
 >   
 > ※ 記号例  
-> 　🪟:デスクトップ、⬇️:マウスクリック、 […]:ボタン、<…>:Press the Key、⇒:次動作、#…:コメント  
-> 　"…":テキスト、a/b:選択(a or b)、｢…｣:ウィンドウ/メニュー/フォーム、  
-> 　<img src="./assets/env/M_return.png"> : Enter key press  
+> 　🪟:デスクトップ、⬇️:マウスクリック、 […]:ボタン、<…>:Press the Key、**⇒**:次動作、#…:コメント  
+> 　<img src="./assets/env/M_text.png" height="14">:テキスト、a/b:選択(a or b)、｢…｣:ウィンドウ/メニュー/フォーム、<img src="./assets/env/M_return.png" height="12"> : Enter key press  
   
 ## 環境確認                                                     <!-- APP -->  
 ### 　Flutter SDK 環境                                          <!-- APP-01 -->  
-　この章のコマンドは全て<img src="./assets/env/M_SHELL_PoewrShell.png" height="12"> にて実行　　　※<img src="./assets/env/M_return.png" height="11"> : Enter key press  
+　この章のコマンドは全て<img src="./assets/env/SHELL_PoewrShell.png" height="12"> にて実行  
   
 　現在の開発環境確認  
   
 　Path確認  
-　<img src="./assets/env/M_wareexe-flutter.png">　<img src="./assets/env/M_return.png">  
+<details>   
+<summary> <img src="./assets/env/M_copy.png" height="12">  
+ <img src="./assets/cmd/CMD_where-flutter.png" height="14">
+</summary>  
+
+```  
+where.exe flutter  
+```  
 　<img src="./assets/prtsc/APP-01-01_where-flutter.png">  
+　<img src="./assets/prtsc-01-01_where-flutter.png">  
   
 　Flutter確認  
-　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_flutter-doctor-v.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-01-02_flutter-doctor.png" height="256">](./assets/prtsc/APP-02_flutter-doctor.png)  
   
 ### 　Android 環境  
@@ -56,13 +63,13 @@
   
 ### プロジェクト内のBuild生成物 削除  
   
-　<img src="./assets/env/M_flutter-clean.png">　<img src="./assets/env/M_return.png" height="11">  
+　<img src="./assets/env/M_flutter-clean.png">　<img src="./assets/env/M_return.png" height="12" height="11">  
 　# 正常終了はメッセージ無し  
   
 > [!NOTE]  
 >　<img src="./assets/prtsc/APP-02-00_flutter-clean-info.png">  
 > 上記記メッセージが出力された場合はアップグレード  
-><img src="./assets/env/M_flutter-upgrade.png">　<img src="./assets/env/M_return.png">  
+><img src="./assets/env/M_flutter-upgrade.png">　<img src="./assets/env/M_return.png" height="12">  
 ><img src="./assets/prtsc/APP-02-00a_flutter-upgrade-sum.png">  
 >[🔗メッセージ全文](./assets/prtsc/APP-02-00b_flutter-upgrade-all.png)  
   
@@ -73,14 +80,14 @@
 　｢⚙️Window｣ ⇒ ｢　<img src="./assets/env/M_MENU_AndroidStudio2.png" height="20">　｣⬇️ ⇒ 「アンインストール」  
   
 ### Android Studio 削除確認 残項目があれば強制削除  
-　<img src="./assets/env/M_test-path.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_test-path.png">　<img src="./assets/env/M_return.png" height="12">  
 　<img src="./assets/env/M_true.png">　# 環境が存在する  
   
-　<img src="./assets/env/M_remove-item-AndroidStudio.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_remove-item-AndroidStudio.png">　<img src="./assets/env/M_return.png" height="12">  
 　# メッセージ無し　`※正常に削除された場合、メッセージは出力されない`  
   
 ### Android SDK 環境 削除  
-　<img src="./assets/env/M_remove-item-AndroidSDK.png">　<img src="./assets/env/M_return.png">
+　<img src="./assets/env/M_remove-item-AndroidSDK.png">　<img src="./assets/env/M_return.png" height="12">
 　[<img src="./assets/prtsc/APP-02-01a_remove-item.png" height="13">](./assets/prtsc/APP-02-01a_remove-item.png)  
 　　　　　　　　　　　<img src="./assets/env/M_allow-D.png" height="20">
 　[<img src="./assets/prtsc/APP-02-01b_remove-item.png" height="70">](./assets/prtsc/APP-02-01b_remove-item.png)  
@@ -90,10 +97,10 @@
 　残環境 **：** $HOME\AppData以下はこの後削除します。  
   
 ### $HOMEの環境 削除  
-　<img src="./assets/env/M_get-childitem-android.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_get-childitem-android.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-02_Get-ChildItem-android.png" height="92">](./assets/prtsc/APP-02-02_Get-ChildItem-android.png)  
   
-　<img src="./assets/env/M_remove-childitem.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_remove-childitem.png">　<img src="./assets/env/M_return.png" height="12">  
 　# メッセージ無し　`※正常に削除された場合、メッセージは出力されない`  
   
 ### 設定 及び キャッシュ 削除  
@@ -102,35 +109,35 @@
 > **Get-ChildItem** で検索出来たディレクトリそれぞれに適した **Remove-Item** コマンドを実行  
 #### Local環境/キャッシュ  
 　🗁 : $HOME\AppData\Local\Google\  
-　<img src="./assets/env/M_get-childitem-android2.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_get-childitem-android2.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-03_Get-ChildItem-Loal-Android.png" height="80">](./assets/prtsc/APP-02-03_Get-ChildItem-Loal-Android.png)  
   
-　<img src="./assets/env/M_remove-item-dir.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_remove-item-dir.png">　<img src="./assets/env/M_return.png" height="12">  
 　# メッセージ無し　`※正常に削除された場合、メッセージは出力されない`  
 　🗁 : $HOME\AppData\Roaming\Google\  
 
-　<img src="./assets/env/M_get-childitem-android3.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_get-childitem-android3.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-04_Get-ChildItem-Roaming-Android.png" height="80">](./assets/prtsc/APP-02-04_Get-ChildItem-Roaming-Android.png)  
   
-　<img src="./assets/env/M_remove-item-dir2.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_remove-item-dir2.png">　<img src="./assets/env/M_return.png" height="12">  
 　# メッセージ無し　`※正常に削除された場合、メッセージは出力されない`  
   
 #### Gradleキャッシュ 削除  
-　<img src="./assets/env/M_get-childitem-google.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_get-childitem-google.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-05_Get-ChildItem-grable.png" height="160">](./assets/prtsc/APP-02-05_Get-ChildItem-grable.png)  
   
-　<img src="./assets/env/M_remove-item-google.png">　<img src="./assets/env/M_return.png">
+　<img src="./assets/env/M_remove-item-google.png">　<img src="./assets/env/M_return.png" height="12">
 　[<img src="./assets/prtsc/APP-02-06_Remove-Item-grable.png" height="18">](./assets/prtsc/APP-02-06_Remove-Item-grable.png)  
 　# プログレスバーの消滅で削除完了  
   
 ### Flutter SDK 削除  
-　<img src="./assets/env/M_wareexe-flutter.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_wareexe-flutter.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-07_where.exe-flutter.png">](./assets/prtsc/APP-02-07_where.exe-flutter.png)  
   
-　<img src="./assets/env/M_get-childitem-flutter.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_get-childitem-flutter.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-08_ChildItem-flutter.png" height="640">](./assets/prtsc/APP-02-07_where.exe-flutter.png)  
   
-　<img src="./assets/env/M_remove-item-flutter.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_remove-item-flutter.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-09_Remove-Item-flutter.png" height="18">](./assets/prtsc/APP-02-09_Remove-Item-flutter.png)  
 　# プログレスバーの消滅で削除完了  
   
@@ -141,10 +148,10 @@
 > 実行メッセージが一瞬表示される。  
 > 他のメッセージが無く、プロンプトが表示されれば削除完了  
   
-　<img src="./assets/env/M_get-childitem-cache.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_get-childitem-cache.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-10_Get-ChildItem-Local-flutter.png" height="128">](./assets/prtsc/APP-02-10_Get-ChildItem-Local-flutter.png)  
   
-　<img src="./assets/env/M_remove-item-cache.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_remove-item-cache.png">　<img src="./assets/env/M_return.png" height="12">  
 　[<img src="./assets/prtsc/APP-02-11_Remove-Item-Local-flutter.png" height="18">](./assets/prtsc/APP-02-11_Remove-Item-Local-flutter.png)  
 　# プログレスバーの消滅で削除完了  
   
@@ -163,7 +170,7 @@
 　<img src="./assets/env/M_get-childitem-userprofile.png">  
 　<img src="./assets/prtsc/APP-03-01_Remove-Item-android.png">  
 
-　<img src="./assets/env/M_remove-item-cache.png">　<img src="./assets/env/M_return.png">  
+　<img src="./assets/env/M_remove-item-cache.png">　<img src="./assets/env/M_return.png" height="12">  
 　# 正常に削除できればメッセージ無し  
   
 　<img src="./assets/env/M_get-childitem-local.png">  
@@ -177,7 +184,7 @@
 　<img src="./assets/env/M_get-childitem-appdata.png">  
 　<img src="./assets/prtsc/APP-03-03_Get-ChildItem2.png">  
 
-　<img src="./assets/env/M_remove-item-appdata.png">  
+　<img src="./assets/env/M_remove-item-appdata.png">　<img src="./assets/env/M_return.png" height="12">  
 　# 正常に削除できればメッセージ無し  
   
 #### 残DIRの削除で初期化完了  
