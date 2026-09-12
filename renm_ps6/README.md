@@ -1,7 +1,11 @@
+<!-- 
 <p align="left">
   <img src="./assets/Title_dark.png#gh-dark-mode-only" alt="renm banner dark">
   <img src="./assets/Title_light.png#gh-light-mode-only" alt="renm banner light">
 </p>
+-->
+
+<img src="./assets/Title_light.png">
 
 # batch renaming tool for files and directories [renm_ps6]
 <p align="left">
@@ -40,12 +44,19 @@
 - ファイル名中の不要文字列の削除
 > [!IMPORTANT]
 > Case-only rename  
-> **Windows** では、大文字・小文字だけが異なるファイル名への変更が正常に扱えない場合があります。  
-> renm を使用すると、Env → env のような一括置換も簡単に行えます。  
+> Windowsでは通常、ファイル名の大文字・小文字を区別しないため、`Env` → `env` のような大文字・小文字だけのリネームが正常に反映されない場合があります。  
+> 一方、GitHub/Linux環境では大文字・小文字が区別されるため、ローカルでは正常でもリンク切れ等の原因になる場合があります。  
+> **renm** を使用すると、`Env` → `env` のような一括置換も簡単に行えます。
+>
 > 実例：  
-> 　M_CMD_get-childitem-Env.png  
-> 　　　　↓  
-> 　M_CMD_get-childitem-env.png  
+> M_CMD_get-childitem-Env.png  
+> 　　　　　↓  
+> M_CMD_get-childitem-env.png  
+>
+> ️<img src="./assets/env/M_caution.png" height="14"> WindowsのGit管理下では、大文字・小文字だけの変更を正しく認識しない場合があります。  
+> その場合は、一度別名を経由してリネームする等の対応が必要です。
+
+
 
 ## Caution
 　本ツールはファイル / ディレクトリ構成を変更します。  
