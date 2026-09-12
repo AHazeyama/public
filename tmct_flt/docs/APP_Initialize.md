@@ -14,7 +14,7 @@
 
 > [!NOTE]  
 > 縮小表示されている画像は <img src="./assets/env/M_click.png" height="14"> で拡大されます (マウスカーソルが <img src="./assets/env/M_info.png" height="14"> になる画像が縮小表示画像です)。  
-> <img src="./assets/env/M_caution.png" height="14"> 本章のコマンドは全て　<img src="./assets/env/M_term.png" height="14"> <img src="./assets/env/M_SHELL_PoewrShell.png" height="14">　にて実行しています。
+> <img src="./assets/env/M_caution.png" height="14"> 本章のコマンドは全て　<img src="./assets/env/M_term.png" height="14"> <img src="./assets/env/M_SHELL_PowerShell.png" height="12">　にて実行しています。  
 
 > [!CAUTION]  
 > この手順では、Flutter SDK、Android SDK、Android Emulator、  

@@ -14,7 +14,7 @@
 
 > [!NOTE]  
 > 縮小表示されている画像は <img src="./assets/env/M_click.png" height="14"> で拡大されます (マウスカーソルが <img src="./assets/env/M_info.png" height="14"> になる画像が縮小表示画像です)。  
-> <img src="./assets/env/M_caution.png" height="14"> 本章のコマンドは全て　<img src="./assets/env/M_term.png" height="14"> <img src="./assets/env/M_SHELL_PoewrShell.png" height="14">　にて実行しています。
+> <img src="./assets/env/M_caution.png" height="14"> 本章のコマンドは全て　<img src="./assets/env/M_term.png" height="14"> <img src="./assets/env/M_SHELL_PowerShell.png" height="12">　にて実行しています。  
 
 ## インストール済みツール確認										<!-- 01-01 -->
 <details>   
@@ -54,7 +54,6 @@ code --version
 　｢･･･のユーザー環境変数(<u>U</u>)｣ ⇒ ｢Path｣ ⇒ [編集(<u>E</u>)…] ⇒ ｢環境変数名の編集｣/[新規] ⇒ 追加 "C:\Develop\flutter\bin"  
 　[<img src="./assets/prtsc/M_WIN_01_Env-val-cntl.png" width="320">](./assets/prtsc/M_WIN_01_Env-val-cntl.png)
 
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="14">  
 <details>   								<!-- Segment row count: 11 rows -->
 <summary>
 <img src="./assets/env/M_copy.png" height="14">  
@@ -95,7 +94,6 @@ dart --version
 <img src="./assets/prtsc/M_VSC_dart-extention.png" height="32" align="top">　インストール  
 
 ### Flutter初回診断
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="14">  
 <details>   								<!-- Segment row count: 11 rows -->
 <summary>
 <img src="./assets/env/M_copy.png" height="14">  
@@ -173,7 +171,6 @@ flutter doctor -v
 > 　項目の左に <img src="./assets/env/M_download.png" height="14"> がある場合は、先にクリックしてインストールすること。
 
 ### Android ライセンス承認
-　<img src="./assets/env/M_SHELL_PoewrShell.png" height="14">  
 <details>   								<!-- Segment row count: 11 rows -->
 <summary>
 <img src="./assets/env/M_copy.png" height="14">  
