@@ -114,6 +114,10 @@ pyinstaller `
   renm_ps6.py  
 ```  
 
+> [!NOTE]
+> [<img src="./assets/env/M_link.png" height="14">　開発手順詳細](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/renm_ps6_Vim.md)
+
+
 ## Documentation  
 Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  

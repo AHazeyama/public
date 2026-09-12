@@ -88,6 +88,9 @@
 - 状態表示やメッセージ表示を組み込みやすい  
 - デスクトップユーティリティに適した構成  
 
+> [!NOTE]
+> [<img src="./assets/env/M_link.png" height="14">　開発手順詳細](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/exrm_WPF_VS2026.md)
+
 ## Documentation  
 　Doxygen により生成できます。  
 　⇒ ソースコードの可読性向上と構造理解を目的としています。  
