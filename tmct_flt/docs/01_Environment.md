@@ -113,7 +113,7 @@ flutter doctor -v
 > Flutterがインストールされていれば **OK**
 
 ## Android Studio(IDE) インストール									<!-- 01-04 -->
-　![](./assets/env/M_IDE_AndroidStudo_20.png)
+　<img src="./assets/env/M_IDE_AndroidStudio.png" height="24">
 ### インストーラ入手  
 　<img src="./assets/env/M_link.png" height="14"> [Android Studio](https://developer.android.com/studio?hl=ja)　※使用許諾の必要があるため、リンク先の <img src="./assets/env/M_androidstudio-install.png" height="18"> よりダウンロード  
 　<img src="./assets/env/M_androidstudio-installer.png" height="24" align="top"> W️ <img src="./assets/env/M_click.png" height="14">
@@ -129,7 +129,7 @@ flutter doctor -v
 > **tmct_flt** は **main.dart** 及び **pubspec.yaml** を別途作成し、Android Studioに読み込ませています。
 
 ### SDK インストール
-　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
+　<img src="./assets/env/M_IDE_AndroidStudio.png" height="24">  
 　[<img src="./assets/prtsc/M_AS_menu-bar-SDK_Maneger.png" height="48">](./assets/env/M_as_menu-bar-SDK_Maneger.png)  
 　Menu ｢ <img src="./assets/env/M_AS_menu-button.png" height="12"> ｣ 
 <img src="./assets/env/M_click.png" height="12"> ⇒ ｢Tools」 ⇒ 「SDK Manager」
@@ -146,7 +146,7 @@ flutter doctor -v
 > 項目の左に [ <img src="./assets/env/M_download.png" height="12"> ]️ がある場合は、先にクリックしてインストールすること。
 
 ### Emulator(Pixel7)インストール
-　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
+　<img src="./assets/env/M_IDE_AndroidStudio.png" height="24">  
 　Menu ｢ <img src="./assets/env/M_AS_menu-button.png" height="14">️ ｣
  <img src="./assets/env/M_click.png" height="12"> ⇒ ｢Tools」 ⇒ 「SDK Manager」
  <img src="./assets/env/M_click.png" height="12"> ⇒  スマートフォンイメージ インストール   
@@ -197,7 +197,7 @@ flutter doctor --android-licenses
 - VS CodeでFlutter及びDart拡張機能が有効になっている
 
 ## Emulator起動														<!-- 01-05 -->
-　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
+　<img src="./assets/env/M_IDE_AndroidStudio.png" height="24">  
 　Menu ｢ <img src="./assets/env/M_AS_menu-button.png" height="14">️ ｣
 <img src="./assets/env/M_click.png" height="12">️ ⇒ ｢Tools」 ⇒ ｢Device Manager｣
 <img src="./assets/env/M_click.png" height="12">️ ⇒  
