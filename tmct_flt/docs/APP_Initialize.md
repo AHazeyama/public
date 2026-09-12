@@ -85,7 +85,7 @@ Get-ChildItem Env |
 <details>   												<!-- env:Path -split -->
 <summary>
 <img src="./assets/env/M_copy.png" height="14">  
-<img src="./assets/cmd/M_CMD_env-Path-split.png" align="top">  
+<img src="./assets/cmd/M_CMD_env-path-split.png" align="top">  
 </summary>  
   
 ```
