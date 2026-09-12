@@ -8,6 +8,7 @@
 
 ## Overview
 　Pythonによるアプリケーション開発の環境構築及び単体起動アプリケーション(.exe)の生成方法を記載します。  
+　本章は <img src="./assets/env/M_term.png" height="14"> 上で <img src="./assets/env/M_SHELL_BASH-PWSH.png" height="12"> によって実行する事を想定しています。  
 > [!NOTE]  
 >　記号の説明  
 >　　各アプリケーションの開発手順で共通の項目を記載しています。  
@@ -27,7 +28,6 @@
 
 ## 仮想環境構築
 　Pythonによるアプリケーションの開発は仮想環境(virtualenv)以下で実施する事を推奨します。  
-　<img src="./assets/env/M_SHELL_BASH-PWSH.png" height="12">  
 > [!CAUTION]
 > Ubuntu / Debian系のDistributionではパッケージ管理システム(**pip**)がインストールパッケージに含まれていない場合があります。  
 > 予め`python3 --version`コマンドでpipのインストール状態を確認し、必要ならインストールして下さい。  
