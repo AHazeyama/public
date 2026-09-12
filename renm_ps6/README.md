@@ -1,11 +1,11 @@
-<!-- 
 <p align="left">
   <img src="./assets/Title_dark.png#gh-dark-mode-only" alt="renm banner dark">
   <img src="./assets/Title_light.png#gh-light-mode-only" alt="renm banner light">
 </p>
--->
 
+<!-- 
 <img src="./assets/Title_light.png">
+-->
 
 # batch renaming tool for files and directories [renm_ps6]
 <p align="left">
