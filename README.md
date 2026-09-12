@@ -22,7 +22,7 @@
 | exrm | renm | hvcg | tmct |
 |:----:|:----:|:----:|:---------------------------------:|  
 | <img src="./assets/exrm_1.png" width="180"> | <img src="./assets/renm_1.png" width="180"> | <img src="./assets/hvcg_1.png" width="180"> | <img src="tmct_flt/assets/tmct_flt_v1.2.0.png" height="120" > |  
-| [条件付き削除](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | [正規表現リネーム](https://github.com/AHazeyama/public/tree/main/renm_ps6) | [Checksum検証](https://github.com/AHazeyama/public/tree/main/hvcg_fa) | [<nobr>リハビリテーション支援</nobr><br><nobr>タイマー & カウンター</nobr>](https://github.com/Ahazeyama/public/tree/main/tmct_flt) |
+| [条件付き削除](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | [正規表現リネーム](https://github.com/AHazeyama/renm_ps6) | [Checksum検証](https://github.com/AHazeyama/public/tree/main/hvcg_fa) | [<nobr>リハビリテーション支援</nobr><br><nobr>タイマー & カウンター</nobr>](https://github.com/Ahazeyama/public/tree/main/tmct_flt) |
 
 ***
 <br>
@@ -31,7 +31,7 @@
 | Item<font size=1> (Link)</font> | Description | Platform | Preview |   
 |:--|:--|:--:|:--:|  
 | [exrm_wpf](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | **C#** [ **WPF** ] によるファイル操作ツール | ![](assets/env/M_ICO_W.png) | [<img src="./exrm_wpf/assets/exrm_wpf.png" width="128">](./exrm_wpf/assets/exrm_wpf.png) |  
-| [renm_ps6](https://github.com/AHazeyama/public/tree/main/renm_ps6) | **Python** [ **PySide6** ] によるファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./renm_ps6/assets/renm_ps6.png" width="128">](./renm_ps6/assets/renm_ps6.png)|  
+| [renm_ps6](https://github.com/AHazeyama/renm_ps6) | **Python** [ **PySide6** ] によるファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./renm_ps6/assets/renm_ps6.png" width="128">](./renm_ps6/assets/renm_ps6.png)|  
 | [renm_tk](https://github.com/AHazeyama/public/tree/main/renm_tk) | **Python** [ **Tkinter** ] によるファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./renm_tk/assets/renm_tk.png" width="128">](./renm_tk/assets/renm_tk.png)|  
 | [tmct_tk](https://github.com/AHazeyama/public/tree/main/tmct_tk) | **Python** [ **Tkinter** ] によるカウントダウンタイマー&カウンター | ![](assets/env/M_ICO_W-L.png) | [<img src="./tmct_tk/assets/tmct_tk.png" width="64">](./tmct_tk/assets/tmct_tk.png) |
 | [tmct_flt](https://github.com/AHazeyama/public/tree/main/tmct_flt) | **Dart** [ **Flutter** ] によるカウントダウンタイマー&カウンター | ![](assets/env/M_ICO_Android-iOS.png)| [<img src="./tmct_flt/assets/tmct_flt_v1.2.0.png" width="32">](./tmct_flt/assets/tmct_flt_v1.2.0.png) |
