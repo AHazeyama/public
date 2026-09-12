@@ -12,7 +12,7 @@
 > ※ 記号例
 > 　🪟:デスクトップ、⬇️:マウスクリック、 […]:ボタン、<…>:Press the Key、⇒:次動作、#…:コメント
 > 　"…":テキスト、a/b:選択(a or b)、｢…｣:ウィンドウ/メニュー/フォーム
-> 　<img src="./assets/env/M_return.png"> : Enter key press
+> 　<img src="./assets/env/M_return.png" height="12"> : Enter key press
 
 ## インストール済みツール確認										<!-- 01-01 -->
 　<img src="./assets/env/M_SHELL_PoewrShell.png" height="12">  
