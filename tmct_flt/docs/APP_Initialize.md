@@ -229,7 +229,7 @@ flutter clean
 <details>   							<!-- Get-ChildItem env:LOCALAPPDATA-Google -->
 <summary>
 <img src="./assets/env/M_copy.png" height="14">  
-<img src="./assets/cmd/M_CMD_get-childitem-localappdata-google.png">u
+<img src="./assets/cmd/M_CMD_get-childitem-localappdata-google.png">  
 &nbsp;<img src="./assets/env/M_return.png" height="12">  
 </summary>  
   
@@ -256,7 +256,7 @@ Remove-Item -Recurse -Force "$env:USERPROFILE\.android"
 <details>   				    			<!-- Get-ChildItem env:APPDATA-Google -->
 <summary>
 <img src="./assets/env/M_copy.png" height="14">  
-<img src="./assets/cmd/M_CMD_get-childitem-env-appdata-google.png">u
+<img src="./assets/cmd/M_CMD_get-childitem-env-appdata-google.png">  
 &nbsp;<img src="./assets/env/M_return.png" height="12">  
 </summary>  
   
@@ -421,7 +421,6 @@ Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Pub\Cache" -ErrorAction SilentlyC
 <summary>
 <img src="./assets/env/M_copy.png" height="14">  
 <img src="./assets/cmd/M_CMD_get-childitem-env-userprofile-directory.png" align="top">  
-　<img src="./assets/env/M_get-childitem-userprofile.png">  
 </summary>  
   
 ```  
@@ -506,5 +505,5 @@ Remove-Item -Recurse -Force "$env:APPDATA\上記DIR"
 
 　# 正常に削除できればメッセージ無し  
   
-#### 残DIRの削除で初期化完了
+### 残DIRの削除で初期化完了
 
