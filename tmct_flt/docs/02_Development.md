@@ -39,7 +39,7 @@ flutter doctor -v
 ```  
 </details>  
 
-　[<img src="./assets/prtsc/m_ER_02_flutter-doctor-v.png" width="580">](./assets/prtsc/M_ER_02_flutter-doctor-v.png)  
+　[<img src="./assets/prtsc/M_ER_02_flutter-doctor-v.png" width="580">](./assets/prtsc/M_ER_02_flutter-doctor-v.png)  
   
   
 <details>   								<!-- flutter devices -->
