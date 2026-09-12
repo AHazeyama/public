@@ -37,7 +37,15 @@
 ## Use Case
 - 自動で生成されたファイル名(日付+追番等)の一括リネーム
 - Prefix、Suffix等の文字列の付加
-- ファイル名中の不要文字列の削除
+- ファイル名中の不要文字列の削除  
+> [!IMPORTANT]
+> Case-only rename  
+> **Windows** では、大文字・小文字だけが異なるファイル名への変更が正常に扱えない場合があります。  
+> renm を使用すると、Env → env のような一括置換も簡単に行えます。  
+> 実例：  
+> 　M_CMD_get-childitem-<u>E</u>nv.png  
+> 　　　　↓  
+> 　M_CMD_get-childitem-<u>e</u>nv.png  
 
 ## Caution
 　本ツールはファイル / ディレクトリ構成を変更します。  
