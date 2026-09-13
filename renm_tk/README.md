@@ -96,28 +96,7 @@
 - デスクトップユーティリティに適した構成
 
 ## Build (for developers) 
-　![](./assets/env/M_SHELL_BASH-PWSH.png)  
-```pwsh
-pyinstaller `  
-  --noconsole `  
-  --onefile `  
-  --icon=renm_tk.ico `  
-  --add-data "renm_tk.ico;." `  
-  --version-file=renm_tk.version `  
-  renm_tk.py  
-```  
-
-## Documentation  
-　**Doxygen** により生成できます。  
-　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-　![](./assets/env/M_SHELL_BASH.png)  
-　```
-doxygen Doxyfile
-　```  
-　生成後、以下のファイルをブラウザで開くことでドキュメントを確認できます。  
-　```  
-🗁 docs/html/index.html  
-　```
+　[<img src="./assets/env/M_link.png" height="14"> 単体起動アプリケーション(.exe)の生成](https://github.com/AHazeyama/public/blob/main/CommonSettings.md)  
 
 ## Download
 　🔗 https://github.com/AHazeyama/public/releases/latest  
