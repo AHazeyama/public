@@ -22,12 +22,12 @@
 |Item|Content|  
 |:--|:--|  
 |OS|<img src="./assets/env/M_OS_Win11.png" height="14">|  
-|言語|<img src="./assets/env/M_LANG_Dart.png" height="20">|  
+|Language|<img src="./assets/env/M_LANG_Dart.png" height="20">|  
 |Framework|<img src="./assets/env/M_FW_Flutter.png" height="26">|  
 |SHELL|<img src="./assets/env/M_SHELL_PWSH.png" height="14">|  
 |IDE|<img src="./assets/env/M_IDE_AndroidStudo.png" height="28">|  
 |Editor | <img src="./assets/env/M_EDT_Vim-icon.png" height="28" align="top" alt="Vim">　**/**　<img src="./assets/env/M_EDT_VSCode-banner.png" height="28" align="top" alt="VS Code">
-|検証機材|<img src="./assets/env/M_SP_XPERIA10IV.png" height="12">|  
+|Verification<br>equipment|<img src="./assets/env/M_SP_XPERIA10IV.png" height="14">|  
 > [!caution]
 > Trademarks: Company names, product names, and logos used in documents related to this project are trademarks or registered trademarks of their respective owners. They are cited solely for the purpose of describing the technologies used.
 
