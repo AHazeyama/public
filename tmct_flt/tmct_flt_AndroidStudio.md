@@ -28,7 +28,10 @@
 |IDE|<img src="./assets/env/M_IDE_AndroidStudo.png" height="28">|  
 |Editor | <img src="./assets/env/M_EDT_Vim-icon.png" height="28" align="top" alt="Vim">　**/**　<img src="./assets/env/M_EDT_VSCode-banner.png" height="28" align="top" alt="VS Code">
 |検証機材|<img src="./assets/env/M_SP_XPERIA10IV.png" height="12">|  
-  
+> [!caution]
+> Trademarks: Company names, product names, and logos used in documents related to this project are trademarks or registered trademarks of their respective owners. They are cited solely for the purpose of describing the technologies used.
+
+
 # リハビリテーション用タイマー&カウンター[tmct]開発手順  
 > [!TIP]  
 > 既存の開発環境があり、**再構築**する場合は環境の初期化が必要です。  
