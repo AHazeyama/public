@@ -81,13 +81,18 @@
 - タイマー再開時のストップ時間保持  
 - 残り10からの表示色変化によるラストスパートの視覚的サポート  
   
-## Why Flutter  
-　本ツールはSourceCodeを Android / iOS 共通とするためにDart[Flutter]を使用しています。  
-- Android / iOS 共通UI  
+## Why Dart & Flutter  
+　本ツールは開発言語及びFrameworkに **Dart [Flutter]** を使用しています。  
+　**Dart [Flutter]** の下記利点を重視して、採用しました。  
+1. iOS/AndroidでSource codeの完全共通化  
+2. 独自UIによる両OSでのGUI共通化  
+3. ホットリロードによる開発/検証の簡易性及び高速反映  
+4. 独自描画エンジンによる **ネイティブ並み** の高速動作  
+
 > [!CAUTION]  
 > Xpedia10 IV 及び AndroidStudio Emulator(Pixel7) にて動作検証を行っています。  
-> iOS用コードは同じプロジェクト内に保持されますが、iOSアプリのビルドと実機確認にはmacOSとXcodeが必要です。  
-> Mac版はPCを用意できた時点で、プロジェクトを検証する予定です (人身御供になっていただけると幸いです)。  
+> iOSでの検証は実施しておりません。  
+> Macを用意できた時点で、プロジェクトを検証する予定です (人身御供になっていただけると幸いです)。  
   
 ## Build (for Windows)   
 　Flutter SDKとAndroid Studioをセットアップした後、PowerShellで実行します。  
