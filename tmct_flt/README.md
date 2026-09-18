@@ -84,10 +84,10 @@
 ## Why Dart & Flutter  
 　本ツールは開発言語及びFrameworkに **Dart [Flutter]** を使用しています。  
 　**Dart [Flutter]** の下記利点を重視して、採用しました。  
-1. iOS/AndroidでSource codeの完全共通化  
-2. 独自UIによる両OSでのGUI共通化  
-3. ホットリロードによる開発/検証の簡易性及び高速反映  
-4. 独自描画エンジンによる **ネイティブ並み** の高速動作  
+1. iOS/AndroidでSource codeを共通化  
+2. 独自の描画エンジンによる両OSでのGUI共通化  
+3. 独自描画エンジンによる **ネイティブ並み** の高速動作  
+4. ホットリロードによる開発/検証の簡易性及び開発効率向上
 
 > [!CAUTION]  
 > Xpedia10 IV 及び AndroidStudio Emulator(Pixel7) にて動作検証を行っています。  
