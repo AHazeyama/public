@@ -1,6 +1,6 @@
 <p align="left">
-	<img src="./assets/GitHub_description_dark.png#gh-dark-mode-only" alt="banner dark">
-	<img src="./assets/GitHub_description_light.png#gh-light-mode-only" alt="banner light">
+<img src="./assets/GitHub_description_dark.png#gh-dark-mode-only" alt="banner dark">
+<img src="./assets/GitHub_description_light.png#gh-light-mode-only" alt="banner light">
 </p>
 
 <!--
@@ -30,7 +30,7 @@
 # Tool Description
 | Item<font size=1> (Link)</font> | Description | Platform | Preview |   
 |:--|:--|:--:|:--:|  
-| [exrm_wpf](https://github.com/AHazeyama/public/tree/main/exrm_wpf) | **C#** [ **WPF** ] によるファイル操作ツール | ![](assets/env/M_ICO_W.png) | [<img src="./exrm_wpf/assets/exrm_wpf.png" width="128">](./exrm_wpf/assets/exrm_wpf.png) |  
+| [exrm_wpf](https://github.com/AHazeyama/exrm_wpf) | **C#** [ **WPF** ] によるファイル操作ツール | ![](assets/env/M_ICO_W.png) | [<img src="./exrm_wpf/assets/exrm_wpf.png" width="128">](./exrm_wpf/assets/exrm_wpf.png) |  
 | [renm_ps6](https://github.com/AHazeyama/renm_ps6) | **Python** [ **PySide6** ] によるファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./renm_ps6/assets/renm_ps6.png" width="128">](./renm_ps6/assets/renm_ps6.png)|  
 | [renm_tk](https://github.com/AHazeyama/public/tree/main/renm_tk) | **Python** [ **Tkinter** ] によるファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./renm_tk/assets/renm_tk.png" width="128">](./renm_tk/assets/renm_tk.png)|  
 | [tmct_tk](https://github.com/AHazeyama/public/tree/main/tmct_tk) | **Python** [ **Tkinter** ] によるカウントダウンタイマー&カウンター | ![](assets/env/M_ICO_W-L.png) | [<img src="./tmct_tk/assets/tmct_tk.png" width="64">](./tmct_tk/assets/tmct_tk.png) |
@@ -40,9 +40,11 @@
 | Gradient | **Excel** (.xlsm) ツール群のGUI統一用グラディエント確認ツール | ![](./assets/env/M_ICO_W-E.png) | [<img src="./assets/Gradient_1.png" width="128">](./assets/Gradient_1.png) |
 <p align="left">
 
+<!--
 > [!NOTE]  
 > Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。  
 > 各画像をクリックして頂けると、拡大表示します。  
+-->
 
 > [!WARNING]  
 > 	<img src="./assets/CautionSecurity.png">  
