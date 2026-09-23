@@ -51,8 +51,10 @@
 　3. Emulator(Pixel7)インストール  
 　4. Androidライセンス承認  
 ### Emulator起動														<!-- 01-05 -->  
+　1. 起動確認
+<br>
 
-[<img src="./assets/env/M_tech-documents.png" height="24"> 開発ツールインストール手順](./docs/01_Environment.md)  
+[<img src="./assets/env/M_tech-documents.png" height="24"> 開発ツールインストール　手順](./docs/01_Environment.md)  
   
 ## Mobileアプリケーション作成											<!-- 02 -->  
 　リハビリテーション用カウントダウンタイマー&カウンター[tmct_flt]を作成します。  
@@ -71,7 +73,7 @@
 
 
 
-[<img src="./assets/env/M_tech-documents.png" height="20"> Mobileアプリケーション作成手順](./docs/02_Development.md)  
+[<img src="./assets/env/M_tech-documents.png" height="20"> Mobileアプリケーション作成　手順](./docs/02_Development.md)  
   
 ## 実機検証																<!-- 03 -->  
 　スマートフォン[Xperia 10 IV]での検証を行います。  
@@ -87,7 +89,7 @@
 ### 検証																<!-- 03-02 -->
 　検証作業  
 
-[<img src="./assets/env/M_tech-documents.png" height="24"> 実機検証手順](./docs//03_Verification.md)  
+[<img src="./assets/env/M_tech-documents.png" height="24"> 実機検証　手順](./docs//03_Verification.md)  
 
 
 ## Appendix : 開発環境初期化												<!-- APP -->  
@@ -108,4 +110,4 @@
 　1. 削除対象  
 ### 完了確認															<!-- APP-04 -->  
   
-[<img src="./assets/env/M_tech-documents.png" height="24"> 開発環境初期化手順](./docs/APP_Initialize.md)  
+[<img src="./assets/env/M_tech-documents.png" height="24"> 開発環境初期化　手順](./docs/APP_Initialize.md)  
