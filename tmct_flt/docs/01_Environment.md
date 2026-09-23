@@ -160,7 +160,7 @@ code --version
 ### SDK インストール  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
 　　[<img src="./assets/env/M_as_menu-bar-SDK_Maneger.png" height="48">](./assets/env/M_as_menu-bar-SDK_Maneger.png)  
-　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="11">｣ ⬇️ ⇒ ｢Tools」 ⇒ 「SDK Manager」⬇️ ⇒  SDKインストール   
+　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="11">｣ ️<img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 ⇒ 「SDK Manager」<img src="./assets/env/M_click.png" height="14"> ⇒  SDKインストール   
 
 |Item|Content|Remarks|  
 |:---|:---|:---|  
