@@ -35,7 +35,6 @@
 ## 環境確認                                                         <!-- APP -->  
 ### 　Flutter SDK 環境                                              <!-- APP-01 -->  
 　この章のコマンドは全て<img src="./assets/env/M_SHELL_PoewrShell.png" height="12"> にて実行　　　※`<⏎>` : Enter key press  
-```  
 　現在の開発環境確認  
   
 　Path確認  
@@ -50,6 +49,26 @@
 ```  
 　　[<img src="./assets/prtsc/APP-01-02_flutter-doctor.png" height="256">](./assets/prtsc/APP-02_flutter-doctor.png)  
   
+> [!warning]  
+> Flutterの新しいバージョンが存在する場合のメッセージ  
+> 　　　　　　　　　　　　　　　<img src="./assets/env/M_CMT_flutter-upgrade.png" height="12">
+> 　<img src="./assets/cmd/M_CMD_00-01_flutter=doctor=-v-R-U.png">  
+> アップグレード手順  
+> <img src="./assets/env/M_caution.png" height="14"> AndroidStudioを終了してから実行すること。
+> <details>  
+> <summary>
+> 　<img src="./assets/env/M_copy.png" height="14">
+> 　<img src="./assets/cmd/M_CMD_flutter=upgrade.png">  
+>
+> </summary> 
+>
+> ```pwsh
+> flutter upgrade  
+> ```
+> 
+> </details>  
+> 
+> 　[<img src="./assets/cmd/M_CMD_00-02_flutter=upgrade-R.png" width="560">](./assets/cmd/M_CMD_00-02_flutter=upgrade-R.png)  
 ### 　Android 環境  
 　既存環境確認  
 ```pwsh  
@@ -82,15 +101,6 @@ $env:Path -split ';' |
 ```  
 　`# 正常に削除できればメッセージ無し  `  
 
-#### 　Flutterのバージョンアップがあった場合
-　[<img src="./assets/prtsc/APP-02-00_flutter-clean-info.png">](./assets/prtsc/APP-02-00_flutter-clean-info.png)  
-> [!TIP]
-> アップグレードする場合  
->　```
->　　flutter upgrade <⏎>  
->　```  
-　　　　⇒ [🔗アップグレードメッセージ](./assets/prtsc/APP-02-00_flutter-upgrade.png)　　　　　　　　　# 長いので省略、詳細は🔗⬇️
-  
 ### Android Studio 削除  
 　EmulatorはAndroid Studioから削除  
 　残骸が残っていたら削除 : %USERPROFILE%\.android\avd  
