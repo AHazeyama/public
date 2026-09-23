@@ -219,7 +219,7 @@ code --version
   
 ## Emulator起動															<!-- 01-05 -->  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
-　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="11">️｣️ <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Device Manager｣ <img src="./assets/env/M_click.png" height="14"> ⇒  
+　Menu ｢<img src="./assets/env/M_AS_menu-button.png" height="11">️｣️ <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Device Manager｣ <img src="./assets/env/M_click.png" height="14"> ⇒  
 　　<img src="./assets/env/M_as_menu-bar-SDK_Maneger.png" height="48">  
 
 　｢Device Manager｣ <img src="./assets/env/M_click.png" height="14"> ⇒ 　　　｢**＋**｣️ <img src="./assets/env/M_click.png" height="14"> ⇒ 　　　　　　　　｢Create Virtual Device｣ <img src="./assets/env/M_click.png" height="14">  
