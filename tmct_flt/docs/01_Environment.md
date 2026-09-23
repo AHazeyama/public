@@ -170,7 +170,7 @@ code --version
 　　<img src="./assets/env/M_link.png" height="14"> [SDKインストール方法詳細](./SDK-Introduction.md)  
 
 > [!IMPORTANT]
-> 項目の左に [ <img src="./assets/env/M_download.png" height="14"> ]️ がある場合は、先にクリックしてインストールすること。  
+> 項目の左に <img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/env/M_download.png" height="14"> ️<img src="./assets/env/M_menu-R.png" height="12"> がある場合は、先にクリックしてインストールすること。  
 
 ### Emulator(Pixel7)インストール  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
