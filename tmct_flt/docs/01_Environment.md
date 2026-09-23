@@ -82,7 +82,7 @@ code --version
 
 > [!warning]  
 > Flutterの新しいバージョンが存在する場合のメッセージ  
-> 　　　　　　　　　　　　　　　<img src="./assets/env/M_CMT_flutter-upgrade.png" height="12">
+> 　　　　　　　　　　　　　　　<img src="./assets/env/M_CMT_flutter-upgrade.png" height="12">  
 > 　<img src="./assets/cmd/M_CMD_00-01_flutter=doctor=-v-R-U.png">  
 > アップグレード手順  
 > <img src="./assets/env/M_caution.png" height="14"> AndroidStudioを終了してから実行すること。
