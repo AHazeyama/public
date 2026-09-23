@@ -152,30 +152,30 @@ code --version
 |Welcome to<br>Android Studio|Trust and Open<br>Project|  
 |:---:|:---:|  
 |[<img src="./assets/prtsc/01-04-01_welcomeAS.png" width="128">](./assets/prtsc/01-04-01_welcomeAS.png) |[<img src="./assets/prtsc/01-04-02_trust-and-openproject.png" width="128">](./assets/prtsc/01-04-02_trust-and-openproject.png)|  
-|｢Open｣ ️<img src="./assets/env/M_click.png" height="14">|<img src="./assets/env/M_as_trust-project.png" height="18" align="top"> <img src="./assets/env/M_click.png" height="14">|
+|｢Open｣ ️<img src="./assets/env/M_click.png" height="14">|<img src="./assets/env/M_AS_trust-project.png" height="18" align="top"> <img src="./assets/env/M_click.png" height="14">|
 
 > [!important]
 > **tmct_flt** は **main.dart** 及び **pubspec.yaml** を別途作成し、Android Studioに読み込ませています。
 
 ### SDK インストール  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
-　　[<img src="./assets/env/M_as_menu-bar-SDK_Maneger.png" height="48">](./assets/env/M_as_menu-bar-SDK_Maneger.png)  
+　　[<img src="./assets/env/M_AS_menu-bar-SDK_Maneger.png" height="48">](./assets/env/M_AS_menu-bar-SDK_Maneger.png)  
 　Menu ｢<img src="./assets/env/M_AS_menu-button.png" height="11">｣ ️<img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 ⇒ 「SDK Manager」<img src="./assets/env/M_click.png" height="14"> ⇒  SDKインストール   
 
 |Item|Content|Remarks|  
 |:---|:---|:---|  
 |SDK Platforms|Android 16.0 ("Baklava")|Emulator用なので、一般的なSDKで|
-|SDK Tools|Android SDK Build-Tools<br>　　37.0.0<br>　　36.1.0<br>　　36.0.0<br>Android Emulator<br>Android SDK Platform-Tools|<br>┐<br>┼─　｢ <img src="./assets/env/M_as_SDK-ShowPackageDetails-on.png" height="18" align="top"> ｣ で表示<br>┘<br> <br> <br>|  
+|SDK Tools|Android SDK Build-Tools<br>　　37.0.0<br>　　36.1.0<br>　　36.0.0<br>Android Emulator<br>Android SDK Platform-Tools|<br>┐<br>┼─　｢ <img src="./assets/env/M_AS_SDK-ShowPackageDetails-on.png" height="18" align="top"> ｣ で表示<br>┘<br> <br> <br>|  
 
 　　<img src="./assets/env/M_link.png" height="14"> [SDKインストール方法詳細](./SDK-Introduction.md)  
 
 > [!IMPORTANT]
-> 項目の左に [<img src="./assets/env/M_as_menu-button.png">]️ がある場合は、先にクリックしてインストールすること。  
+> 項目の左に [<img src="./assets/env/M_AS_menu-button.png" height="12">]️ がある場合は、先にクリックしてインストールすること。  
 
 ### Emulator(Pixel7)インストール  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
-　　<img src="./assets/env/M_as_menu-bar_Device_Maneger.png" height="48">  
-　Menu ｢<img src="./assets/env/M_as_menu-button.png" height="11">️｣ ️<img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 ⇒ 「SDK Manager」️<img src="./assets/env/M_click.png" height="14"> ⇒  スマートフォンイメージ インストール   
+　　<img src="./assets/env/M_AS_menu-bar_Device_Maneger.png" height="48">  
+　Menu ｢<img src="./assets/env/M_AS_menu-button.png" height="12">️｣ ️<img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 ⇒ 「SDK Manager」️<img src="./assets/env/M_click.png" height="14"> ⇒  スマートフォンイメージ インストール   
 
 #### 設定内容  
 |Item|Content|Remarks|  
@@ -187,7 +187,7 @@ code --version
 
 　　<img src="./assets/env/M_tech-documents.png" height="20"> [Device設定方法詳細](./Device-Introduction.md)  
 > [!IMPORTANT]
-> 項目の左に [<img src="./assets/env/M_as_download-button.png">]️ がある場合は、先にクリックしてインストールすること。  
+> 項目の左に [<img src="./assets/env/M_AS_download-button.png">]️ がある場合は、先にクリックしてインストールすること。  
 
 ### Android ライセンス承認  
 <details>  
@@ -219,8 +219,8 @@ code --version
   
 ## Emulator起動															<!-- 01-05 -->  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
-　Menu ｢<img src="./assets/env/M_AS_menu-button.png" height="11">️｣️ <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Device Manager｣ <img src="./assets/env/M_click.png" height="14"> ⇒  
-　　<img src="./assets/env/M_as_menu-bar-SDK_Maneger.png" height="48">  
+　Menu ｢<img src="./assets/env/M_AS_menu-button.png" height="12">️｣️ <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Device Manager｣ <img src="./assets/env/M_click.png" height="14"> ⇒  
+　　<img src="./assets/env/M_AS_menu-bar-SDK_Maneger.png" height="48">  
 
 　｢Device Manager｣ <img src="./assets/env/M_click.png" height="14"> ⇒ 　　　｢**＋**｣️ <img src="./assets/env/M_click.png" height="14"> ⇒ 　　　　　　　　｢Create Virtual Device｣ <img src="./assets/env/M_click.png" height="14">  
 　　<img src="./assets/prtsc/01-05-01_DeviceManagerRun1.png" width="128" align="top"> 
