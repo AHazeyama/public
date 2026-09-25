@@ -175,7 +175,7 @@ code --version
 ### Emulator(Pixel7)インストール  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
 　　<img src="./assets/env/M_AS_menu-bar_Device_Maneger.png" height="48">  
-　Menu ｢<img src="./assets/env/M_AS_menu-button.png" height="12">️｣ ️<img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 ⇒ 「SDK Manager」️<img src="./assets/env/M_click.png" height="14"> ⇒  スマートフォンイメージ インストール   
+　Menu <img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/env/M_AS_menu-button.png" height="12">️️ <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　<img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/env/M_AS_too" height="14"> <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　<img src="./assets/env/M_menu-L.png" height="12"> SDK Manager️ <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　スマートフォンイメージ インストール   
 
 #### 設定内容  
 |Item|Content|Remarks|  
@@ -185,7 +185,7 @@ code --version
 |Services|Google Play Store||
 |System Image|16KB Page Size Google Play Intel x86 64 Atom System Image||
 
-　　<img src="./assets/env/M_tech-documents.png" height="20"> [Device設定方法詳細](./Device-Introduction.md)  
+　　<img src="./assets/env/M_tech-documents.png" height="20"> [Device設定方法 詳細](./Device-Introduction.md)  
 > [!IMPORTANT]
 > 項目の左に [<img src="./assets/env/M_AS_download-button.png">]️ がある場合は、先にクリックしてインストールすること。  
 
@@ -219,10 +219,10 @@ code --version
   
 ## Emulator起動															<!-- 01-05 -->  
 　<img src="./assets/env/M_IDE_AndroidStudio.png" height="20">  
-　Menu ｢<img src="./assets/env/M_AS_menu-button.png" height="12">️｣️ <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Tools」 <img src="./assets/env/M_click.png" height="14"> ⇒ ｢Device Manager｣ <img src="./assets/env/M_click.png" height="14"> ⇒  
+　Menu <img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/env/M_AS_menu-button.png" height="12">️️ <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　<img src="./assets/env/M_menu-L.png" height="12"> Tools <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　<img src="./assets/env/M_menu-L.png" height="12"> Device Manager <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">  
 　　<img src="./assets/env/M_AS_menu-bar-SDK_Maneger.png" height="48">  
 
-　｢Device Manager｣ <img src="./assets/env/M_click.png" height="14"> ⇒ 　　　｢**＋**｣️ <img src="./assets/env/M_click.png" height="14"> ⇒ 　　　　　　　　｢Create Virtual Device｣ <img src="./assets/env/M_click.png" height="14">  
+　　<img src="./assets/env/M_menu-L.png" height="12"> Device Manager <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14"> 　　<img src="./assets/env/M_menu-L.png" height="12">＋<img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　　　　　　　　　<img src="./assets/env/M_menu-L.png" height="12"> Create Virtual Device <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14">  
 　　<img src="./assets/prtsc/01-05-01_DeviceManagerRun1.png" width="128" align="top"> 
 　<img src="./assets/env/M_allow-R.png" height="20" align="top"> 
 　<img src="./assets/prtsc/01-05-02_DeviceManagerRun2.png" width="128" align="top">
