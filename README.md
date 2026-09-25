@@ -27,7 +27,7 @@
 <br>
 
 # Tool Description
-| Item<font size=1> (Link)</font> | Description | Platform | Preview |   
+| Item <img src="./assets/env/M_link.png" height="14"> | Description | Platform | Preview |   
 |:--|:--|:--:|:--:|  
 | [exrm_wpf](https://github.com/AHazeyama/exrm_wpf) | **C#** [ **WPF** ] によるファイル操作ツール | ![](assets/env/M_ICO_W.png) | [<img src="./assets/exrm_wpf.png" width="128">](./assets/exrm_wpf.png) |  
 | [renm_ps6](https://github.com/AHazeyama/renm_ps6) | **Python** [ **PySide6** ] によるファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./assets/renm_ps6.png" width="128">](./assets/renm_ps6.png)|
@@ -40,8 +40,8 @@
 <p align="left">
 
 > [!NOTE]  
-> Itemのアプリ名は詳細ページ(GitHub)へリンクしております。参照頂けますと幸いです。  
-> 各画像をクリックして頂けると、拡大表示します。  
+> ｢Tool Dexcription **/** Item｣ のアプリ名は詳細ページへリンクしておりますので、参照頂けますと幸いです。  
+> Preview画像をクリックして頂けると、拡大表示します。  
 
 > [!WARNING]  
 > 	<img src="./assets/CautionSecurity.png">  
