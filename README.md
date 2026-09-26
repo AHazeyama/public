@@ -46,7 +46,7 @@
 > [!WARNING]  
 > 　Excel (.xlsm) にはマクロが含まれています。  
 > 　実行許可 : <img src="./assets/env/M_file.png" height="18"> 右<img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　<img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/env/M_exp-menu-proparty.png" height="14"> <img src="./assets/env/M_menu-R.png" height="12">  <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">  
-> 　　　　　　　<img src="./assets/env/M_exp-Proparty.png" width="128" align="top"> <img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/env/M_permit.png" height="14"> <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14">  
+> 　　　　　　　　<img src="./assets/env/M_exp-Proparty.png" width="128" align="top"> <img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/env/M_permit.png" height="14"> <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14">  
 > <img src="./assets/env/M_file.png" height="18"> : ファイル　　<img src="./assets/env/M_click.png" height="14"> : マウスクリック　　<img src="./assets/env/M_next.png" height="14"> : 次に行う動作
 
 # Download the Release 
@@ -57,9 +57,3 @@
 
 ## License
 　TBD
-
-
-<img src="./assets/env/M_mouse.png">
-<img src="./assets/env/M_trackball.png">
-<img src="./assets/env/M_tarckball.png">
-<img src="./assets/env/M_trackball-e.png">
