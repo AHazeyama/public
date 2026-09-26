@@ -40,7 +40,7 @@
 <p align="left">
 
 > [!NOTE]  
-> ｢Tool Dexcription **/** Item｣ のアプリ名は詳細ページへリンクしております。  
+> ｢Tool Dexcription **/** Item｣ のアプリ名は詳細ページへリンクしています。  
 > Preview画像をクリックして頂けると、拡大表示します。  
 
 > [!WARNING]  
