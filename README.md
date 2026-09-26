@@ -34,8 +34,8 @@
 | [renm_tk](https://github.com/AHazeyama/public/tree/main/renm_tk) | **Python** [ **Tkinter** ] によるファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./renm_tk/assets/renm_tk.png" width="128">](./renm_tk/assets/renm_tk.png)|  
 | [tmct_tk](https://github.com/AHazeyama/public/tree/main/tmct_tk) | **Python** [ **Tkinter** ] によるカウントダウンタイマー&カウンター | ![](assets/env/M_ICO_W-L.png) | [<img src="./tmct_tk/assets/tmct_tk.png" width="64">](./tmct_tk/assets/tmct_tk.png) |
 | [tmct_flt](https://github.com/AHazeyama/tmct_flt/tree/main) | **Dart** [ **Flutter** ] によるカウントダウンタイマー&カウンター | ![](./assets/env/M_ICO_Android-iOS.png)| [<img src="./assets/tmct_flt_v1.2.0.png" width="32">](./assets/tmct_flt_v1.2.0.png) |
-| [hvgc_fa](https://github.com/AHazeyama/hvgc_fa) | **Python** [ **FastAPI** ] による**Checksum** (Hash値) ツール | 🌐 | [<img src="./assets/hvcg.png" width="128">](./assets/hvcg.png)|  
-| [ptnc_flask](https://github.com/AHazeyama/ptnc_flask) | **Python** [ **FLASK** ] による位取り記数法 (2,8,10,16進数) 変換ツール | 🌐 | [<img src="./assets/pnct_flask.png" width="128">](./assets/pnct_flask.png)|  
+| [hvgc_fa](https://github.com/AHazeyama/hvgc_fa) | **Python** [ **FastAPI** ] による**Checksum** (Hash値) ツール | <img src="./assets/env/M_web.png" height="32"> | [<img src="./assets/hvcg.png" width="128">](./assets/hvcg.png)|  
+| [ptnc_flask](https://github.com/AHazeyama/ptnc_flask) | **Python** [ **FLASK** ] による位取り記数法 (2,8,10,16進数) 変換ツール | <img src="./assets/env/M_web.png" height="32"> | [<img src="./assets/pnct_flask.png" width="128">](./assets/pnct_flask.png)|  
 | Gradient | **Excel** (.xlsm) ツール群のGUI統一用グラディエント確認ツール | ![](./assets/env/M_ICO_W-E.png) | [<img src="./assets/Gradient.png" width="128">](./assets/Gradient.png) |
 <p align="left">
 
@@ -44,7 +44,9 @@
 > Preview画像をクリックして頂けると、拡大表示します。  
 
 > [!WARNING]  
-> 	<img src="./assets/CautionSecurity.png">  
+> 　Excel(.xlsm)にはマクロが含まれています。  
+> 　実行する前に <img src="./assets/env/M_file.png" height="18"> <img src="./assets/env/M_trackball-e.png" height="14">右<img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　<img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/env/M_exp-menu-proparty.png" height="14"> <img src="./assets/env/M_menu-R.png" height="12">  <img src="./assets/env/M_trackball-e.png" height="14"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">  
+> 　<img src="./assets/env/M_file-security.png" height="48" align="top"> を許可 <img src="./assets/env/M_trackball-e.png" height="14"> <img src="./assets/env/M_click.png" height="14">  
 
 # Download the Release 
 　🔗 https://github.com/AHazeyama/public/releases/latest  
@@ -54,3 +56,9 @@
 
 ## License
 　TBD
+
+
+<img src="./assets/env/M_mouse.png">
+<img src="./assets/env/M_trackball.png">
+<img src="./assets/env/M_tarckball.png">
+<img src="./assets/env/M_trackball-e.png">
